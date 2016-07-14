@@ -1,0 +1,17 @@
+
+                      <div class="row schedule-item">
+                        <div class="col-md-3 schedule-item-slot">
+                          <span class="time">{{ .session.Params.sessiontime }}</span>
+                        </div>
+                        <div class="col-md-9 schedule-item-details">
+                          <div class="schedule-item-summary">
+                            <span class="title">{{ .session.Params.talk }}</span>
+                            <div class="speaker">
+                              <span class="name">{{ .session.Title }}</span>
+                            </div>
+                          </div>
+                          <div class="abstract">
+                            {{ .session.Content }}
+                          </div>
+                        </div>
+                      </div>

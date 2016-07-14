@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+	clear:both;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: #456a7c;
+	font-family: "Open Sans","Helvetica Neue",arial,sans-serif;
+}
+section {
+	background: url(../images/header-bg.jpg) no-repeat #f8f8f6 bottom;
+	background-size: 100%;
+	margin: -70px 0 0;
+}
+section .wrap {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+section img {
+	bottom: -80px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+h1 {
+	background: #456a7c;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    margin: 40px 0 0 0;
+	position: relative;
+	z-index: 3;
+	text-align:center;
+	width: 100%;
+}
+h3 {
+	background: #456a7c;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+	font-weight: 300;
+    margin: 40px 0 0 0;
+	position: relative;
+	z-index: 3;
+	text-align:center;
+	width: 100%;
+}
+.colors {
+	z-index: 4;
+}
+.colors .slideInDown {
+    animation-duration: 0.5s;
+    float: left;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    width: 16.66%;
+}
+.colors .slideInDown:nth-child(n) {
+    animation-delay: 0.1s;
+    background: #40657c none repeat scroll 0 0;
+}
+.colors .slideInDown:nth-child(2n) {
+    animation-delay: 0.2s;
+    background: #4cc4ec none repeat scroll 0 0;
+}
+.colors .slideInDown:nth-child(3n) {
+    animation-delay: 0.3s;
+    background: #edead7 none repeat scroll 0 0;
+}
+.colors .slideInDown:nth-child(4n) {
+    animation-delay: 0.4s;
+    background: #b3ad9f none repeat scroll 0 0;
+}
+.colors .slideInDown:nth-child(5n) {
+    animation-delay: 0.5s;
+    background: #f9b575 none repeat scroll 0 0;
+}
+.colors .slideInDown:nth-child(6n) {
+    animation-delay: 0.6s;
+    background: #f07332 none repeat scroll 0 0;
+}
+.countdown {
+	display: block;
+    margin: 30px auto 0;
+    position: relative;
+    width: 180px;
+    z-index: 5;
+}
+.wrapper {
+    height: auto !important;
+    margin: 0 auto -15px;
+    min-height: 100%;
+}
+footer p {
+	color: rgba(255,255,255,0.3);
+	display: block;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer {
+	height: 65px;
+}
+.push {
+	height: 35px;
+}
+
+/*-- Smallest devices (phones, 320px to 480px) --*/
+@media (min-width: 320px) and (max-width: 480px) {
+	section .wrap {
+		width: 250px;
+	}
+    section .wrap img {
+		bottom: -40px;
+        margin: 40px 0px 0px 0px;
+	}
+	h1 {
+		font-size: 16px;
+		margin: 35px 0 0;
+	}
+	h3 {
+		font-size: 15px;
+	}
+}
+
+/*-- Small devices (tablets, 481px to 767px) --*/
+@media (min-width: 481px) and (max-width: 767px) {
+	section .wrap {
+		width: 290px;
+	}
+	h1 {
+		font-size: 25px;
+		margin: 61px 0 0;
+	}
+	h3 {
+		font-size: 25px;
+	}
+}
+
+/*-- Medium devices (desktops, 768px to 991px) --*/
+@media (min-width: 768px) and (max-width: 991px) {
+	section .wrap {
+		width: 430px;
+	}
+}
+
+/*-- Large devices (desktops, 992px to 1200px) --*/
+@media (min-width: 992px) and (max-width: 1200px) {
+}

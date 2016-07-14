@@ -1,0 +1,14 @@
+0.0.0.0:2015
+
+git {
+	repo https://github.com/gopherconbr/gopherconbr.org
+	branch master
+	path gopherconbr
+	then hugo -t gophercon --destination=/site-source/gopherconbr/public
+}
+
+root /site-source/gopherconbr/public
+
+gzip
+ext .html
+log stdout

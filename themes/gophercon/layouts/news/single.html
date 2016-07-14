@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+<main class="container generic">
+
+    <section class="row"> 
+		<div class="col-md-8">
+			<h2> {{ .Title }} </h2><small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+					<br/>
+            {{ .Content }}
+        </div><!-- generic col-md-10 -->
+        {{ partial "sidebar.html" . }}
+    </section>
+</main>
+
+<main>
+  {{ partial "sponsors.html" . }}
+</main>
+{{ partial "footer.html" . }}

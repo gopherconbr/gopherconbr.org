@@ -1,0 +1,357 @@
+/* Change tob-bar color*/ 
+.top-bar, .contain-to-grid, #main-nav li a:not(.button), #register-links li {
+  background-color: #260700 !important;
+}
+
+.top-bar-section ul li > a.button.success {
+  background-color: #acd038 !important;
+}
+
+.top-bar-section ul li > a.button {
+  background-color: #87b9db !important;
+}
+
+/* Change background color */
+body, html {
+  background-color: #676336;
+}
+
+.row {
+  background-color: #FFF;
+}
+
+/* Banner */
+.contain-to-grid .top-bar {
+    margin-bottom: 0;
+}
+
+#banner {
+  margin-top: 0;
+}
+
+#banner .row {
+  background: #dbd0a3 url(..//img/navbg.png) no-repeat 4em 0em;
+  height: 39em;
+  border-bottom: .31em solid #260700;
+}
+
+#banner-small .row {
+  background: #dbd0a3;
+  padding: .7em;
+  border-bottom: .31em solid #260700;
+}
+
+#banner-small .row .container {
+  margin: auto;
+}
+
+#banner-small .row a {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+#banner-small .container {
+  width: 75%;
+  position: relative;
+}
+
+#banner-small .small-cfp {
+  position: fixed;
+  top: 8%;
+  right: 15%;
+}
+
+#banner-small .row .small-cfp img {
+  height: 10em;
+  width:: 10em;
+}
+
+#banner .banner-logo {
+  margin-left: 7.27em;
+  margin-top: .7em;
+}
+
+#banner .banner-cfp {
+  margin: 4em 4em 0 0;
+}
+
+#banner .banner-links {
+  margin-top: 3.4em;
+  margin-left: 1em;
+  position: relative;
+  float: left;
+}
+
+#banner .banner-link {
+  margin: 1.2em 0 0 1.2em;
+  padding: 0 2em;
+  text-align: center;
+}
+
+#banner .about {
+  margin-left: 1.9em;
+}
+
+#banner .banner-link strong,  #banner .banner-link small{
+  color: #433100;
+  display: block;
+}
+
+#banner .banner-link strong {
+  padding-top: .4em;
+  font-size: 1.9em;
+}
+
+#banner .banner-link small {
+  font-size: .7em;
+  padding-top: .6em;
+}
+
+/* Sponsors Row */
+.sponsors-row {
+  padding-bottom: .7em;
+  border-top: .31em solid #260700;
+}
+
+.sponsors-row h2 {
+  margin-bottom: .3em !important;
+}
+
+.sponsors-row .sponsor {
+  text-align: center;
+  height: 80px;
+  width: 165px;
+}
+
+/* Sponsors Column */
+#sponsors-column {
+  margin: auto;
+  text-align: center;
+}
+
+#sponsors-column h5 {
+  margin-top: 2em;
+}
+
+#sponsors-column img {
+  margin-top: .6em;
+}
+
+/* Register */
+#register {
+  border-top: .31em solid #260700;
+  border-bottom: .31em solid #260700;
+  padding: 1.25em;
+  background: #dbd0a3;
+  text-align: center;
+}
+
+/* Social */
+#social ul {
+  list-style-type: none;
+}
+
+#social ul a {
+  color: #222;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#social ul a i {
+  font-size: 1.8em;
+}
+
+#social .gophers {
+  margin-top: 2em;
+}
+
+/* Footer */
+.footer {
+  background-color: #260700;
+  color: #FFF;
+  padding: .4em 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .nav ul {
+  float: right;
+  margin: 0;
+}
+
+.footer .nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: .3em; 
+}
+
+.footer a, .footer p {
+  font-size: 0.9em;
+  color: #FFF;
+}
+
+/* Announcements */
+ul.announcements {
+  list-style-type: none;
+}
+
+ul.announcements a {
+  font-size: 1.2em;
+}
+
+.date {
+  font-size: .8em;
+}
+
+/* Speakers */
+.speaker {
+  font-size: .93em;
+}
+
+.speaker .avatar .twitter {
+  display: block;
+  font-size: .9em;
+}
+
+.speaker .employer {
+  font-size: .8em;
+  color: #999;
+  padding-left: 1em;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: .2em;
+}
+
+.speaker {
+  display: block;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+.speaker .subtitle {
+  display: block;
+  font-weight: normal;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+.speaker .speaker-time {
+  display: block;
+  font-weight: normal;
+  font-size: .9em;
+  padding-bottom: .5em;
+}
+
+.speaker .title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.speaker .avatar {
+  text-align: center;
+}
+
+.speaker img {
+	width: 118px;
+	height: 118px;
+}
+
+.speaker ul {
+	margin-left: 20px
+}
+
+.speaker .avatar img {
+  border: .4em solid #fff;
+  -webkit-box-shadow: 0px 2px 4px #999;
+  -moz-box-shadow: 0px 2px 4px #999;
+  box-shadow: 0px 2px 4px #999;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.speaker p {
+  margin-bottom: .5em;
+}
+
+.talks h5 {
+  font-size: .95em;
+}
+
+/* Assorted */
+.content .row {
+  padding: 1.1em;
+  text-align: justify;
+}
+
+#mailchimp h4 {
+  padding-left: 1em;
+}
+
+#mc_embed_signup {
+  border-left: .1em  solid #260700;
+  border-right: .1em  solid #260700;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.conference-dates {
+  text-align: center;
+}
+
+.conference-dates p, .contact p {
+  margin-bottom: 0;
+  font-size: .9em;
+}
+
+.conference-dates h2 {
+  color: #222;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+p img.left {
+  margin-right: 1.4em;
+}
+
+p img.right {
+  margin-left: 1.4em;
+}
+
+i.icon-large {
+  font-size: 5em;
+}
+
+i.icon-large.left {
+  margin-right: .4em;
+}
+
+i.icon-large.right {
+  margin-left: .4em;
+}
+
+/* Venue */
+
+.venue-details {
+  font-size: .7em;
+}
+
+.venue-details p {
+  margin: 0;
+}
+
+.venue-details .section {
+  margin-bottom: .8em;
+}
+
+.airport {
+}

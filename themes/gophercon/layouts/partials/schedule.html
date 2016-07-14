@@ -1,0 +1,32 @@
+    <section id="schedule" class="content schedule">
+	    <a name="schedule"></a>
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>Schedule</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+              <ul class="nav nav-tabs schedule-days">
+                <li role="presentation" class="active">
+                  <a data-toggle="tab" href="#workshop-schedule">July <span>10th</span></a>
+                </li>
+                <li role="presentation" class="">
+                  <a data-toggle="tab" href="#day1-schedule">July <span>11th</span></a>
+                </li>
+                <li role="presentation" class="">
+                  <a data-toggle="tab" href="#day2-schedule">July <span>12th</span></a>
+                </li>
+                <li role="presentation" class="">
+                  <a data-toggle="tab" href="#hackday-schedule">July <span>13th</span></a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                {{ partial "schedule/10july.html" . }}
+                {{ partial "schedule/11july.html" . }}
+                {{ partial "schedule/12july.html" . }}
+                {{ partial "schedule/13july.html" . }}
+              </div>
+            </div>
+      </section>

@@ -1,0 +1,68 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<section class="row"> 
+    <main class="container generic">
+    	<div class="sponsors col-md-12">
+
+			{{ if eq "diamond"  .Params.sponsorclass}}
+        	<!---------- Diamond Sponsors ---------->
+            <div class="col-md-12">
+            	<img class="icon" src="/images/diamond.png" />
+                <h3>Diamond Sponsor</h4>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}" /></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+            </div><!-- Diamond Sponsors End -->
+			{{ end }} 
+			{{ if eq "platinum"  .Params.sponsorclass}}
+			<!---------- Platinum Sponsors  -->
+            <div class="col-md-12">
+            	<img class="icon" src="/images/platinum.png" />
+                <h4>Platinum Sponsor</h4>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+            </div>
+			{{ end }} 
+           {{ if eq "gold"  .Params.sponsorclass}}
+            <div class="col-md-12">
+                <img class="icon" src="/images/gold.png" />
+                <h3>Gold Sponsor</h3>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+            </div>
+			{{ end }} 
+     		{{ if eq "silver"  .Params.sponsorclass}} 			
+            <div class="col-md-12">
+                <img class="icon" src="/images/silver.png" />
+                <h3>Silver Sponsor</h3>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+            </div>
+			{{ end }} 
+            {{ if eq "bronze"  .Params.sponsorclass}} 	
+            <div class="col-md-12">
+                <img class="icon" src="/images/bronze.png" />
+                <h3>Bronze Sponsor</h3>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+			</div>
+			{{ end }}
+            {{ if eq "additional"  .Params.sponsorclass}} 	
+            <div class="col-md-12">
+                <img class="icon" src="/images/sponsor.png" />
+                <h3>Additional Sponsors</h3>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+			</div>
+			{{ end }}
+        </div><!-- sponsors col-md-10 -->
+    </main>
+</section>
+
+
+{{ partial "footer.html" . }}
