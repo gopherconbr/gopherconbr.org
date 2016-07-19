@@ -92,7 +92,6 @@ img {
 .footer-container,
 .nav-container,
 nav {
-  max-width: 1600px;
   margin: 0px auto;
 }
 .boxed-layout .main-container,
@@ -2039,37 +2038,37 @@ p.question {
   border-color: #004470;
 }
 
-.diamond-sponsors .sponsor {
+.premium-sponsors .sponsor {
   height: 100px;
   line-height: 100px;
 }
 
-.diamond-sponsors .sponsor img {
+.premium-sponsors .sponsor img {
   max-width: 240px;
-  max-height: 100px;
+  max-height: 120px;
 }
 
-.platinum-sponsors .sponsor {
+.gold-sponsors .sponsor {
+  height: 90px;
+  line-height: 90px;
+}
+
+.gold-sponsors .sponsor img {
+  max-width: 220px;
+  max-height: 110px;
+}
+
+.silver-sponsors .sponsor {
   height: 80px;
   line-height: 80px;
 }
 
-.platinum-sponsors .sponsor img {
-  max-width: 170px;
-  max-height: 80px;
+.silver-sponsors .sponsor img {
+  max-width: 210px;
+  max-height: 100px;
 }
 
-.gold-sponsors .sponsor {
-  height: 70px;
-  line-height: 70px;
-}
-
-.gold-sponsors .sponsor img {
-  max-width: 150px;
-  max-height: 70px;
-}
-
-.silver-sponsors .sponsor {
+/*.silver-sponsors .sponsor {
   height: 60px;
   line-height: 60px;
 }
@@ -2077,7 +2076,7 @@ p.question {
 .silver-sponsors .sponsor img {
   max-width: 100px;
   max-height: 60px;
-}
+}*/
 
 .bronze-sponsors .sponsor {
   height: 50px;
