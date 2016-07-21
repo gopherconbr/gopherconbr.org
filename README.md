@@ -7,5 +7,5 @@ Santa Catarina.
 
 To view the site locally, install [Hugo](http://gohugo.io/) and run a local server with the following command:
 ```
-hugo server -v -w -t=gophercon
+hugo server -v -w -t=gopherconbr
 ```
