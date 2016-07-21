@@ -1,0 +1,12 @@
+name = "GopherconBR"
+license = "MIT"
+licenselink = "https://github.com/.../.../LICENSE.md"
+description = ""
+homepage = "http://gopherconbr.org/"
+tags = ["", ""]
+features = ["", ""]
+
+[author]
+  name = ""
+  homepage = ""
+

@@ -1,0 +1,76 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+terms
+<main class="container generic">
+    <section class="row"> 
+	<div class="sponsors col-md-12">
+		<div class="col-md-12 diamond">
+       			 <h3>DIAMOND SPONSORS</h3>
+				<img class="icon" src="/images/diamond.png" />
+        			{{ range .Site.Taxonomies.sponsors.diamond}}
+          			<div class="row">
+              				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            			</div>
+            			<div class="col-md-9">
+              				<p>{{.Page.Content}}</p>
+            			</div>
+				{{ end }}
+          	</div>
+
+		<div class="col-md-12 platinum">
+       			 <h3>PLATINUM SPONSORS</h3>
+				<img class="icon" src="/images/platinum.png" />
+        			{{ range .Site.Taxonomies.sponsors.gold}}
+          			<div class="row">
+              				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            			</div>
+            			<div class="col-md-9">
+              				<p>{{.Page.Content}}</p>
+            			</div>
+				{{ end }}
+          	</div>
+
+		<div class="col-md-12 gold">
+       			 <h3>GOLD SPONSORS</h3>
+				<img class="icon" src="/images/gold.png" />
+        			{{ range .Site.Taxonomies.sponsors.gold}}
+          			<div class="row">
+              				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            			</div>
+            			<div class="col-md-9">
+              				<p>{{.Page.Content}}</p>
+            			</div>
+				{{ end }}
+          	</div>
+		<div class="col-md-12 silver">
+       			 <h3>SILVER SPONSORS</h3>
+				<img class="icon" src="/images/silver.png" />
+        			{{ range .Site.Taxonomies.sponsors.silver}}
+          			<div class="row">
+              				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            			</div>
+            			<div class="col-md-9">
+              				<p>{{.Page.Content}}</p>
+            			</div>
+				{{ end }}
+          	</div>
+
+		<div class="col-md-12 bronze">
+       			 <h3>BRONZE SPONSORS</h3>
+				<img class="icon" src="/images/bronze.png" />
+        			{{ range .Site.Taxonomies.sponsors.bronze}}
+          			<div class="row">
+              				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            			</div>
+            			<div class="col-md-9">
+              				<p>{{.Page.Content}}</p>
+            			</div>
+				{{ end }}
+          	</div>
+
+	</div> 
+        
+
+    </section>
+</main>
+{{ partial "footer.html" . }}

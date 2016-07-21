@@ -1,0 +1,45 @@
+{{ partial "header.html" . }}
+ <body>
+      {{ partial "navbar.html" . }}
+      <div class="main-container">
+        <a id="top"></a>
+				
+        <section class="speakers">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h1>Speakers</h1>
+              </div>
+            </div>
+
+            {{ $speakers := where .Data.Pages "Section" "speakers" }}
+
+            {{ range $speaker := $speakers }}
+            <div class="row">
+              <div class="speaker-with-bio">
+                <div class="speaker col-md-3">
+                  <div class="image-holder">
+                    <img class="background-image" alt="Speaker" src="{{$speaker.Params.speakerimage}}">
+                    <div class="hover-state text-center preserve3d">
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="speaker-description col-md-9">
+                  <h2>{{ $speaker.Title }}</h2>
+                  <span class="sub">{{ $speaker.Params.talk }}</span>
+                  {{ $speaker.Content }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+          </div>
+        </section>
+ 
+{{ partial "sponsors.html" . }}
+
+        </div>
+</main>
+
+
+{{ partial "footer.html" . }}

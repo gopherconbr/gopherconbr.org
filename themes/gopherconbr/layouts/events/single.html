@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<section class="row"> 
+  <main class="container generic">
+    <div class="col-md-8 main">
+        {{ .Content }}
+    </div><!-- generic col-md-10 -->
+
+    <div class="col-md-3 col-md-offset-1 text-center">
+      {{ if .Params.sponsor }}
+        Sponsored By
+        <hr />
+        <img src="{{ .Params.sponsor }}" width="200" />
+      {{ end }}
+      {{ if .Params.sponsor2 }}
+        <br />
+        <br />
+        <img src="{{ .Params.sponsor2 }}" width="150" />
+      {{ end }}
+      {{ if .Params.sponsor3 }}
+        <br />
+        <br />
+        <img src="{{ .Params.sponsor3 }}" width="100" />
+      {{ end }}
+    </div>
+  </main>
+</section>
+
+<main>
+  {{ partial "sponsors.html" . }}
+</main>
+{{ partial "footer.html" . }}
