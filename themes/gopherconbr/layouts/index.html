@@ -101,57 +101,16 @@
     </section>
     <!-- end section.highlight -->
 
-    <!--
-    Our Speakers
-    ====================================== -->
     {{ partial "speakers.html" . }}
-    <!-- end section.speakers -->
+  
+    <!--{{ partial "schedule.html" . }}-->
+   
+    {{ partial "accommodation.html" . }}
 
-    <!--
-    Our Schedule
-    ====================================== -->
-    {{ partial "schedule.html" . }}
-    <!-- end section.schedule -->
-    <!--
-    Accommodation
-    ====================================== -->
-    {{ partial "accomodation.html" . }}
-    <!-- end section.accommodation -->
-    {{ partial "faq.html" . }}
-    <!-- end section.faq -->
+    <!--{{ partial "faq.html" . }}-->
 
-    <!--
-    Our Sponsors
-    ====================================== -->
     {{ partial "sponsors_new.html" . }}
-    <!--
-    Mailchimp Subscribe
-    ====================================== -->
-
-    <div class="highlight">
-      <div class="container">
-        <div class="row">
-          <form action="php/subscribe.php" method="post" class="form subscribe-form" id="subscribeform">
-            <div class="form-group col-md-3 hidden-sm">
-              <h6 class="susbcribe-head wow fadeInLeft"> SUBSCRIBE <small>TO OUR NEWSLETTER</small></h6>
-            </div>
-            <div class="form-group col-sm-8 col-md-6 wow fadeInRight">
-              <label class="sr-only">Email address</label>
-              <input type="email" class="form-control input-lg" placeholder="Enter your email" name="email" id="email" required>
-              <div id="js-subscribe-result" class="text-center" data-success-msg="Almost finished. Please check your email and verify." data-error-msg="Oops. Something went wrong."></div>
-            </div>
-            <div class="form-group col-sm-4 col-md-3">
-              <button type="submit" class="btn btn-lg btn-success btn-block" id="js-subscribe-btn">Subscribe Now →</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- //  end .highlight -->
-
-    <!--
-    Location Map
-    ====================================== -->
+   
 
     <div class="g-maps" id="venue">
 
@@ -185,22 +144,16 @@
           <!--  // end .row -->
         </div>
       </div>
-      <!-- //  end .highlight -->
-
-      <!--
-      Footer Call to Action
-      ====================================== -->
 
       <section class="footer-action">
 
         <div class="container">
 
           <div class="footer_bottom-bg">
-            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#register-now">INSCREAVA-SE AQUI</a>
+            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#register-now" disabled>INSCREVA-SE AQUI</a>
           </div>
 
         </div>
 
       </section>
-      <!-- end section.footer-action -->
       {{ partial "footer.html" . }}
