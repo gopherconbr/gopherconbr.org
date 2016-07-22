@@ -1,15 +1,20 @@
-gopherconbr.org:443
-
-git {
-	repo https://github.com/gopherconbr/gopherconbr.org
-	branch master
-	hook /webhook
-	path gopherconbr
-	then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
+gopherconbr.org:443 {
+	redir https://2016.gopherconbr.org{uri} 
 }
 
-root /site-source/gopherconbr/public
+2016.gopherconbr.org:443 {
 
-gzip
-ext .html
-log stdout
+	git {
+		repo https://github.com/gopherconbr/gopherconbr.org
+		branch master
+		hook /webhook
+		path gopherconbr
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
+	}
+
+	root /site-source/gopherconbr/public
+
+	gzip
+	ext .html
+	log stdout
+}
