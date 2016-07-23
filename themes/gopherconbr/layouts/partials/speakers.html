@@ -2,8 +2,12 @@
         <div class="container">
 
             <div class="section-title wow fadeInUp">
-                <h4>Quer palestrar na Primeira GopherCon Brasil?</h4>
-                <p>Em breve divulgaremos a chamada para palestrantes!</p>
+                <h4>
+                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
+                </h4>
+                <p>
+                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).soon_date }}
+                </p>
             </div>
 
             <!--<div class="speaker-slider">
