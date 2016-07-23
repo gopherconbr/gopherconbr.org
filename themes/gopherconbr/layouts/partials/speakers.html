@@ -6,7 +6,7 @@
                   {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
                 </h4>
                 <p>
-                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).soon_date }}
+                    <a class="btn btn-success btn-xl" href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_link }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_send }}</a>
                 </p>
             </div>
 
