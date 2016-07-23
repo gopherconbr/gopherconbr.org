@@ -6,16 +6,20 @@
             <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
         </div>
         <p> <small class="text-muted">© Copyleft 2016 GopherConBR</small></p>
-        <p class="small character-copyright">O personagem Gopher é baseado em um esboço de
-                <a href="http://reneefrench.blogspot.com/" target="blank">Renee French</a> sob a licença
+        <p class="small character-copyright">
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).character_copyright }}
+          <a href="http://reneefrench.blogspot.com/" target="blank">Renee French</a>
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).license }}
                 <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0.</a>
               </p>
-              <p class="small">Imagens Aéreas feitas por <a href="http://santosleandro.com" target="blank">Leandro Santos</a></p>
+              <p class="small">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).aerial_images }}
+                <a href="http://santosleandro.com" target="blank">Leandro Santos</a></p>
     </footer>
 
     <a href="#top" class="back_to_top"><img src="images/back_to_top.png" alt="back to top"></a>
 
-    <!-- 
+    <!--
      Javascripts : Nerd Stuff :)
      ====================================== -->
 

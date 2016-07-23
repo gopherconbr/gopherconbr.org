@@ -6,7 +6,8 @@ gallery: Gallery
 local: Florianópolis, SC, Brazil
 date: "11, 12 and 13 November"
 text_desc: "The World's Largest event dedicated to Go programming language, now in Brazil."
-text_center: "The Gophercon Brazil 2016 will take place on 11 and 12 November (the International Hotel Canasvieiras), in Florianópolis / SC, with an additional * workshop on 13 November (in the company auditorium Digital Results)."
+text_center: "The Gophercon Brazil 2016 will take place on 11 and 12 November (the International Hotel Canasvieiras),
+  in Florianópolis / SC, with an additional * workshop on 13 November (in the company auditorium Digital Results)."
 countdown_date: "Event will be held in"
 days: days
 hours: hours
@@ -21,3 +22,7 @@ value_hotel_canasvieiras: From R$ 200 per night
 soon_hotels: Soon more hotels...
 sponsors: Sponsors
 companies_sponsors: Companies that are helping to take the Gophercon Brazil's role.
+registration: REGISTER HERE
+character_copyright: Gopher character is based on a sketch
+license: under license
+aerial_images: Aerial Images made by

@@ -160,7 +160,9 @@
           <div class="col-sm-12">
             <div class="contact-box">
               <img src="images/location-icon.png" alt="location icon" class="wow zoomIn">
-              <h5>Local</h5>
+              <h5>
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
+              </h5>
               <p>Hotel Canasvieiras Internacional
                 <br>Rua Madre Maria Vilac, 2020
                 <br>Florianópolis, SC
@@ -178,7 +180,9 @@
         <div class="container">
 
           <div class="footer_bottom-bg">
-            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#register-now" disabled>INSCREVA-SE AQUI</a>
+            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#register-now" disabled>
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
+            </a>
           </div>
 
         </div>
