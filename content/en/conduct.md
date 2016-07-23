@@ -13,12 +13,12 @@ Harassment includes, but is not limited to: offensive verbal comments related to
 
 Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified on the days of the conference by their Staff t-shirts. You may also email us at info@gopherconbr.org or contact us on [twitter](https://twitter.com/gopherconbr) (DM us). If the person who is harassing you is a member of the conference staff, they will recuse themselves from being involved in handling the incident. In order to protect our team from abuse, we reserve the right to reject any complaint we feel was made in bad faith or made in an attempt to silence other attendees or intimidate presenters.
+If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified on the days of the conference by their Staff t-shirts. You may also email us at info@gopherconbr.org or contact us on [twitter](https://twitter.com/gopherconbr). If the person who is harassing you is a member of the conference staff, they will recuse themselves from being involved in handling the incident. In order to protect our team from abuse, we reserve the right to reject any complaint we feel was made in bad faith or made in an attempt to silence other attendees or intimidate presenters.
 
 We expect participants to follow these rules at all conference venues and conference-related social events.
 
 Our staff will be happy to help participants contact hotel/venue security or local law enforcement, provide safety escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
 
-If you have any questions or concerns about this code please contact the GopherCon Brasil conference organizers by sending an email to info@gopherconbr.org.
+If you have any questions or concerns about this code please contact the Gophercon Brasil conference organizers by sending an email to info@gopherconbr.org.
 
 Credit: This code of conduct is largely based on GothamGo's code of conduct.
