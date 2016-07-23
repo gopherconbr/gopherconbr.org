@@ -2,8 +2,12 @@
 
         <div class="container">
             <div class="section-title wow fadeInUp">
-                <h4>Onde Ficar</h4>
-                <p>Selecionamos alguns hotéis proximos ao local do evento.</p>
+                <h4>
+                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).where_say }}
+                </h4>
+                <p>
+                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).desc_hotels }}
+                </p>
             </div>
 
             <div class="row">
@@ -12,15 +16,20 @@
                         <img src="images/floripa/canasvieiras-international.jpg" alt="Hotel Canasvieiras Internacional">
                         <div class="caption">
                             <h6 class="caption-title">Hotel Canasvieiras Internacional</h6>
-                            <p class="caption-text">A partir de R$ 200 por noite</p>
+                            <p class="caption-text">
+                              {{ ( index $.Site.Data.translations $.Site.Params.locale ).value_hotel_canasvieiras }}
+                            </p>
                             <p class="text-center"><a href="http://www.redemardecanasvieiras.com.br/hotel-mardecanasvieiras-internacional-florianopolis.php" class="btn btn-outline" role="button">Visite o Website</a> </p>
                         </div>
                     </div>
                 </div>
-    
+
             </div>
+
             <div class="section-title wow fadeInUp">
-                              <p>Em breve mais hotéis...</p>
+              <p>
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).soon_hotels }}
+              </p>
             </div>
 
             </div>

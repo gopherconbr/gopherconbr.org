@@ -1,11 +1,11 @@
 baseurl = "http://gopherconbr.org"
-languageCode = "pt-BR"
+languageCode = "en-us"
 title = "GopherConBR 2016"
-contentdir = "content/"
-publishdir = "public/"
+contentdir = "content/en"
+publishdir = "public/en"
 
 [params]
-    locale = "pt-BR"
+    locale = "en-US"
 
 [taxonomies]
   sponsor = "sponsors"
