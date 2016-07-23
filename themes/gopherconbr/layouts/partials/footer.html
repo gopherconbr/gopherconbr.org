@@ -1,53 +1,65 @@
     <footer>
 
         <div class="social-icons">
-            <a href="#" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
-            <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
+            <a href="https://twitter.com/gopherconbrasil" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
+            <a href="https://www.facebook.com/gopherconbrasil" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
             <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
         </div>
         <p> <small class="text-muted">© Copyleft 2016 GopherConBR</small></p>
-        <p class="small character-copyright">O personagem Gopher é baseado em um esboço de
-                <a href="http://reneefrench.blogspot.com/" target="blank">Renee French</a> sob a licença
-                <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0.</a>
-              </p>
-              <p class="small">Imagens Aéreas feitas por <a href="http://santosleandro.com" target="blank">Leandro Santos</a></p>
+        <p class="small character-copyright">
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).character_copyright }}
+          <a href="http://reneefrench.blogspot.com/" target="blank">Renee French</a>
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).license }}
+          <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0.</a>
+        </p>
+        <p class="small">
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).aerial_images }}
+          <a href="http://santosleandro.com" target="blank">Leandro Santos</a>
+        </p>
+        <p class="small">
+          <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).coclink }}">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).coc }}
+          </a>
+        </p>
     </footer>
 
-    <a href="#top" class="back_to_top"><img src="images/back_to_top.png" alt="back to top"></a>
+    <a href="#top" class="back_to_top"><img src="/images/back_to_top.png" alt="back to top"></a>
 
-    <!-- 
+    <!--
      Javascripts : Nerd Stuff :)
      ====================================== -->
 
     <!-- jQuery Library -->
-    <script src="js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
 
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     <!-- 3rd party Plugins -->
-    <script src="js/plugins/countdown.js"></script>
-    <script src="js/plugins/wow.js"></script>
-    <script src="js/plugins/slick.js"></script>
-    <script src="js/plugins/magnific-popup.js"></script>
-    <script src="js/plugins/validate.js"></script>
-    <script src="js/plugins/appear.js"></script>
-    <script src="js/plugins/count-to.js"></script>
-    <script src="js/plugins/nicescroll.js"></script>
+    <script src="/js/plugins/countdown.js"></script>
+    <script src="/js/plugins/wow.js"></script>
+    <script src="/js/plugins/slick.js"></script>
+    <script src="/js/plugins/magnific-popup.js"></script>
+    <script src="/js/plugins/validate.js"></script>
+    <script src="/js/plugins/appear.js"></script>
+    <script src="/js/plugins/count-to.js"></script>
+    <script src="/js/plugins/nicescroll.js"></script>
 
     <!-- Google Map -->
         <script src="https://maps.google.com/maps/api/js"></script>
     <script src="https://maps.google.com/maps/api/js?key=AIzaSyDnf4zJZmdiw7dTP1TWRk_sQYD17nUv8fg"></script>
-    <script src="js/plugins/infobox.js"></script>
-    <script src="js/plugins/google-map.js"></script>
-    <script src="js/plugins/directions.js"></script>
+    <script src="/js/plugins/infobox.js"></script>
+    <script src="/js/plugins/google-map.js"></script>
+    <script src="/js/plugins/directions.js"></script>
 
     <!-- JS Includes -->
-    <script src="js/includes/subscribe.js"></script>
-    <script src="js/includes/contact_form.js"></script>
+    <script src="/js/includes/subscribe.js"></script>
+    <script src="/js/includes/contact_form.js"></script>
 
     <!-- Main Script -->
-    <script src="js/main.js"></script>
+    {{ if eq .URL "/" }}
+      <script src="/js/main.js"></script>
+    {{ end }}
 
 </body>
 
