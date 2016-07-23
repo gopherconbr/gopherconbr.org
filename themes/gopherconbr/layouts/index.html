@@ -20,10 +20,16 @@
           </div>
 
           <div class="when_where wow fadeIn" data-wow-delay="0.4s">
-            <p class="event_when">11, 12 e 13 de Novembro</p>
-            <p class="event_where">Florianópolis, SC</p>
+            <p class="event_when">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).date }}
+            </p>
+            <p class="event_where">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
+            </p>
 
-            <h3 class="text-white">O Maior evento do mundo dedicado a linguagem de programação Go, agora no Brasil.</h3>
+            <h3 class="text-white">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
+            </h3>
           </div>
 
         </div>
@@ -49,28 +55,39 @@
   <section class="highlight">
 
     <div class="container">
-      <p class="lead text-center">A Gophercon Brasil 2016 ocorrerá nos dias 11 e 12 de novembro (no Hotel Canasvieiras Internacional),
-        na cidade de Florianópolis/SC, com um workshop adicional* no dia 13 de novembro (no auditório da empresa Resultados Digitais).</p>
+      <p class="lead text-center">
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_center }}
+      </p>
 
         <div class="countdown_wrap">
 
-          <h6 class="countdown_title text-center">Evento acontecerá em</h6>
+          <h6 class="countdown_title text-center">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).countdown_date }}
+          </h6>
 
           <!-- Countdown JS for the Event Date Starts here.
           TIP: You can change your event time below in the Same Format.  -->
 
           <ul id="countdown" data-event-date="11 november 2016 09:00:00">
             <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
-              <p class="timeRefDays">days</p>
+              <p class="timeRefDays">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
+              </p>
             </li>
             <li class="wow zoomIn" data-wow-delay="0.2s"> <span class="hours">00</span>
-              <p class="timeRefHours">hours</p>
+              <p class="timeRefHours">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}
+              </p>
             </li>
             <li class="wow zoomIn" data-wow-delay="0.4s"> <span class="minutes">00</span>
-              <p class="timeRefMinutes">minutes</p>
+              <p class="timeRefMinutes">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).minutes }}
+              </p>
             </li>
             <li class="wow zoomIn" data-wow-delay="0.6s"> <span class="seconds">00</span>
-              <p class="timeRefSeconds">seconds</p>
+              <p class="timeRefSeconds">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).seconds }}
+              </p>
             </li>
           </ul>
         </div>
@@ -82,14 +99,21 @@
           For Customization, Visit https://addtocalendar.com/ -->
 
           <span class="addtocalendar atc-style-theme">
-            <a class="atcb-link"><i class="fa fa-calendar"> </i> Adicionar ao meu Calendário</a>
+            <a class="atcb-link">
+              <i class="fa fa-calendar"> </i>
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
+            </a>
             <var class="atc_event">
               <var class="atc_date_start">2016-11-11 08:00:00</var>
               <var class="atc_date_end">2016-11-13 18:00:00</var>
               <var class="atc_timezone">America/Sao_Paulo</var>
               <var class="atc_title">GopherCon Brasil</var>
-              <var class="atc_description">O Maior evento do mundo dedicado a linguagem de programação Go, agora no Brasil.</var>
-              <var class="atc_location">Florianópolis, Brasil</var>
+              <var class="atc_description">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
+              </var>
+              <var class="atc_location">
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
+              </var>
             </var>
           </span>
 
