@@ -19,6 +19,6 @@ We expect participants to follow these rules at all conference venues and confer
 
 Our staff will be happy to help participants contact hotel/venue security or local law enforcement, provide safety escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
 
-If you have any questions or concerns about this code please contact the Gophercon Brasil conference organizers by sending an email to info@gopherconbr.org.
+If you have any questions or concerns about this code please contact the GopherCon Brasil conference organizers by sending an email to info@gopherconbr.org.
 
 Credit: This code of conduct is largely based on GothamGo's code of conduct.
