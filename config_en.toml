@@ -1,0 +1,14 @@
+baseurl = "http://gopherconbr.org"
+languageCode = "en-us"
+title = "GopherConBR 2016"
+contentdir = "content/en"
+publishdir = "public/en"
+
+[params]
+    locale = "en-US"
+
+[taxonomies]
+  sponsor = "sponsors"
+  speaker = "speakers"
+  event = "events"
+  day = "days"
