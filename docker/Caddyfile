@@ -10,6 +10,8 @@ gopherconbr.org:443 {
 		hook /webhook
 		path gopherconbr
 		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
+
 	}
 
 	root /site-source/gopherconbr/public
@@ -17,4 +19,6 @@ gopherconbr.org:443 {
 	gzip
 	ext .html
 	log stdout
+
+	tls info@gopherconbr.org
 }
