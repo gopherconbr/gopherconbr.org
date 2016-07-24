@@ -1,4 +1,4 @@
-baseurl = "http://gopherconbr.org"
+baseurl = "http://gopherconbr.org/en"
 languageCode = "en-us"
 title = "GopherConBR 2016"
 contentdir = "content/en"
