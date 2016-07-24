@@ -44,13 +44,9 @@
                     </a>
                   </li>
                   <li>
-                    <a href="/en" class="hidden-sm">
-                      EN
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/" class="hidden-sm">
-                      PT-BR
+                    <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
+                      {{ if eq .Site.Params.locale "pt-BR" }}Inglês{{end}}
+                      {{ if eq .Site.Params.locale "en-US" }}Portuguese{{end}}
                     </a>
                   </li>
               </ul>
