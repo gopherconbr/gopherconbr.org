@@ -7,7 +7,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo-dark" href="#"><img src="/images/floripa/gophercon-floripa-v2.png" alt="GopherConBR"></a>
+                <a class="navbar-brand logo-dark" href="#">
+                  <img src="/images/floripa/gophercon-floripa-v2.png" alt="GopherConBR">
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -21,11 +23,11 @@
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
                       </a>
                     </li>
-                    <!--<li>
+                    <!-- <li>
                       <a href="#schedule">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
                       </a>
-                    </li>-->
+                    </li> -->
                     <li>
                       <a href="#sponsors" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
@@ -39,6 +41,16 @@
                     <li>
                       <a href="#gallery" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).gallery }}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/en" class="hidden-sm">
+                        EN
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="hidden-sm">
+                        PT-BR
                       </a>
                     </li>
                 </ul>

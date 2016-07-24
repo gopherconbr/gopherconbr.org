@@ -7,40 +7,50 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand logo-dark" href="#">
+              <a class="navbar-brand logo-dark" href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#top">
                 <img src="/images/floripa/gophercon-floripa-v2.png" alt="GopherConBR" height="50px">
               </a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                   <li class="active">
-                    <a href="/#top">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#top">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="/#tickets">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#tickets">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
                     </a>
                   </li>
                   <!--<li>
-                    <a href="/#schedule">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#schedule">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
                     </a>
                   </li>-->
                   <li>
-                    <a href="/#sponsors" class="hidden-sm">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#sponsors" class="hidden-sm">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
                     </a>
                   </li>
                   <li>
-                    <a href="/#venue" class="hidden-sm">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#venue" class="hidden-sm">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
                     </a>
                   </li>
                   <li>
-                    <a href="/#gallery" class="hidden-sm">
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#gallery" class="hidden-sm">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).gallery }}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/en" class="hidden-sm">
+                      EN
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" class="hidden-sm">
+                      PT-BR
                     </a>
                   </li>
               </ul>
