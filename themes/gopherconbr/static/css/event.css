@@ -9,7 +9,7 @@ Copyright © All rights Reserved
 Surjith S M / @surjithctly
 
 
-TABLE OF CONTENTS 
+TABLE OF CONTENTS
 ---------------------------------------------------
 
     • Global
@@ -52,7 +52,7 @@ a {
     -o-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
 }
-/* 
+/*
    Typography
    ---------- */
 
@@ -126,7 +126,7 @@ p,
 .lead {
     line-height: 1.7;
 }
-/* 
+/*
    Buttons
    ------- */
 
@@ -172,7 +172,7 @@ p,
 .btn-success {
     border-width: 2px;
 }
-/* 
+/*
    Form Inputs
    ----------- */
 
@@ -221,7 +221,7 @@ p,
         margin-left: 0;
     }
 }
-/* 
+/*
    Breadcrumbs
    ----------- */
 
@@ -241,7 +241,7 @@ p,
 .breadcrumb a:focus {
     color: rgba(255, 255, 255, 0.7);
 }
-/* 
+/*
    Navbar
    ------ */
 
@@ -249,7 +249,7 @@ p,
     background-color: #fff;
     -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.05);
-    padding: 15px 0;
+    padding: 7px 0;
 }
 
 .navbar-toggle {
@@ -313,7 +313,7 @@ p,
         display: block;
     }
 }
-/* 
+/*
    Nav Tabs
    -------- */
 
@@ -332,7 +332,7 @@ p,
 .nav-center ul.nav li a {
     float: left;
 }
-/* 
+/*
    Modal box
    -------------- */
 
@@ -359,7 +359,7 @@ p,
         margin: 80px auto;
     }
 }
-/* 
+/*
    Collapsible Panels
    ------------------ */
 
@@ -413,7 +413,7 @@ p,
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-color: #f7f7f7;
 }
-/* 
+/*
    Pace Preloader
    -------------- */
 
@@ -470,7 +470,7 @@ p,
 .pace.pace-inactive {
     display: none;
 }
-/* 
+/*
    Back to Top
    ----------- */
 
@@ -489,7 +489,7 @@ p,
 .back_to_top:hover {
     opacity: 0.5;
 }
-/* 
+/*
    Utilites
    -------- */
 /* Vertical Rhythm */
@@ -656,7 +656,7 @@ p,
     padding: 10px 0;
     color: rgba(255, 255, 255, 0.7);
 }
-/* 
+/*
  Sub page
  -------- */
 
@@ -688,7 +688,7 @@ p,
     font-weight: 300;
     font-size: 50%;
 }
-/* 
+/*
  Reveal Menu
  ----------- */
 
@@ -707,7 +707,7 @@ p,
 .reveal-menu-visible {
     top: 0;
 }
-/* 
+/*
  Header Parallax
  --------------- */
 
@@ -721,7 +721,7 @@ p,
 .parallax-bg .header_bottom-bg {
     background: none;
 }
-/* 
+/*
  Header Slider
  --------------- */
 
@@ -762,7 +762,7 @@ p,
 .font-80 {
     font-size: 80px;
 }
-/* 
+/*
  Header Video
  ------------ */
 
@@ -1104,7 +1104,7 @@ p,
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-/* 
+/*
    Vertical Timeline
    ----------------- */
 
@@ -1117,7 +1117,7 @@ p,
 
 .timeline::before {
     /* this is the vertical line */
-    
+
     content: '';
     position: absolute;
     top: 0;
@@ -1187,7 +1187,7 @@ p,
         left: 50%;
         margin-left: -8px;
         /* Force Hardware Acceleration in WebKit */
-        
+
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
@@ -1443,10 +1443,10 @@ p,
     opacity: 0.3;
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
     /* Firefox 10+, Firefox on Android */
-    
+
     filter: gray;
     /* IE6-9 */
-    
+
     -webkit-filter: grayscale(100%);
     /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
@@ -1674,19 +1674,19 @@ p,
 
 .gm-style > div > div {
     /* Overlay color */
-    
+
     height: 100%;
 }
 
 .gm-style img {
     /* Fix tooltip */
-    
+
     max-width: none;
 }
 
 .gm-style div {
     /* Fix tooltip */
-    
+
     border-style: none;
 }
 
