@@ -8,6 +8,9 @@
                 <p>
                   {{ ( index $.Site.Data.translations $.Site.Params.locale ).companies_sponsors }}
                 </p>
+                <p>
+                    {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>
+                </p>
             </div>
 
             <div class="sponsor-slider wow bounceIn">
