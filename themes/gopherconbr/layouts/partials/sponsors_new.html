@@ -8,14 +8,16 @@
                 <p>
                   {{ ( index $.Site.Data.translations $.Site.Params.locale ).companies_sponsors }}
                 </p>
-                <p>
-                    {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>
-                </p>
             </div>
 
             <div class="sponsor-slider wow bounceIn">
                 <div><img src="images/sponsors/neoway.png" class="img-responsive center-block" alt="Neoway"> </div>
                 <div><img src="images/sponsors/rd.png" class="img-responsive center-block" alt="Resultados Digitais"></div>
+            </div>
+            <div class="section-title wow fadeInUp">
+                <p>
+                    {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
+                </p>
             </div>
         </div>
         <!-- end .container -->
