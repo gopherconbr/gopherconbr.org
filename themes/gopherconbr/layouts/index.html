@@ -140,45 +140,7 @@
 
     {{ partial "sponsors_new.html" . }}
 
-
-    <div class="g-maps" id="venue">
-
-      <!-- Tip:  You can change location, zoom, color theme, height, image and Info text by changing data-* attribute below. -->
-      <!-- Available Colors:    red, orange, yellow, green, mint, aqua, blue, purple, pink, white, grey, black, invert -->
-
-      <div class="map" id="map_canvas" data-maplat="-25" data-maplon="-50" data-mapzoom="2" data-color="green" data-height="400" data-img="images/marker.png" data-info="Florianópolis, SC, Brasil"></div>
-
-    </div>
-    <!-- end div.g-maps -->
-    <!-- ::: END MAP ::: -->
-
-    <!--
-    Contact us
-    ====================================== -->
-
-
-
-    <div class="highlight">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-box">
-              <img src="images/location-icon.png" alt="location icon" class="wow zoomIn">
-              <h5>
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
-              </h5>
-              <p>Hotel Canasvieiras Internacional
-                <br>Rua Madre Maria Vilac, 2020
-                <br>Florianópolis, SC
-              </p>
-              </div>
-            </div>
-          <!--  // end .row -->
-        </div>
-      </div>
-
-      {{ partial "gallery.html" . }}
+    {{ partial "venue.html" . }}
 
       <section class="footer-action">
         <!-- <div class="container">

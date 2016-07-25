@@ -39,11 +39,6 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#gallery" class="hidden-sm">
-                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).gallery }}
-                      </a>
-                    </li>
-                    <li>
                       <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
                         {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
                         {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
