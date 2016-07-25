@@ -64,95 +64,82 @@
         {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_center }}
       </p>
 
-        <div class="countdown_wrap">
+      <div class="countdown_wrap">
 
-          <h6 class="countdown_title text-center">
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).countdown_date }}
-          </h6>
+        <h6 class="countdown_title text-center">
+          {{ ( index $.Site.Data.translations $.Site.Params.locale ).countdown_date }}
+        </h6>
 
-          <!-- Countdown JS for the Event Date Starts here.
-          TIP: You can change your event time below in the Same Format.  -->
+        <!-- Countdown JS for the Event Date Starts here.
+        TIP: You can change your event time below in the Same Format.  -->
 
-          <ul id="countdown" data-event-date="11 november 2016 09:00:00">
-            <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
-              <p class="timeRefDays">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
-              </p>
-            </li>
-            <li class="wow zoomIn" data-wow-delay="0.2s"> <span class="hours">00</span>
-              <p class="timeRefHours">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}
-              </p>
-            </li>
-            <li class="wow zoomIn" data-wow-delay="0.4s"> <span class="minutes">00</span>
-              <p class="timeRefMinutes">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).minutes }}
-              </p>
-            </li>
-            <li class="wow zoomIn" data-wow-delay="0.6s"> <span class="seconds">00</span>
-              <p class="timeRefSeconds">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).seconds }}
-              </p>
-            </li>
-          </ul>
-        </div>
-        <!-- end .countdown_wrap -->
+        <ul id="countdown" data-event-date="11 november 2016 09:00:00">
+          <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
+            <p class="timeRefDays">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
+            </p>
+          </li>
+          <li class="wow zoomIn" data-wow-delay="0.2s"> <span class="hours">00</span>
+            <p class="timeRefHours">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}
+            </p>
+          </li>
+          <li class="wow zoomIn" data-wow-delay="0.4s"> <span class="minutes">00</span>
+            <p class="timeRefMinutes">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).minutes }}
+            </p>
+          </li>
+          <li class="wow zoomIn" data-wow-delay="0.6s"> <span class="seconds">00</span>
+            <p class="timeRefSeconds">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).seconds }}
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- end .countdown_wrap -->
 
-        <div class="text-center">
+      <div class="text-center">
 
-          <!-- Add to Calendar Plugin.
-          For Customization, Visit https://addtocalendar.com/ -->
+        <!-- Add to Calendar Plugin.
+        For Customization, Visit https://addtocalendar.com/ -->
 
-          <span class="addtocalendar atc-style-theme">
-            <a class="atcb-link">
-              <i class="fa fa-calendar"> </i>
-              {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
-            </a>
-            <var class="atc_event">
-              <var class="atc_date_start">2016-11-11 08:00:00</var>
-              <var class="atc_date_end">2016-11-13 18:00:00</var>
-              <var class="atc_timezone">America/Sao_Paulo</var>
-              <var class="atc_title">GopherCon Brasil</var>
-              <var class="atc_description">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
-              </var>
-              <var class="atc_location">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
-              </var>
+        <span class="addtocalendar atc-style-theme">
+          <a class="atcb-link">
+            <i class="fa fa-calendar"> </i>
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
+          </a>
+          <var class="atc_event">
+            <var class="atc_date_start">2016-11-11 08:00:00</var>
+            <var class="atc_date_end">2016-11-13 18:00:00</var>
+            <var class="atc_timezone">America/Sao_Paulo</var>
+            <var class="atc_title">GopherCon Brasil</var>
+            <var class="atc_description">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
             </var>
-          </span>
-
-        </div>
+            <var class="atc_location">
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
+            </var>
+          </var>
+        </span>
 
       </div>
-      <!-- end .container -->
 
-    </section>
-    <!-- end section.highlight -->
+    </div>
+    <!-- end .container -->
 
-    {{ partial "speakers.html" . }}
+  </section>
+  <!-- end section.highlight -->
 
-    <!--{{ partial "schedule.html" . }}-->
+  {{ partial "speakers.html" . }}
 
-    {{ partial "accommodation.html" . }}
+  <!--{{ partial "schedule.html" . }}-->
 
-    <!--{{ partial "faq.html" . }}-->
+  {{ partial "accommodation.html" . }}
 
-    {{ partial "sponsors_new.html" . }}
+  <!--{{ partial "faq.html" . }}-->
 
-    {{ partial "venue.html" . }}
+  {{ partial "sponsors_new.html" . }}
 
-      <section class="footer-action">
-        <!-- <div class="container">
+  {{ partial "venue.html" . }}
 
-          <div class="footer_bottom-bg">
-            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#register-now" disabled>
-              {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
-            </a>
-          </div>
-
-        </div>
--->
-      </section>
-
-      {{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
