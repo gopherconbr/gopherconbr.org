@@ -24,13 +24,18 @@
                       </a>
                     </li> -->
                     <li>
+                      <a href="#speakers" class="hidden-sm">
+                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
+                      </a>
+                    </li>
+                    <li>
                       <a href="#venue" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
                       </a>
                     </li>
                     <li>
-                      <a href="#sponsors" class="hidden-sm">
-                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
+                      <a href="#accommodation" class="hidden-sm">
+                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation }}
                       </a>
                     </li>
                     <li class="dropdown">
@@ -52,14 +57,19 @@
                       </ul>
                     </li>
                     <li>
-                      <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
-                        {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
-                        {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
+                      <a href="#sponsors" class="hidden-sm">
+                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
                       </a>
                     </li>
                     <li>
                       <a href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
+                        {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
+                        {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
                       </a>
                     </li>
                 </ul>
