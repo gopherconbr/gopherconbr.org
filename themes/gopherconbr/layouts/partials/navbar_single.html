@@ -38,6 +38,24 @@
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
                     </a>
                   </li>
+                  <li class="dropdown">
+                    <a href="#" class="hidden-sm dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <!-- <li>
+                        <a href="#" class="hidden-sm">
+                          {{ ( index $.Site.Data.translations $.Site.Params.locale ).conference }}
+                        </a>
+                      </li> -->
+                      <li>
+                        <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/workshop" class="hidden-sm">
+                          Workshop
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                   <li>
                     <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
                       {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
