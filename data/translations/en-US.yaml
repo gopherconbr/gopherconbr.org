@@ -2,6 +2,7 @@ registrations: Registrations
 schedule: Schedule
 sponsors: Sponsors
 venue: Venue
+conference: Conference
 gallery: Gallery
 local: Florianópolis, SC, Brazil
 date: "4, 5 and 6 of November"
@@ -33,4 +34,3 @@ cfp_send: Send your talk
 prospec_sponsors: Interested in becoming a sponsor?
 get_in_touch: Get in touch
 prospec_link: "/en/GopherconBR2016Prospectus.pdf"
-
