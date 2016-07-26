@@ -29,13 +29,23 @@
                     </a>
                   </li>-->
                   <li>
-                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#sponsors" class="hidden-sm">
-                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#speakers" class="hidden-sm">
+                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
                     </a>
                   </li>
                   <li>
                     <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#venue" class="hidden-sm">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#accommodation" class="hidden-sm">
+                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation }}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#sponsors" class="hidden-sm">
+                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
                     </a>
                   </li>
                   <li>
