@@ -6582,3 +6582,15 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.right-images {
+  margin-left: -3%;
+}
+
+.left-images {
+  margin-left: -2%;
+}
+
+.center-navbar {
+  margin-top: 0.8%;
+}
