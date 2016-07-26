@@ -18,11 +18,6 @@
                         Home
                       </a>
                     </li>
-                    <li>
-                      <a href="#tickets">
-                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
-                      </a>
-                    </li>
                     <!-- <li>
                       <a href="#schedule">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
@@ -52,6 +47,11 @@
                       <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
                         {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
                         {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
+                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
                       </a>
                     </li>
                 </ul>
