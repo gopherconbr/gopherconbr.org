@@ -19,7 +19,7 @@
             </div>
           </div>
 
-          <div class="when_where wow fadeIn" data-wow-delay="0.4s">
+          <div class="when_where">
             <p class="event_when">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).date }}
             </p>
@@ -32,7 +32,7 @@
             </h3>
           </div>
           <div>
-            <a class="btn btn-success btn-xl wow zoomIn" style="margin-bottom: 15px;" data-wow-delay="0.3s" href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
+            <a class="btn btn-success btn-xl" style="margin-bottom: 15px;" href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
             </a>
           </div>
@@ -74,22 +74,22 @@
         TIP: You can change your event time below in the Same Format.  -->
 
         <ul id="countdown" data-event-date="11 november 2016 09:00:00">
-          <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
+          <li> <span class="days">00</span>
             <p class="timeRefDays">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
             </p>
           </li>
-          <li class="wow zoomIn" data-wow-delay="0.2s"> <span class="hours">00</span>
+          <li> <span class="hours">00</span>
             <p class="timeRefHours">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}
             </p>
           </li>
-          <li class="wow zoomIn" data-wow-delay="0.4s"> <span class="minutes">00</span>
+          <li> <span class="minutes">00</span>
             <p class="timeRefMinutes">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).minutes }}
             </p>
           </li>
-          <li class="wow zoomIn" data-wow-delay="0.6s"> <span class="seconds">00</span>
+          <li> <span class="seconds">00</span>
             <p class="timeRefSeconds">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).seconds }}
             </p>
