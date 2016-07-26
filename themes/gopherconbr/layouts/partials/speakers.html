@@ -1,24 +1,42 @@
-  <section class="speakers" id="speakers">
-        <div class="container">
+<section class="speakers" id="speakers">
+  <div class="container">
 
-            <div class="section-title wow fadeInUp">
-                <h4>
-                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
-                </h4>
-                <p>
-                    <a class="btn btn-success btn-xl" href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_link }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_send }}</a>
-                </p>
-            </div>
+    <!-- <div class="speakerSlider">
+    <div class="speakerInfo">
+    <img src="images/speakers/williamKennedy.jpg" alt="avatar" class="imgResponsive centerBlock">
+    <p>William Kennedy</p>
+    <span>Ardan Labs</span>
+  </div>
+</div> -->
 
-            <!--<div class="speaker-slider">
+<div class="row">
+    <div class="section-title">
+      <h4>
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
+      </h4>
+    </div>
 
-                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                    <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
-                    <p>George Burton</p>
-                    <span>Flow Interactive</span>
-                </div>
+  <div class="col-sm-12 diamond-sponsors">
+    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+      <div class="speaker-info">
+        <img src="images/speakers/william_kennedy.jpg" alt="avatar" class="img-responsive center-block">
+        <p>William Kennedy</p>
+        <span>Ardan Labs</span>
+      </div>
+    </div>
+  </div>
 
-            </div>-->
+    <div class="section-title">
+      <p>
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
+      </p>
+      <p>
+        <a class="btn btn-success btn-lg" href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_link }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_send }}</a>
+      </p>
+    </div>
 
-        </div>
-    </section>
+</div>
+
+
+</div>
+</section>
