@@ -28,11 +28,6 @@
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
                     </a>
                   </li>
-                  <li>
-                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#venue" class="hidden-sm">
-                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
-                    </a>
-                  </li>
                   <li class="dropdown">
                     <a href="#" class="hidden-sm dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
@@ -50,6 +45,11 @@
                         </a>
                       </li>
                     </ul>
+                  </li>
+                  <li>
+                    <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#venue" class="hidden-sm">
+                      {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
+                    </a>
                   </li>
                   <li>
                     <a href="{{ if eq .Site.Params.locale "en-US" }}/en{{end}}/#accommodation" class="hidden-sm">
