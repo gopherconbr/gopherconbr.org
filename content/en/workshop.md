@@ -56,9 +56,9 @@ Join the training channel by clicking on this link: [https://gophers.slack.com/m
 
 ##### Local Installation
 
-We not recommend using homebrew or apt-get.
+We do not recommend using homebrew or apt-get.
 
 [https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html](https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html)
 
 #### Note
-Fluent English is a prerequisite
+Fluent English is a prerequisite.
