@@ -44,7 +44,7 @@ Please check out this page of [important reading](https://github.com/ardanlabs/g
 ### Before You Come To Class
 The following is a set of tasks that can be done prior to showing up for class. We will also do this in class if anyone has not completed it. However, the more attendees that complete this ahead of time the more time we have to cover additional training material.
 
-### Joining the Go Slack Community
+#### Joining the Go Slack Community
 We use a slack channel to share links, code, and examples during the training. This is free. This is also the same slack community you will use after training to ask for help and interact with may Go experts around the world in the community.
 
 1. Using the following link, fill out your name and email address: [https://invite.slack.golangbridge.org/](https://invite.slack.golangbridge.org/)
@@ -52,11 +52,11 @@ We use a slack channel to share links, code, and examples during the training. T
 Join the training channel by clicking on this link: [https://gophers.slack.com/messages/training/](https://gophers.slack.com/messages/training/)
 3. Click the “Join Channel” button at the bottom of the screen.
 
-### Installing Go
+#### Installing Go
 
-#### Local Installation
+##### Local Installation
 
-I do not recommend using homebrew or apt-get.
+We not recommend using homebrew or apt-get.
 
 [https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html](https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html)
 
