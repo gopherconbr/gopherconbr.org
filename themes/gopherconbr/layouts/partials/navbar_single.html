@@ -62,7 +62,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
+                    <a href="https://www.sympla.com.br/gophercon-brasil-2016__77919{{ if eq .Site.Params.locale "en-US" }}?lang=en{{end}}">
                       {{ ( index $.Site.Data.translations $.Site.Params.locale ).registrations }}
                     </a>
                   </li>
