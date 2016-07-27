@@ -50,7 +50,7 @@ O que se segue é um conjunto de tarefas que podem ser feitas antes de aparecer 
 ### Juntando-se à Comunidade Go no Slack
 Nós usamos um canal no Slack para compartilhar links, código e exemplos durante o treinamento. Este é livre. Esta é também a mesma comunidade você vai usar depois do treino para pedir ajuda e interagir com especialistas do podem ir ao redor do mundo na comunidade.
 
-1. Usando o seguinte link, preencha o seu nome e endereço de email: [https://gophersinvite.herokuapp.com/](https://gophersinvite.herokuapp.com/)
+1. Usando o seguinte link, preencha o seu nome e endereço de email: [https://invite.slack.golangbridge.org/](https://invite.slack.golangbridge.org/)
 2. Verifique se o seu e-mail e siga o link para o Slack.
 3. Junte-se o canal de formação, clicando neste link: [https://gophers.slack.com/messages/training/](https://gophers.slack.com/messages/training/)
 4. Clique no botão “Join Channel” na parte inferior da tela.
