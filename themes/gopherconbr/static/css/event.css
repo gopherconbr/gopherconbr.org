@@ -2090,3 +2090,33 @@ footer {
 .comment-reply-link:hover {
     color: #888;
 }
+
+.diamond-sponsors .sponsor {
+  height: 100px;
+  line-height: 100px;
+}
+
+.diamond-sponsors .sponsor img {
+  max-width: 240px;
+  max-height: 100px;
+}
+
+.gold-sponsors .sponsor {
+  height: 80px;
+  line-height: 80px;
+}
+
+.gold-sponsors .sponsor img {
+  max-width: 170px;
+  max-height: 80px;
+}
+
+.silver-sponsors .sponsor {
+  height: 70px;
+  line-height: 70px;
+}
+
+.silver-sponsors .sponsor img {
+  max-width: 150px;
+  max-height: 70px;
+}
