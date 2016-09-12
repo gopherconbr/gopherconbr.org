@@ -10,13 +10,19 @@ subtitle = ""
 
 ## Francesc Campoy Flores
 
+![](/images/speakers/francesc-campoy-flores.jpg)
+
 Developer Advocate for Go and the Cloud at Google
 
 ## William Kennedy
 
+![](/images/speakers/william_kennedy.jpg)
+
 William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.
 
 ## Jess Frazelle
+
+![](/images/speakers/jessfraz.jpg)
 
   Jess Frazelle is a Software Engineer at Google. She was previously a Software Engineer at Docker. Jess Frazelle has served as a Maintainer of Docker, Contributor to Runc and Golang as well as other projects. Jess Frazelle is working on making containers more secure. She loves all things involving Linux namespaces and cgroups and is typecasted as the person who runs everything in containers.
 
