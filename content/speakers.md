@@ -84,17 +84,25 @@ Chris Ramón is a software developer who works on the Engineering Team of eventl
 
 ## Vitor De Mario
 
+![](/images/speakers/vitor-de-mario.jpg)
+
 Formado em Ciência da Computação pela UFRJ, com experiência em Go, Python e Java, já trabalhei em diversas áreas, incluindo logística, telecom e agora genética/bioinformática com machine learning. Desde o final de 2015 envolvido com a organização de meetups da comunidade Go em São Paulo, incluindo palestras e um workshop de desenvolvimento web usando a linguagem.
 
 ## Elton Minetto
+
+![](/images/speakers/elton-minetto.jpg)
 
 Possui graduação em Ciência de Computação pela Unochapecó e especialização em Ciência da Computação pela UFSC/UNOESC. É autor do livro Frameworks para Desenvolvimento em PHP, da editora Novatec, co-autor do livro Grid Computing in Research and Education, publicado pela editora IBM/Redbooks, EUA e autor dos e-books Zend Framework na prática, Zend Framework 2 na prática, Iniciando com o Zend Framework 2 e Doctrine na Prática. É co-fundador da Coderockr e do Planrockr. Mantenedor das newsletters A Semana PHP e A Semana Go
 
 ## Leandro Lugaresi
 
+![](/images/speakers/leandro-lugaresi.jpg)
+
 É formado em Análise e Desenvolvimento de Sistemas pela FTEC Bento Gonçalves e aluno especial no Programa de Pós-Graduação em Computação Aplicada pela UDESC onde pretende se especializar em aplicações distribuídas. Iniciou sua carreira como desenvolvedor PHP em 2011, atualmente é desenvolvedor backend na Coderockr, trabalhando em projetos para grandes empresas do Brasil.
 
 ## Daniel Whitenack
+
+![](/images/speakers/daniel-whitenack.jpg)
 
 Is a Ph.D. trained data scientist who is interested in helping Go become a “go to” language for data science/engineering. As a consultant, Daniel helps his clients develop and deploy innovative, data-driven services. These services include predictive models, real-time dashboards, pricing optimizations, and more. He enjoys contributing to the open source community, with projects like gophernotes, and mentoring data science students in data science.
 
@@ -104,12 +112,18 @@ Programador a quase 10 anos, profissionalmente (recebendo por isso) a quase 7 an
 
 ## Carlisia Campos
 
+![](/images/speakers/carlisia-campos.jpg)
+
 Is a Distributed Systems Engineer at Fastly, the only real-time CDN that gives businesses complete control over how they serve content. She is an active member of the Go community: she co-hosts the weekly Go Time podcast and is a co-founding member of GoBridge. Carlisia holds a Masters degree in Computer Science from Boston University and has also been an entrepreneur, having run her own SaaS company. When she is not focused on Go and networks, she can be found running.
 
 ## Luiz Bezerra
 
+![](/images/speakers/luiz-bezerra.jpg)
+
 Desenvolvedor Web na Globo.com, tenho trabalhando nos ultimos 7 anos com Rails e Javascript. Brinquei um pouco com Software Defined Networking recentemente. Estou me apaixonando por Elixir, mas trabalhando duro com Go para trazer a todos a melhor expericia possivel com balanceamento de carga na camada 4.
 
 ## Andrews Medina
+
+![](/images/speakers/andrews-medina.jpg)
 
 Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 2012 para automatizar a infra estrutura da globo.com, garantindo a escalabilidade e disponibilidade das aplicações.
