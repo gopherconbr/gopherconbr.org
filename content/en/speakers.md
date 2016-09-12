@@ -28,13 +28,19 @@ William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobil
 
 ## Antoine Grondin
 
+![](/images/speakers/antoine-grondin.jpg)
+
 A French Canadian DigitalOcean engineer with the crazy idea to get rid of all his earthly possessions and live on a boat and sail the world. other things he is passionate about: meetings, meetings and more meetings.
 
 ## Marcos Nils
 
+![](/images/speakers/marcos-nils.jpg)
+
 OS evangelist and Golang lover. Has a strong background in distributed systems and app architecture. Currently working in a Machine Learning startup that brings latest in research to industry.
 
 ## Tiago Katcipis
+
+![](/images/speakers/tiago-katcipis.jpg)
 
 Enthusiastic about software design, distributed systems and automated testing. Works for some time with embedded systems and I also love to talk about low level stuff.
 
@@ -44,13 +50,19 @@ Loves to learn, specially new programming languages. The differences on the ecos
 
 ## Matt Aimonetti
 
+![](/images/speakers/matt-aimonetti.jpg)
+
 Is Splice CTO & Co-Founder, an experienced technologist, entrepreneur, technical writer and active open-source contributor based in Santa Monica, CA. Prior to Splice, Matt worked as a Tech manager/R&D developer at LivingSocial, on video game development at Sony PlayStation, as a sound engineer and on many other things.
 
 ## Piyush Verma
 
+![](/images/speakers/piyush-verma.jpg)
+
 Is a Platform and Infrastructure consultant. He is an ex-KDE developer and created Siminars.com. He likes Multiprocessing, Distributed systems, APIs and automating everything. When not coding he can be found cycling around the town.
 
 ## Cassandra Gil
+
+![](/images/speakers/cassandra-gil.jpg)
 
 Is a core team member at GoBridge where she spearheads the partnerships and chapters initiative. She currently serves as the lead organizer (& MC) for GoSF, the largest Golang meetup in world, and organizes Gopherfest in San Francisco. Cassandra specializes in developer technologies and is the Head of Communications and Community as part of the founding team at Netlify.
 
@@ -60,9 +72,13 @@ Is a core team member at GoBridge where she spearheads the partnerships and chap
 
 ## Priyanka Phatak
 
+![](/images/speakers/priyanka-phatak.jpg)
+
 Is an engineer on the core services team at Lyft and writes go services for handling the rides infrastructure. Prior to Lyft she was building backend Java services for Yammer. Priyanka is passionate about learning new technologies and sharing her experiences with people. Priyanka loves to travel and has been to 26 countries.
 
 ## Chris Ramón
+
+![](/images/speakers/chris-ramon.jpg)
 
 Chris Ramón is a software developer who works on the Engineering Team of eventlama.com, also he contributes to graphql-go and when he’s not coding, you can find him running, writing or helping organize local developer meetups in Lima.
 
