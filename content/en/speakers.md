@@ -131,3 +131,11 @@ Desenvolvedor Web na Globo.com, tenho trabalhando nos ultimos 7 anos com Rails e
 ![](/images/speakers/andrews-medina.jpg)
 
 Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 2012 para automatizar a infra estrutura da globo.com, garantindo a escalabilidade e disponibilidade das aplicações.
+
+## Johnny Boursiquot
+
+![](/images/speakers/johnny-boursiquot.jpg)
+
+Johnny is a multi-disciplined Software Engineer with nearly two decades of industry experience spanning various server, client and mobile technologies. His past roles include developer, co-founder, teacher and CTO. He is currently the Principal Software Engineer at Achievement Network based in Boston.
+
+His love for technology is matched only by his passion for community service. He is a GoBridge Core Member, organizer of the Baltimore Golang user group and former organizer for Boston Ruby and Boston Golang. He regularly serves as a teacher for various organizations that seek to diversify the tech industry and mentors a number of young technology professionals in the Boston and Baltimore metro areas.
