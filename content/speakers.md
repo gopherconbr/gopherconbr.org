@@ -48,6 +48,10 @@ Loves to learn, specially new programming languages. The differences on the ecos
 
 ## Jairo Luiz da Silva Pereira
 
+![](/images/speakers/jairo-pereira.jpg)
+
+Sou programador a mais de uma década e apaixonado por código desde os meus 14 anos. Tenho experiência em C, Java, Ruby e Node.js, e ultimamente venho me aventurando com Go no Mercado Libre aonde trabalho como desenvolvedor sênior. Moro no Chile, falo português de paulista, espanhol de chileno e inglês de cursinho.
+
 ## Matt Aimonetti
 
 ![](/images/speakers/matt-aimonetti.jpg)
@@ -127,9 +131,3 @@ Desenvolvedor Web na Globo.com, tenho trabalhando nos ultimos 7 anos com Rails e
 ![](/images/speakers/andrews-medina.jpg)
 
 Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 2012 para automatizar a infra estrutura da globo.com, garantindo a escalabilidade e disponibilidade das aplicações.
-
-## Jairo Pereira
-
-![](/images/speakers/jairo-pereira.jpg)
-
-Sou programador a mais de uma década e apaixonado por código desde os meus 14 anos. Tenho experiência em C, Java, Ruby e Node.js, e ultimamente venho me aventurando com Go no Mercado Libre aonde trabalho como desenvolvedor sênior. Moro no Chile, falo português de paulista, espanhol de chileno e inglês de cursinho.
