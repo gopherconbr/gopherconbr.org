@@ -36,7 +36,7 @@ A French Canadian DigitalOcean engineer with the crazy idea to get rid of all hi
 
 ![](/images/speakers/marcos-nils.jpg)
 
-OS evangelist and Golang lover. Has a strong background in distributed systems and app architecture. Currently working in a Machine Learning startup that brings latest in research to industry.
+Docker Captain, OS evangelist and Golang lover. Has a strong background in distributed systems and app architecture. Currently working in a Machine Learning startup that brings latest in research to industry.
 
 ## Tiago Katcipis
 
