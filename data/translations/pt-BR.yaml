@@ -9,7 +9,7 @@ local: Florianópolis, SC, Brasil
 date: "4, 5 e 6 de Novembro"
 text_desc: "O maior evento do Brasil dedicado à linguagem de programação Go."
 text_center: "A GopherCon Brasil 2016 ocorrerá nos dias 4 e 5 de novembro (no Hotel Canasvieiras Internacional),
-  na cidade de Florianópolis-SC, com um workshop adicional* no dia 6 de novembro (no auditório da empresa Resultados Digitais)."
+  na cidade de Florianópolis-SC, com um workshop adicional* no dia 6 de novembro."
 countdown_date: "Evento acontecerá em"
 days: dias
 hours: horas
