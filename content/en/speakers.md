@@ -139,3 +139,9 @@ Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 
 Johnny is a multi-disciplined Software Engineer with nearly two decades of industry experience spanning various server, client and mobile technologies. His past roles include developer, co-founder, teacher and CTO. He is currently the Principal Software Engineer at Achievement Network based in Boston.
 
 His love for technology is matched only by his passion for community service. He is a GoBridge Core Member, organizer of the Baltimore Golang user group and former organizer for Boston Ruby and Boston Golang. He regularly serves as a teacher for various organizations that seek to diversify the tech industry and mentors a number of young technology professionals in the Boston and Baltimore metro areas.
+
+## Ricardo Longa
+
+![](/images/speakers/ricardo-longa.jpg)
+
+Graduado em Sistemas de Informação e pós-graduado em Engenharia de Software, atualmente leciona sobre Android na pós-graduação do Senai e faz parte do Core team da Neoway como Go developer. Nas horas vagas, se "diverte" com a sua startup [BnkBus](http://www.bnkbus.com).
