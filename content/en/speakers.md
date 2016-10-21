@@ -72,6 +72,8 @@ Is a core team member at GoBridge where she spearheads the partnerships and chap
 
 ## Rafael Dantas Justo
 
+![](/images/speakers/rafael-justo.jpg)
+
 É um engenheiro de software na empresa NIC.br. Trabalha no desenvolvimento de sistemas críticos para a infraestrutura da Internet desde 2007, e representa a empresa em diversos eventos. Rafael é formado em ciência da computação pela PUC-SP e possui MBA em TI pela USP. Desde 2011 trabalha na renovação de sistemas legados para uma nova plataforma na linguagem Go. Forte entusiasta de projetos de código aberto, contribuí ativamente com bibliotecas em Go da comunidade.
 
 ## Priyanka Phatak
