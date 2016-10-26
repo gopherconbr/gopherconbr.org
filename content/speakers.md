@@ -147,3 +147,9 @@ His love for technology is matched only by his passion for community service. He
 ![](/images/speakers/ricardo-longa.jpg)
 
 Graduado em Sistemas de Informação e pós-graduado em Engenharia de Software, atualmente leciona sobre Android na pós-graduação do Senai e faz parte do Core team da Neoway como Go developer. Nas horas vagas, se "diverte" com a sua startup [BnkBus](http://www.bnkbus.com).
+
+## Paulo Pizarro
+
+![](/images/speakers/paulo-pizarro.jpg)
+
+Free software enthusiast with a solid computer science background, working with software development since 1986. Experience with software development, embedded linux, web applications and big data projects. Open source member and contributor: connman, sofia-sip, gstreamer, luasofia, luanotify, luamongo, soundtouch, log4cpp, jitsi, etc.
