@@ -117,3 +117,9 @@ Graduado em Sistemas de Informação e pós-graduado em Engenharia de Software, 
 ![](/images/speakers/paulo-pizarro.jpg)
 
 Free software enthusiast with a solid computer science background, working with software development since 1986. Experience with software development, embedded linux, web applications and big data projects. Open source member and contributor: connman, sofia-sip, gstreamer, luasofia, luanotify, luamongo, soundtouch, log4cpp, jitsi, etc.
+
+## Thiago Avelino
+
+![](/images/speakers/avelino.jpg)
+
+Empreendedor fundador das empresas filmow.com, Nuveo e poorny.com, formado em Matemática Aplicada na IME-USP. Com a necessidade de processar grandes volumes de dados o seu foco de pesquisa e desenvolvimento incluem sistemas distribuídos, processamento paralelo, concorrência, Go, Python e NoSQL.
