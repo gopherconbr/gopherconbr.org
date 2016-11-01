@@ -14,12 +14,6 @@ subtitle = ""
 
 Developer Advocate for Go and the Cloud at Google
 
-## William Kennedy
-
-![](/images/speakers/william_kennedy.jpg)
-
-William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.
-
 ## Jess Frazelle
 
 ![](/images/speakers/jessfraz.jpg)
@@ -58,29 +52,11 @@ Sou programador a mais de uma década e apaixonado por código desde os meus 14 
 
 Is Splice CTO & Co-Founder, an experienced technologist, entrepreneur, technical writer and active open-source contributor based in Santa Monica, CA. Prior to Splice, Matt worked as a Tech manager/R&D developer at LivingSocial, on video game development at Sony PlayStation, as a sound engineer and on many other things.
 
-## Piyush Verma
-
-![](/images/speakers/piyush-verma.jpg)
-
-Is a Platform and Infrastructure consultant. He is an ex-KDE developer and created Siminars.com. He likes Multiprocessing, Distributed systems, APIs and automating everything. When not coding he can be found cycling around the town.
-
-## Cassandra Gil
-
-![](/images/speakers/cassandra-gil.jpg)
-
-Is a core team member at GoBridge where she spearheads the partnerships and chapters initiative. She currently serves as the lead organizer (& MC) for GoSF, the largest Golang meetup in world, and organizes Gopherfest in San Francisco. Cassandra specializes in developer technologies and is the Head of Communications and Community as part of the founding team at Netlify.
-
 ## Rafael Dantas Justo
 
 ![](/images/speakers/rafael-justo.jpg)
 
 É um engenheiro de software na empresa NIC.br. Trabalha no desenvolvimento de sistemas críticos para a infraestrutura da Internet desde 2007, e representa a empresa em diversos eventos. Rafael é formado em ciência da computação pela PUC-SP e possui MBA em TI pela USP. Desde 2011 trabalha na renovação de sistemas legados para uma nova plataforma na linguagem Go. Forte entusiasta de projetos de código aberto, contribuí ativamente com bibliotecas em Go da comunidade.
-
-## Priyanka Phatak
-
-![](/images/speakers/priyanka-phatak.jpg)
-
-Is an engineer on the core services team at Lyft and writes go services for handling the rides infrastructure. Prior to Lyft she was building backend Java services for Yammer. Priyanka is passionate about learning new technologies and sharing her experiences with people. Priyanka loves to travel and has been to 26 countries.
 
 ## Chris Ramón
 
@@ -106,21 +82,9 @@ Possui graduação em Ciência de Computação pela Unochapecó e especializaç�
 
 É formado em Análise e Desenvolvimento de Sistemas pela FTEC Bento Gonçalves e aluno especial no Programa de Pós-Graduação em Computação Aplicada pela UDESC onde pretende se especializar em aplicações distribuídas. Iniciou sua carreira como desenvolvedor PHP em 2011, atualmente é desenvolvedor backend na Coderockr, trabalhando em projetos para grandes empresas do Brasil.
 
-## Daniel Whitenack
-
-![](/images/speakers/daniel-whitenack.jpg)
-
-Is a Ph.D. trained data scientist who is interested in helping Go become a “go to” language for data science/engineering. As a consultant, Daniel helps his clients develop and deploy innovative, data-driven services. These services include predictive models, real-time dashboards, pricing optimizations, and more. He enjoys contributing to the open source community, with projects like gophernotes, and mentoring data science students in data science.
-
 ## Tiago Natel de Moura
 
 Programador a quase 10 anos, profissionalmente (recebendo por isso) a quase 7 anos. No passado fui membro ativo da comunidade de segurança brasileira e desenvolvi algumas ferramentas opensource para análise de malwares no Linux (projeto malelficus) usando C. Desde 2014 me interesso por Go, e já desenvolvi diversos projetos profissionalmente e opensources com a linguagem, dentre eles estão: neosearch (search engine), wabbit (amqp mocking lib), nash (system shell), etc.
-
-## Carlisia Campos
-
-![](/images/speakers/carlisia-campos.jpg)
-
-Is a Distributed Systems Engineer at Fastly, the only real-time CDN that gives businesses complete control over how they serve content. She is an active member of the Go community: she co-hosts the weekly Go Time podcast and is a co-founding member of GoBridge. Carlisia holds a Masters degree in Computer Science from Boston University and has also been an entrepreneur, having run her own SaaS company. When she is not focused on Go and networks, she can be found running.
 
 ## Luiz Bezerra
 
