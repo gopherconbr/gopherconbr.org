@@ -98,13 +98,11 @@ Desenvolvedor Web na Globo.com, tenho trabalhando nos ultimos 7 anos com Rails e
 
 Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 2012 para automatizar a infra estrutura da globo.com, garantindo a escalabilidade e disponibilidade das aplicações.
 
-## Johnny Boursiquot
+## John Gosset
 
-![](/images/speakers/johnny-boursiquot.jpg)
+![](/images/speakers/john-gosset.jpg)
 
-Johnny is a multi-disciplined Software Engineer with nearly two decades of industry experience spanning various server, client and mobile technologies. His past roles include developer, co-founder, teacher and CTO. He is currently the Principal Software Engineer at Achievement Network based in Boston.
-
-His love for technology is matched only by his passion for community service. He is a GoBridge Core Member, organizer of the Baltimore Golang user group and former organizer for Boston Ruby and Boston Golang. He regularly serves as a teacher for various organizations that seek to diversify the tech industry and mentors a number of young technology professionals in the Boston and Baltimore metro areas.
+John is a consultant and software developer based in Montreal, Canada. He works on server software and embedded systems, and has worked with organizations large and small in both the public and private sectors - from the Canadian government and FinTech companies to small carpet manufacturers in Saint-Jean-sur-Richelieu, Quebec. He is also a contractor for RedHat, and volunteers with the Software Carpentry Foundation to help research scientists learn programming fundamentals. He believes coding is a useful skill for anyone to have, and is passionate about helping make it more accessible to everybody.
 
 ## Ricardo Longa
 
@@ -123,3 +121,9 @@ Free software enthusiast with a solid computer science background, working with 
 ![](/images/speakers/avelino.jpg)
 
 Empreendedor fundador das empresas filmow.com, Nuveo e poorny.com, formado em Matemática Aplicada na IME-USP. Com a necessidade de processar grandes volumes de dados o seu foco de pesquisa e desenvolvimento incluem sistemas distribuídos, processamento paralelo, concorrência, Go, Python e NoSQL.
+
+## Cezar Sá
+
+![](/images/speakers/cezar-sa.jpg)
+
+Desenvolvedor com mais de 10 anos de experiência e contribuição em vários projetos open-source: tsuru, thumbor, rubinius, silver_bird, docker, goimports, golang/net... Hoje faz parte da equipe do tsuru.io e usa Go diariamente desde 2014, sempre empolgado para resolver problemas estranhos de performance e escalabilidade.
