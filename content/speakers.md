@@ -115,3 +115,21 @@ Empreendedor fundador das empresas filmow.com, Nuveo e poorny.com, formado em Ma
 ![](/images/speakers/cezar-sa.jpg)
 
 Desenvolvedor com mais de 10 anos de experiência e contribuição em vários projetos open-source: tsuru, thumbor, rubinius, silver_bird, docker, goimports, golang/net... Hoje faz parte da equipe do tsuru.io e usa Go diariamente desde 2014, sempre empolgado para resolver problemas estranhos de performance e escalabilidade.
+
+## Pedro Nasser
+
+![](/images/speakers/pedro-nasser.jpg)
+
+Desenvolvedor de software na Iron.io.
+
+## Kamila Hinckel
+
+![](/images/speakers/kamila-hinckel.jpg)
+
+Desenvolvedora de software na Neoway.
+
+## Matheus Vill
+
+![](/images/speakers/matheus-vill.jpg)
+
+Desenvolvedor de software na Neoway.
