@@ -8,23 +8,11 @@ subtitle = ""
 
 +++
 
-## Francesc Campoy Flores
-
-![](/images/speakers/francesc-campoy-flores.jpg)
-
-Developer Advocate for Go and the Cloud at Google
-
 ## Jess Frazelle
 
 ![](/images/speakers/jessfraz.jpg)
 
   Jess Frazelle is a Software Engineer at Google. She was previously a Software Engineer at Docker. Jess Frazelle has served as a Maintainer of Docker, Contributor to Runc and Golang as well as other projects. Jess Frazelle is working on making containers more secure. She loves all things involving Linux namespaces and cgroups and is typecasted as the person who runs everything in containers.
-
-## Antoine Grondin
-
-![](/images/speakers/antoine-grondin.jpg)
-
-A French Canadian DigitalOcean engineer with the crazy idea to get rid of all his earthly possessions and live on a boat and sail the world. other things he is passionate about: meetings, meetings and more meetings.
 
 ## Marcos Nils
 
