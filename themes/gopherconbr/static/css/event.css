@@ -623,7 +623,7 @@ p,
 .header_top-bg {
     background: url('../images/header_graphic_1.png') no-repeat top center;
     min-height: 155px;
-    padding: 80px 0 50px;
+    padding: 80px 0 0;
 }
 
 .header_bottom-bg {
@@ -638,7 +638,7 @@ p,
 }
 
 .when_where {
-    padding: 30px 0;
+    padding: 0;
 }
 
 .event_when {
