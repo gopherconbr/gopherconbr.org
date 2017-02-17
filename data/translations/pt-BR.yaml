@@ -6,35 +6,35 @@ venue: Local
 conference: Conferência
 gallery: Galeria
 local: Florianópolis, SC, Brasil
-date: "4, 5 e 6 de Novembro"
+date: "12, 13 e 14 de Novembro"
 text_desc: "O maior evento no Brasil dedicado à linguagem de programação Go."
-text_center: "A GopherCon Brasil 2016 ocorrerá nos dias 4 e 5 de novembro (no Hotel Canasvieiras Internacional),
-  na cidade de Florianópolis-SC, com um workshop adicional* no dia 6 de novembro."
+text_center: "A GopherCon Brasil 2017 ocorrerá nos dias 12 e 13 de novembro (no Hotel Canasvieiras Internacional),
+  na cidade de Florianópolis-SC, com um workshop adicional* no dia 14 de novembro."
 countdown_date: "Evento acontecerá em"
 days: dias
 hours: horas
 minutes: minutos
 seconds: segundos
 add_calendar: Adicionar ao meu calendário
-want_talk: Quer palestrar na Primeira GopherCon Brasil?
+want_talk: Quer palestrar na GopherCon Brasil?
 soon_date: Em breve divulgaremos a chamada para palestrantes!
 where_say: Onde ficar
 desc_hotels: Selecionamos alguns hotéis proximos ao local do evento.
 value_hotel_canasvieiras: A partir de R$ 140 por noite
 soon_hotels: Em breve mais hotéis...
 sponsors: Patrocinadores
-companies_sponsors: Empresas que estão ajudando a tirar a GopherCon Brasil do papel.
+companies_sponsors: Empresas que estão ajudando a fazer a GopherCon Brasil.
 registration: INSCREVA-SE AQUI
 character_copyright: O personagem Gopher é baseado em um esboço de
 license: sob licença
 aerial_images: Imagens Aéreas feitas por
 coc: Código de Conduta
 coclink: "/conduta"
-cfp_link: "https://www.papercall.io/gopherconbrasil2016"
+cfp_link: "https://www.papercall.io/gopherconbrasil2017"
 cfp_send: Envie sua palestra
 prospec_sponsors: Interessado em ser um patrocinador?
 get_in_touch: Entre em contato
 all_speakers: Confira a lista completa de palestrantes! 
-prospec_link: "/GopherconBR2016PlanodePatrocinio.pdf"
+prospec_link: "/GopherconBR2017PlanodePatrocinio.pdf"
 location: Localização
 accommodation: Acomodação

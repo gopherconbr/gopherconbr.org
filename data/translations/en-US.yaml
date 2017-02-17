@@ -6,10 +6,10 @@ venue: Venue
 conference: Conference
 gallery: Gallery
 local: Florianópolis, SC, Brazil
-date: "4, 5 and 6 of November"
+date: "12, 13 and 14 of November"
 text_desc: "Brazil's largest event dedicated to Go."
-text_center: "GopherCon Brasil 2016 will take place on 4 and 5 of November (at the International Hotel Canasvieiras),
-  in Florianópolis-SC, with an additional* workshop on 6 of November."
+text_center: "GopherCon Brasil 2017 will take place on 12 and 13 of November (at the International Hotel Canasvieiras),
+  in Florianópolis-SC, with an additional* workshop on 14 of November."
 countdown_date: "Event will be held in"
 days: days
 hours: hours
@@ -30,11 +30,11 @@ license: under license
 aerial_images: Aerial Images made by
 coc: Code of Conduct
 coclink: "/en/conduct"
-cfp_link: "https://www.papercall.io/gopherconbrazil2016"
+cfp_link: "https://www.papercall.io/gopherconbrazil2017"
 cfp_send: Send your talk
 prospec_sponsors: Interested in becoming a sponsor?
 get_in_touch: Get in touch
 all_speakers: See all speakers! 
-prospec_link: "/en/GopherconBR2016Prospectus.pdf"
+prospec_link: "/en/GopherconBR2017Prospectus.pdf"
 location: Location
 accommodation: Accommodation
