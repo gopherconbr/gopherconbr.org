@@ -31,12 +31,13 @@
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
             </h3>
           </div>
-          <div>
+	<!--
+	  <div>
             <a class="btn btn-success btn-xl" style="margin-bottom: 15px;" href="https://www.sympla.com.br/gophercon-brasil-2016__77919">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
             </a>
           </div>
-
+	-->
         </div>
         <!-- end .container -->
       </div>
@@ -73,7 +74,7 @@
         <!-- Countdown JS for the Event Date Starts here.
         TIP: You can change your event time below in the Same Format.  -->
 
-        <ul id="countdown" data-event-date="4 november 2016 09:00:00">
+        <ul id="countdown" data-event-date="12 november 2017 09:00:00">
           <li> <span class="days">00</span>
             <p class="timeRefDays">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
@@ -109,8 +110,8 @@
             {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
           </a>
           <var class="atc_event">
-            <var class="atc_date_start">2016-11-4 08:00:00</var>
-            <var class="atc_date_end">2016-11-6 18:00:00</var>
+            <var class="atc_date_start">2017-11-12 08:00:00</var>
+            <var class="atc_date_end">2017-11-14 18:00:00</var>
             <var class="atc_timezone">America/Sao_Paulo</var>
             <var class="atc_title">GopherCon Brasil</var>
             <var class="atc_description">
@@ -130,7 +131,7 @@
   </section>
   <!-- end section.highlight -->
 
-  {{ partial "schedule.html" . }}
+  <!--{{ partial "schedule.html" . }} -->
 
   <!--{{ partial "schedule.html" . }}-->
 
