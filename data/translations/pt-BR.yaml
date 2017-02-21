@@ -7,7 +7,7 @@ conference: Conferência
 gallery: Galeria
 local: Florianópolis, SC, Brasil
 date: "10, 11 e 12 de Novembro de 2017"
-text_desc: "O maior evento no Brasil dedicado à linguagem de programação Go."
+text_desc: "O maior evento na América Latina dedicado à linguagem de programação Go."
 text_center: "A GopherCon Brasil 2017 ocorrerá nos dias 10 e 11 de novembro (no Hotel Canasvieiras Internacional),
   na cidade de Florianópolis-SC, com um workshop adicional* no dia 12 de novembro."
 countdown_date: "Evento acontecerá em"
@@ -35,6 +35,6 @@ cfp_send: Envie sua palestra
 prospec_sponsors: Interessado em ser um patrocinador?
 get_in_touch: Entre em contato
 all_speakers: Confira a lista completa de palestrantes! 
-prospec_link: "/GopherconBR2017PlanodePatrocinio.pdf"
+prospec_link: "/GopherconBrasil2017-PlanodePatrocinio.pdf"
 location: Localização
 accommodation: Acomodação
