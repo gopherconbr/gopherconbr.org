@@ -11,6 +11,7 @@
     <div class="row">
       <div class="col-sm-12 diamond-sponsors">
         <h5 class="text-center">Diamond</h5>
+
         <div class="col-md-4 col-sm-4 text-center">
           <div class="sponsor">
             <a href="https://talentos.globo.com">
@@ -35,23 +36,37 @@
             </a>
           </div>
         </div>
-
+        <!--end diamond sponsors -->
       </div>
-
-      </div>
-
+    </div>
+    <!--end diamond section-->
     <div class="row">
-      <h5 class="text-center">Silver</h5>
       <div class="col-sm-12 silver-sponsors">
-         <div class="text-center">
-           <div class="sponsor">
-             <a href="http://www.mendelics.com.br/">
-               <img alt="Mendelics" class="img-responsive center-block" src="images/sponsors/mendelics.png">
-             </a>
-           </div>
-       	</div>
+        <h5 class="text-center">Silver</h5>
+
+        <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 text-center">
+           <div class="text-center">
+             <div class="sponsor">
+               <a href="http://www.mendelics.com.br/">
+                 <img alt="Mendelics" class="img-responsive center-block" src="images/sponsors/mendelics.png">
+               </a>
+             </div>
+         	</div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 text-center">
+           <div class="text-center">
+             <div class="sponsor">
+               <a href="https://www.nuveo.ai/">
+                 <img alt="Nuveo" class="img-responsive center-block" src="images/sponsors/nuveo.png">
+               </a>
+             </div>
+          </div>
+        </div>
+        <!--end silver sponsors-->
       </div>
-      </div>
+    </div>
+    <!--end silver section-->
     <div class="section-title">
       <p>
         {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
