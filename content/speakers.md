@@ -1,135 +1,90 @@
 
 +++
-author = ["Andrews Medina"]
-date = "2016-08-30T13:23:09-03:00"
 linktitle = "Palestrantes"
 title = "Palestrantes"
 subtitle = ""
-
 +++
 
-## Jess Frazelle
+## Gustavo Niemeyer
+
+![](/images/speakers/gustavo-niemeyer.jpg)
+
+Autor de diversas libs populares em Go, incluindo o aclamado driver de MongoDB [mgo](http://labix.org/mgo), [Gustavo Niemeyer](http://niemeyer.net/) é um dos programadores brasileiros mais respeitados do mundo. Também conhecido pelo seu trabalho com Python, Gustavo trabalha na Canonical.
+
+## Francesc Campoy
+
+![](/images/speakers/francesc-campoy.jpg)
+
+Developer advocate no Google, [Francesc Campoy](https://twitter.com/francesc) é um dos nomes mais conhecidos da comunidade Go. Francesc é contribuidor ativo da linguagem, palestrante frequente e autor da popular série de vídeos [JustForFunc](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw).
+
+## Jessie Frazelle
 
 ![](/images/speakers/jessfraz.jpg)
 
-  Jess Frazelle is a Software Engineer at Google. She was previously a Software Engineer at Docker. Jess Frazelle has served as a Maintainer of Docker, Contributor to Runc and Golang as well as other projects. Jess Frazelle is working on making containers more secure. She loves all things involving Linux namespaces and cgroups and is typecasted as the person who runs everything in containers.
+Aficcionada por containers, ex-Google, Docker Inc e Mesosphere, [Jessie Frazelle](https://twitter.com/jessfraz) agora trabalha na Microsoft. Uma das principais responsáveis pela popularização e adoção de containers Linux. Jessie foi a responsável pelo keynote de abertura da GopherCon Brasil 2016 e está de volta em 2017 para fazer história mais uma vez.
 
-## Marcos Nils
+## Steve Francia
 
-![](/images/speakers/marcos-nils.jpg)
+![](/images/speakers/steve-francia.jpg)
 
-Docker Captain, OS evangelist and Golang lover. Has a strong background in distributed systems and app architecture. Currently working in a Machine Learning startup that brings latest in research to industry.
+[Steve Francia](https://twitter.com/spf13) é membro do time principal que trabalha na linguagem Go no Google. Autor de diversas ferramentas populares como o [Hugo](https://gohugo.io/), [Cobra](https://github.com/spf13/cobra) e [Viper](https://github.com/spf13/viper).
 
-## Tiago Katcipis
+## Jaana B. Dogan
 
-![](/images/speakers/tiago-katcipis.jpg)
+![](/images/speakers/rakyll.jpg)
 
-Enthusiastic about software design, distributed systems and automated testing. Works for some time with embedded systems and I also love to talk about low level stuff.
+[Jaana B. Dogan](https://twitter.com/rakyll) trabalha com Go no Google desde 2014. Atualmente está focada em fazer código Go mais observável e diagnosticável em sistemas em produção. Ela também é autora de diversas bibliotecas e ferramentas Go guiadas pela comunidade. Antes de trabalhar com a linguagem, ela trabalhava com infraestrutura de APIs no Google, com uma década de experiência em design e manutenção de sistemas de larga escala.
 
-Loves to learn, specially new programming languages. The differences on the ecosystems and the culture of the community around it amazes me. It is always fun to explore different ways to resolve problems and to express yourself.
+## Carlisia Pinto
 
-## Jairo Luiz da Silva Pereira
+![](/images/speakers/carlisia.jpg)
 
-![](/images/speakers/jairo-pereira.jpg)
-
-Sou programador a mais de uma década e apaixonado por código desde os meus 14 anos. Tenho experiência em C, Java, Ruby e Node.js, e ultimamente venho me aventurando com Go no Mercado Libre aonde trabalho como desenvolvedor sênior. Moro no Chile, falo português de paulista, espanhol de chileno e inglês de cursinho.
-
-## Matt Aimonetti
-
-![](/images/speakers/matt-aimonetti.jpg)
-
-Is Splice CTO & Co-Founder, an experienced technologist, entrepreneur, technical writer and active open-source contributor based in Santa Monica, CA. Prior to Splice, Matt worked as a Tech manager/R&D developer at LivingSocial, on video game development at Sony PlayStation, as a sound engineer and on many other things.
-
-## Rafael Dantas Justo
-
-![](/images/speakers/rafael-justo.jpg)
-
-É um engenheiro de software na empresa NIC.br. Trabalha no desenvolvimento de sistemas críticos para a infraestrutura da Internet desde 2007, e representa a empresa em diversos eventos. Rafael é formado em ciência da computação pela PUC-SP e possui MBA em TI pela USP. Desde 2011 trabalha na renovação de sistemas legados para uma nova plataforma na linguagem Go. Forte entusiasta de projetos de código aberto, contribuí ativamente com bibliotecas em Go da comunidade.
-
-## Chris Ramón
-
-![](/images/speakers/chris-ramon.jpg)
-
-Chris Ramón is a software developer who works on the Engineering Team of eventlama.com, also he contributes to graphql-go and when he’s not coding, you can find him running, writing or helping organize local developer meetups in Lima.
-
-## Vitor De Mario
-
-![](/images/speakers/vitor-de-mario.jpg)
-
-Formado em Ciência da Computação pela UFRJ, com experiência em Go, Python e Java, já trabalhei em diversas áreas, incluindo logística, telecom e agora genética/bioinformática com machine learning. Desde o final de 2015 envolvido com a organização de meetups da comunidade Go em São Paulo, incluindo palestras e um workshop de desenvolvimento web usando a linguagem.
-
-## Elton Minetto
-
-![](/images/speakers/elton-minetto.jpg)
-
-Possui graduação em Ciência de Computação pela Unochapecó e especialização em Ciência da Computação pela UFSC/UNOESC. É autor do livro Frameworks para Desenvolvimento em PHP, da editora Novatec, co-autor do livro Grid Computing in Research and Education, publicado pela editora IBM/Redbooks, EUA e autor dos e-books Zend Framework na prática, Zend Framework 2 na prática, Iniciando com o Zend Framework 2 e Doctrine na Prática. É co-fundador da Coderockr e do Planrockr. Mantenedor das newsletters A Semana PHP e A Semana Go
-
-## Leandro Lugaresi
-
-![](/images/speakers/leandro-lugaresi.jpg)
-
-É formado em Análise e Desenvolvimento de Sistemas pela FTEC Bento Gonçalves e aluno especial no Programa de Pós-Graduação em Computação Aplicada pela UDESC onde pretende se especializar em aplicações distribuídas. Iniciou sua carreira como desenvolvedor PHP em 2011, atualmente é desenvolvedor backend na Coderockr, trabalhando em projetos para grandes empresas do Brasil.
-
-## Tiago Natel de Moura
-
-Programador a quase 10 anos, profissionalmente (recebendo por isso) a quase 7 anos. No passado fui membro ativo da comunidade de segurança brasileira e desenvolvi algumas ferramentas opensource para análise de malwares no Linux (projeto malelficus) usando C. Desde 2014 me interesso por Go, e já desenvolvi diversos projetos profissionalmente e opensources com a linguagem, dentre eles estão: neosearch (search engine), wabbit (amqp mocking lib), nash (system shell), etc.
-
-## Luiz Bezerra
-
-![](/images/speakers/luiz-bezerra.jpg)
-
-Desenvolvedor Web na Globo.com, tenho trabalhando nos ultimos 7 anos com Rails e Javascript. Brinquei um pouco com Software Defined Networking recentemente. Estou me apaixonando por Elixir, mas trabalhando duro com Go para trazer a todos a melhor expericia possivel com balanceamento de carga na camada 4.
+Uma das principais responsáveis pela realização da primeira edição da GopherCon Brasil, [Carlisia](twitter.com/carlisia) trabalha com Go na Fastly, construindo um sistema que gerencia TLS and DNS. Membra ativa da comunidade Go e co-apresentadora do podcast semanal [Go Time](gotime.fm). Mestra em Ciência da Computação pela Universidade de Boston, quando ela não está focada em Go e redes, pode ser encontrada correndo.
 
 ## Andrews Medina
 
 ![](/images/speakers/andrews-medina.jpg)
 
-Desenvolvedor na globo.com desde 2008, um dos fundadores do tsuru, uso Go desde 2012 para automatizar a infra estrutura da globo.com, garantindo a escalabilidade e disponibilidade das aplicações.
+## Leandro Lugaresi
 
-## John Gosset
+![](/images/speakers/leandro-lugaresi.jpg)
 
-![](/images/speakers/john-gosset.jpg)
+## Daniela Petruzalek
 
-John is a consultant and software developer based in Montreal, Canada. He works on server software and embedded systems, and has worked with organizations large and small in both the public and private sectors - from the Canadian government and FinTech companies to small carpet manufacturers in Saint-Jean-sur-Richelieu, Quebec. He is also a contractor for RedHat, and volunteers with the Software Carpentry Foundation to help research scientists learn programming fundamentals. He believes coding is a useful skill for anyone to have, and is passionate about helping make it more accessible to everybody.
+![](/images/speakers/daniela-petruzalek.jpg)
 
-## Ricardo Longa
+## Marco Singer
 
-![](/images/speakers/ricardo-longa.jpg)
+![](/images/speakers/marco-singer.jpg)
 
-Graduado em Sistemas de Informação e pós-graduado em Engenharia de Software, atualmente leciona sobre Android na pós-graduação do Senai e faz parte do Core team da Neoway como Go developer. Nas horas vagas, se "diverte" com a sua startup [BnkBus](http://www.bnkbus.com).
+## Cassandra Salisbury
 
-## Paulo Pizarro
+![](/images/speakers/cassandra-salisbury.jpg)
 
-![](/images/speakers/paulo-pizarro.jpg)
+Cassandra é responsável por programas de relacionamento com desenvolvedores na Netlify. Ela é team lead do Community Outreach Working Group, grupo dedicado a melhorar a colaboração entre a comunidade e o projeto Go. Também é parte da equipe core da GoBridge e organiza meetups do GoSF em San Francisco.
 
-Free software enthusiast with a solid computer science background, working with software development since 1986. Experience with software development, embedded linux, web applications and big data projects. Open source member and contributor: connman, sofia-sip, gstreamer, luasofia, luanotify, luamongo, soundtouch, log4cpp, jitsi, etc.
+## Aditya Mukerjee
 
-## Thiago Avelino
+![](/images/speakers/aditya-mukerjee.jpg)
 
-![](/images/speakers/avelino.jpg)
+Aditya é engenheiro de sistemas na Stripe no time de Observability, baseado em Nova York. Estudou estatística em Columbia, ciência da computação em Cornell e escreve Go profissionalmente há cinco anos. Quando não está protegendo usuários de fraudadores online, gasta seu tempo livre jogando jogos de tabuleiro em estilo alemão e ouvindo música que o deixa envergonhado.
 
-Empreendedor fundador das empresas filmow.com, Nuveo e poorny.com, formado em Matemática Aplicada na IME-USP. Com a necessidade de processar grandes volumes de dados o seu foco de pesquisa e desenvolvimento incluem sistemas distribuídos, processamento paralelo, concorrência, Go, Python e NoSQL.
+## André Carvalho
 
-## Cezar Sá
+![](/images/speakers/andre-carvalho.jpg)
 
-![](/images/speakers/cezar-sa.jpg)
+## Felipe Paes de Oliveira
 
-Desenvolvedor com mais de 10 anos de experiência e contribuição em vários projetos open-source: tsuru, thumbor, rubinius, silver_bird, docker, goimports, golang/net... Hoje faz parte da equipe do tsuru.io e usa Go diariamente desde 2014, sempre empolgado para resolver problemas estranhos de performance e escalabilidade.
+![](/images/speakers/felipe-oliveira.jpg)
 
-## Pedro Nasser
+## Wellington Figueira da Silva
 
-![](/images/speakers/pedro-nasser.jpg)
+![](/images/speakers/wellington-silva.jpg)
 
-Desenvolvedor de software na Iron.io.
+## Alexandre Saboia Fuziyama
 
-## Kamila Hinckel
+![](/images/speakers/alexandre-saboia.jpg)
 
-![](/images/speakers/kamila-hinckel.jpg)
+## Rodrigo Pinheiro
 
-Desenvolvedora de software na Neoway.
-
-## Matheus Vill
-
-![](/images/speakers/matheus-vill.jpg)
-
-Desenvolvedor de software na Neoway.
+![](/images/speakers/rodrigo-pinheiro.jpg)
