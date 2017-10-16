@@ -39,7 +39,7 @@ Aficcionada por containers, ex-Google, Docker Inc e Mesosphere, [Jessie Frazelle
 
 ![](/images/speakers/carlisia.jpg)
 
-Uma das principais responsáveis pela realização da primeira edição da GopherCon Brasil, [Carlisia](twitter.com/carlisia) trabalha com Go na Fastly, construindo um sistema que gerencia TLS and DNS. Membra ativa da comunidade Go e co-apresentadora do podcast semanal [Go Time](gotime.fm). Mestra em Ciência da Computação pela Universidade de Boston, quando ela não está focada em Go e redes, pode ser encontrada correndo.
+Uma das principais responsáveis pela realização da primeira edição da GopherCon Brasil, [Carlisia](https://twitter.com/carlisia) trabalha com Go na Fastly, construindo um sistema que gerencia TLS and DNS. Membra ativa da comunidade Go e co-apresentadora do podcast semanal [Go Time](https://changelog.com/gotime). Mestra em Ciência da Computação pela Universidade de Boston, quando ela não está focada em Go e redes, pode ser encontrada correndo.
 
 ## Andrews Medina
 
@@ -61,7 +61,7 @@ Uma das principais responsáveis pela realização da primeira edição da Gophe
 
 ![](/images/speakers/cassandra-salisbury.jpg)
 
-Cassandra é responsável por programas de relacionamento com desenvolvedores na Netlify. Ela é team lead do Community Outreach Working Group, grupo dedicado a melhorar a colaboração entre a comunidade e o projeto Go. Também é parte da equipe core da GoBridge e organiza meetups do GoSF em San Francisco.
+Cassandra é responsável por programas de relacionamento com desenvolvedores na Netlify. Ela é team lead do [Community Outreach Working Group](https://github.com/golang/cwog), grupo dedicado a melhorar a colaboração entre a comunidade e o projeto Go. Também é parte da equipe core da [GoBridge](https://golangbridge.org/) e organiza meetups do [GoSF](https://www.meetup.com/preview/golangsf) em San Francisco.
 
 ## Aditya Mukerjee
 
