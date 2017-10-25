@@ -17,29 +17,19 @@ Autor de diversas libs populares em Go, incluindo o aclamado driver de MongoDB [
 
 Developer advocate no Google, [Francesc Campoy](https://twitter.com/francesc) é um dos nomes mais conhecidos da comunidade Go. Francesc é contribuidor ativo da linguagem, palestrante frequente e autor da popular série de vídeos [JustForFunc](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw).
 
-## Jessie Frazelle
-
-![](/images/speakers/jessfraz.jpg)
-
-Aficcionada por containers, ex-Google, Docker Inc e Mesosphere, [Jessie Frazelle](https://twitter.com/jessfraz) agora trabalha na Microsoft. Uma das principais responsáveis pela popularização e adoção de containers Linux. Jessie foi a responsável pelo keynote de abertura da GopherCon Brasil 2016 e está de volta em 2017 para fazer história mais uma vez.
-
 ## Steve Francia
 
 ![](/images/speakers/steve-francia.jpg)
 
 [Steve Francia](https://twitter.com/spf13) é membro do time principal que trabalha na linguagem Go no Google. Autor de diversas ferramentas populares como o [Hugo](https://gohugo.io/), [Cobra](https://github.com/spf13/cobra) e [Viper](https://github.com/spf13/viper).
 
-## Jaana B. Dogan
-
-![](/images/speakers/rakyll.jpg)
-
-[Jaana B. Dogan](https://twitter.com/rakyll) trabalha com Go no Google desde 2014. Atualmente está focada em fazer código Go mais observável e diagnosticável em sistemas em produção. Ela também é autora de diversas bibliotecas e ferramentas Go guiadas pela comunidade. Antes de trabalhar com a linguagem, ela trabalhava com infraestrutura de APIs no Google, com uma década de experiência em design e manutenção de sistemas de larga escala.
-
 ## Carlisia Pinto
 
 ![](/images/speakers/carlisia.jpg)
 
 Uma das principais responsáveis pela realização da primeira edição da GopherCon Brasil, [Carlisia](https://twitter.com/carlisia) trabalha com Go na Fastly, construindo um sistema que gerencia TLS and DNS. Membra ativa da comunidade Go e co-apresentadora do podcast semanal [Go Time](https://changelog.com/gotime). Mestra em Ciência da Computação pela Universidade de Boston, quando ela não está focada em Go e redes, pode ser encontrada correndo.
+
+## Luciano Ramalho
 
 ## Andrews Medina
 
@@ -88,3 +78,6 @@ Aditya é engenheiro de sistemas na Stripe no time de Observability, baseado em 
 ## Rodrigo Pinheiro
 
 ![](/images/speakers/rodrigo-pinheiro.jpg)
+
+## Guilherme Garnier
+
