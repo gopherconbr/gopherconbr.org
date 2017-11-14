@@ -1,8 +1,8 @@
 +++
 author = ["Rodrigo Martins"]
 date = "2017-11-13T19:43:09-04:00"
-linktitle = "Workshop"
-title = "Workshop"
+linktitle = "Workshops"
+title = "Workshops"
 subtitle = ""
 
 +++
