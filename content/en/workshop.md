@@ -1,39 +1,56 @@
 +++
 author = ["Rodrigo Martins"]
-date = "2016-07-26T19:43:09-04:00"
+date = "2017-11-13T19:43:09-04:00"
 linktitle = "Workshop"
 title = "Workshop"
 subtitle = ""
 
 +++
 
-<div class="speaker-info">
-<img src="/images/speakers/francesc-campoy-flores.jpg" alt="avatar" class="img-responsive center-block" style="max-width: 25%;">
-<p>Francesc Campoy / <a href="https://twitter.com/francesc">@francesc</a></p>
-<span><b>Google</b></span>
-</div>
+# Workshops
 
-## Title To be Determined 
-Francesc Campoy is going to give a workshop about Go development. Soon we will have the description.
+##  Ready to Go: Uma introdução prática à linguagem Go
 
-### Before You Come To Class
-The following is a set of tasks that can be done prior to showing up for class. We will also do this in class if anyone has not completed it. However, the more attendees that complete this ahead of time the more time we have to cover additional training material.
+## Instrutora
 
-#### Joining the Go Slack Community
-We use a slack channel to share links, code, and examples during the training. This is free. This is also the same slack community you will use after training to ask for help and interact with may Go experts around the world in the community.
+Daniela Petruzalek
 
-1. Using the following link, fill out your name and email address: [https://invite.slack.golangbridge.org/](https://invite.slack.golangbridge.org/)
-2. Check your email, and follow the link to the slack application.
-Join the conference channel by clicking on this link: [https://gophers.slack.com/messages/gophercon-brazil/](https://gophers.slack.com/messages/gophercon-brazil/)
-3. Click the “Join Channel” button at the bottom of the screen.
+## Go para quem sabe Go
 
-#### Installing Go
+### Instrutor
+Andrews Medina
 
-##### Local Installation
+### Requisitos
 
-We do not recommend using homebrew or apt-get.
+* conhecimentos básicos de Go
+* ambiente de programação Go 1.9 instalado
 
-[https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html](https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html)
+### Sobre
 
-#### Note
-Fluent English is a prerequisite.
+Go é uma linguagem tipada, compilada.
+
+Nesse workshop vamos aprender como explorar mais essas características de Go 
+entendendo como funciona o scheduler, garbage colector, runtime, profile, tracer,
+conditional builds, gcflags, go generate, como lidar com race conditions e 
+dead locks.
+
+## Oficina de Gobot
+Hardware hacking com Go!
+
+### Instrutores
+Jeff Prestes e Luciano Ramalho
+
+### Requisitos
+* conhecimentos básicos de Go
+* ambiente de programação Go 1.8 instalado (compilador e IDE)
+* IDE do Arduino 1.8.5 instalada na sua máquina
+* vontade de aprender sobre hardware
+
+### Sobre
+Go não se aplica só a servidores -- também é uma boa ferramenta para IoT e sistemas embarcados em pequenos dispositivos programáveis tipo Arduino, e Raspberry Pi, microbit etc.
+
+Nessa oficina vamos usar a biblioteca Gobot para controlar LEDs, relés, sensores, e lâmpadas usando pequenos computadores e microcontroladores. Para participar você não precisa saber nada de eletrônica, vamos explicar o que você precisa para começar.
+
+Teremos kits para emprestar. Você também poderá adquirir um kit no evento e levar para casa.
+
+Inscreva-se, traga seu computador e venha hackear hardware com a gente!
