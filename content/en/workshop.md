@@ -7,8 +7,6 @@ subtitle = ""
 
 +++
 
-# Workshops
-
 ##  Ready to Go: Uma introdução prática à linguagem Go
 
 ## Instrutora
