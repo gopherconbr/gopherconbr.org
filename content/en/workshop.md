@@ -7,13 +7,13 @@ subtitle = ""
 
 +++
 
-##  Ready to Go: Uma introdução prática à linguagem Go
+## 1 - Ready to Go: Uma introdução prática à linguagem Go
 
 ## Instrutora
 
 Daniela Petruzalek
 
-## Go para quem sabe Go
+## 2 - Go para quem sabe Go
 
 ### Instrutor
 Andrews Medina
@@ -32,7 +32,7 @@ entendendo como funciona o scheduler, garbage colector, runtime, profile, tracer
 conditional builds, gcflags, go generate, como lidar com race conditions e 
 dead locks.
 
-## Oficina de Gobot
+## 3 - Oficina de Gobot
 Hardware hacking com Go!
 
 ### Instrutores
