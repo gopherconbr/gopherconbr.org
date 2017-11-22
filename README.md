@@ -14,4 +14,4 @@ hugo server -v -w -t=gopherconbr --config=config_en.toml
 ### Editions
 
 [2016](https://github.com/gopherconbr/gopherconbr.org/tree/2016)
-[2017](https://github.com/gopherconbr/gopherconbr.org)
+[2017](https://github.com/gopherconbr/gopherconbr.org/tree/2017)
