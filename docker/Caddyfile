@@ -1,8 +1,8 @@
 gopherconbr.org:443 {
-	redir https://2017.gopherconbr.org{uri} 
+	redir https://2018.gopherconbr.org{uri} 
 }
 
-2017.gopherconbr.org:443 {
+2018.gopherconbr.org:443 {
 
 	git {
 		repo https://github.com/gopherconbr/gopherconbr.org
@@ -36,6 +36,27 @@ gopherconbr.org:443 {
 	}
 
 	root /site-source/gopherconbr2016/public
+
+	gzip
+	ext .html
+	log stdout
+
+	tls info@gopherconbr.org
+}
+
+2017.gopherconbr.org:443 {
+
+	git {
+		repo https://github.com/gopherconbr/gopherconbr.org
+		branch 2017
+		hook /webhook
+		path gopherconbr2017
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2017/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2017/public/en --config=config_en.toml
+
+	}
+
+	root /site-source/gopherconbr2017/public
 
 	gzip
 	ext .html
