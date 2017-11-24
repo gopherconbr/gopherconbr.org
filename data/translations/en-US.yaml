@@ -1,15 +1,15 @@
 registrations: Registrations
-schedule: Schedule
+schedule: Schedule coming soon
 sponsors: Sponsors
 speakers: Speakers
 venue: Venue
 conference: Conference
 gallery: Gallery
 local: Florianópolis, SC, Brazil
-date: "17, 18 and 19 of November 2017"
+date: "27, 28 and 29 of September 2018"
 text_desc: "Brazil's largest event dedicated to Go."
-text_center: "GopherCon Brasil 2017 will take place on 17 and 18 of November (at the International Hotel Canasvieiras),
-  in Florianópolis-SC, with an additional* workshop on 19 of November."
+text_center: "GopherCon Brasil 2018 will take place on 27 and 29 of September (at the International Hotel Canasvieiras),
+  in Florianópolis-SC, with an additional* workshop on 27 of September."
 countdown_date: "Event will be held in"
 days: days
 hours: hours
@@ -35,7 +35,7 @@ cfp_send: CFP Closed
 prospec_sponsors: Interested in becoming a sponsor?
 get_in_touch: Get in touch
 all_speakers: See all speakers!
-prospec_link: "/en/GopherconBR2017Prospectus.pdf"
+prospec_link: "/en/GopherconBR2018Prospectus.pdf"
 location: Location
 accommodation: Accommodation
 accommodation_button: Booking

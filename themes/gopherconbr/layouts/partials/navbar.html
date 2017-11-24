@@ -18,11 +18,13 @@
                         Home
                       </a>
                     </li>
+                    <!--
                     <li>
                       <a href="/speakers" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
                       </a>
                     </li>
+                    -->
                     <li>
                       <a href="#venue" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue }}
@@ -33,11 +35,13 @@
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation }}
                       </a>
                     </li>
+                    <!--
                     <li>
                       <a href="#sponsors" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
                       </a>
                     </li>
+                    -->
                     <li>
                       <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
                         {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
