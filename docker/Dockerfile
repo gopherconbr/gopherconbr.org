@@ -1,8 +1,8 @@
-FROM golang:1.7-wheezy
+FROM golang:1.9
 
-RUN curl https://getcaddy.com | bash -s git
+RUN curl https://getcaddy.com | bash -s personal http.git
 
-RUN curl -SL https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf - -C /usr/bin/
+RUN curl -SL https://github.com/gohugoio/hugo/releases/download/v0.31/hugo_0.31_Linux-32bit.tar.gz | tar zxvf - -C /usr/bin/
 
 RUN which caddy
 RUN which hugo
