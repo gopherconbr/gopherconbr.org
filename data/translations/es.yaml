@@ -1,41 +1,40 @@
-registrations: Registrations
-schedule: Schedule coming soon
-sponsors: Sponsors
-speakers: Speakers
-venue: Venue
-conference: Conference
-gallery: Gallery
+registrations: Inscripciones
+schedule: Agenda próximamente
+sponsors: Espónsores
+speakers: Oradores
+venue: Lugar
+conference: Conferencia
+gallery: Galería
 local: Florianópolis, SC, Brazil
-date: "27, 28 and 29 of September 2018"
-text_desc: "Brazil's largest event dedicated to Go."
-text_center: "GopherCon Brasil 2018 will take place on 27 and 29 of September (at the International Hotel Canasvieiras),
-  in Florianópolis-SC, with an additional* workshop on 27 of September."
-countdown_date: "Event will be held in"
-days: days
-hours: hours
-minutes: minutes
-seconds: seconds
-add_calendar: Add to my Calendar
-want_talk: Want to speak at GopherCon Brasil?
-soon_date: Soon we disclose the call for speakers!
-where_say: Where to stay
-desc_hotels: We selected some hotels next to the venue.
-value_hotel_canasvieiras: From U$ 50 per night
-soon_hotels: Soon more hotels...
-sponsors: Sponsors
-companies_sponsors: Companies that are helping make the GopherCon Brasil a reality.
-registration: REGISTER HERE
-character_copyright: Gopher character is based on a sketch by
+date: "27, 28 y 29 de Septiembre de 2018"
+text_desc: "El mayor evento dedicado a Go en América Latina."
+text_center: "GopherCon Brasil 2018 tendrá lugar del 28 al 29 de Septiembre (en el International Hotel Canasvieiras),
+  en Florianópolis-SC, con un taller adicional* el 27 de Septiembre."
+countdown_date: "El evento se llevará a cabo en"
+days: días
+hours: horas
+minutes: minutos
+seconds: segundos
+add_calendar: Agregar a mi Calendario
+want_talk: ¿Interesado en hablar en GopherCon Brasil?
+soon_date: ¡Pronto abriremos la convocatoria de oradores!
+where_say: Dónde quedarse
+desc_hotels: Hemos seleccionado algunos hoteles cerca del lugar del evento.
+value_hotel_canasvieiras: Desde U$S 50 por noche
+soon_hotels: Próximamente más hoteles
+companies_sponsors: Empresas que ayudan a hacer realidad GopherCon Brasil.
+registration: INSCRÍBASE AQUÍ
+character_copyright: El personaje de Gopher está basado en un boceto de
 license: under license
-aerial_images: Aerial Images made by
-coc: Code of Conduct
+aerial_images: Imágenes aéreas por
+coc: Código de Conducta
 coclink: "/en/conduct"
 cfp_link: "https://www.papercall.io/gopherconbrazil2017"
-cfp_send: CFP Closed
-prospec_sponsors: Interested in becoming a sponsor?
-get_in_touch: Get in touch
-all_speakers: See all speakers!
+cfp_send: CFP Cerrado
+prospec_sponsors: ¿Interesado en ser espónsor?
+get_in_touch: Contáctenos
+all_speakers: ¡Ver todos los oradores!
 prospec_link: "/en/GopherconBR2018Prospectus.pdf"
-location: Location
-accommodation: Accommodation
-accommodation_button: Booking
+location: Ubicación
+accommodation: Alojamiento
+accommodation_button: Reservas
