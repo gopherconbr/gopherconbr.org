@@ -1,7 +1,7 @@
 registrations: Inscripciones
 schedule: Agenda próximamente
-sponsors: Espónsores
-speakers: Oradores
+sponsors: Patrocinadores
+speakers: Ponentes
 venue: Lugar
 conference: Conferencia
 gallery: Galería
@@ -17,10 +17,10 @@ minutes: minutos
 seconds: segundos
 add_calendar: Agregar a mi Calendario
 want_talk: ¿Interesado en hablar en GopherCon Brasil?
-soon_date: ¡Pronto abriremos la convocatoria de oradores!
+soon_date: ¡Pronto abriremos la convocatoria para los ponentes!
 where_say: Dónde quedarse
 desc_hotels: Hemos seleccionado algunos hoteles cerca del lugar del evento.
-value_hotel_canasvieiras: Desde U$S 50 por noche
+value_hotel_canasvieiras: Desde USD$ 50 por noche
 soon_hotels: Próximamente más hoteles
 companies_sponsors: Empresas que ayudan a hacer realidad GopherCon Brasil.
 registration: INSCRÍBASE AQUÍ
@@ -31,9 +31,9 @@ coc: Código de Conducta
 coclink: "/en/conduct"
 cfp_link: "https://www.papercall.io/gopherconbrazil2017"
 cfp_send: CFP Cerrado
-prospec_sponsors: ¿Interesado en ser espónsor?
+prospec_sponsors: ¿Interesado en ser un patrocinador?
 get_in_touch: Contáctenos
-all_speakers: ¡Ver todos los oradores!
+all_speakers: ¡Ver todos los ponentes!
 prospec_link: "/en/GopherconBR2018Prospectus.pdf"
 location: Ubicación
 accommodation: Alojamiento
