@@ -2,7 +2,7 @@ registrations: Inscripciones
 schedule: Agenda próximamente
 sponsors: Espónsores
 speakers: Oradores
-venue: Venue
+venue: Lugar
 conference: Conferencia
 gallery: Galería
 local: Florianópolis, SC, Brazil
@@ -19,7 +19,7 @@ add_calendar: Agregar a mi Calendario
 want_talk: ¿Interesado en hablar en GopherCon Brasil?
 soon_date: ¡Pronto abriremos la convocatoria de oradores!
 where_say: Dónde quedarse
-desc_hotels: Hemos seleccionado algunos hoteles cerca del venue.
+desc_hotels: Hemos seleccionado algunos hoteles cerca del lugar del evento.
 value_hotel_canasvieiras: Desde U$S 50 por noche
 soon_hotels: Próximamente más hoteles
 companies_sponsors: Empresas que ayudan a hacer realidad GopherCon Brasil.
