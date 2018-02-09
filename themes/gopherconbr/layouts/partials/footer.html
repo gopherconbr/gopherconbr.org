@@ -47,7 +47,7 @@
     <script src="/js/includes/contact_form.js"></script>
 
     <!-- Main Script -->
-    {{ if eq .URL "/" }}
+    {{ if or (eq .URL "/") (eq .URL "/en/") }}
       <script src="/js/main.js"></script>
     {{ end }}
 
