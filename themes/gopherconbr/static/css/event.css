@@ -2120,3 +2120,13 @@ footer {
   max-width: 150px;
   max-height: 70px;
 }
+
+.supporters .sponsor {
+  height: 50px;
+  line-height: 50px;
+}
+
+.supporters .sponsor img {
+  max-width: 100px;
+  max-height: 50px;
+}
