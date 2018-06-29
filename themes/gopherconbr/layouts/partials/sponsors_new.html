@@ -12,7 +12,7 @@
       <div class="col-sm-12 diamond-sponsors">
         <h5 class="text-center">Diamond</h5>
 
-        <div class="col-md-4 col-sm-4 text-center">
+        <div class="col-md-6 col-sm-6 text-center">
           <div class="sponsor">
             <a href="https://talentos.globo.com">
               <img alt="Globo.com" class="img-responsive center-block" src="images/sponsors/globocom.png">
@@ -20,8 +20,7 @@
           </div>
         </div>
 
-
-        <div class="col-md-4 col-sm-4 text-center">
+        <div class="col-md-6 col-sm-6 text-center">
           <div class="sponsor">
             <a href="http://www.neoway.com.br">
               <img alt="Neoway" class="img-responsive center-block" src="images/sponsors/neoway.png">
@@ -46,6 +45,29 @@
       </div>
     </div>
     <!--end silver section-->
+    <div class="row">
+      <div class="col-sm-12 supporters">
+        <h5 class="text-center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).support }}</h5>
+
+        <div class="col-md-6 col-sm-6 text-center">
+          <div class="sponsor">
+            <a href="https://www.infoq.com/br/?utm_source=gophercon&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
+              <img alt="InfoQ" class="img-responsive center-block" src="images/sponsors/infoq.png">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 text-center">
+          <div class="sponsor">
+            <a href="https://www.stickermule.com/supports/opensource">
+              <img alt="stickermule" class="img-responsive center-block" src="images/sponsors/stickermule.png">
+            </a>
+          </div>
+        </div>
+        <!--end supporters -->
+      </div>
+    </div>
+    <!--end supporters section-->
     <div class="section-title">
       <p>
         {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
