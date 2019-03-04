@@ -29,13 +29,13 @@ gopherconbr.org:443 {
 		repo https://github.com/gopherconbr/gopherconbr.org
 		branch 2018
 		hook /webhook
-		path gopherconbr
+		path gopherconbr2018
 		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
 		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
 
 	}
 
-	root /site-source/gopherconbr/public
+	root /site-source/gopherconbr2018/public
 
 	gzip
 	ext .html
