@@ -6,9 +6,9 @@ venue: Venue
 conference: Conference
 gallery: Gallery
 local: Florianópolis, SC, Brazil
-date: "September 26-28th 2019"
+date: "September 27-28th 2019"
 text_desc: "Largest Latin America event dedicated to Go language."
-text_center: "GopherCon Brazil 2019 will take place on September 27-28th in Florianópolis-SC with an additional workshop day on September 26th"
+text_center: "GopherCon Brazil 2019 will take place on September 27-28th in Florianópolis-SC"
 countdown_date: "Event will be held in"
 days: days
 hours: hours
