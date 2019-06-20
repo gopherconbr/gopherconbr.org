@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bronze on GopherConBR 2019</title>
+    <link>http://gopherconbr.org/en/sponsors/bronze/</link>
+    <description>Recent content in Bronze on GopherConBR 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2016 18:54:34 -0400</lastBuildDate>
+    
+	<atom:link href="http://gopherconbr.org/en/sponsors/bronze/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LinkedIn</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/linkedin/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NATS</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/nats/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/nats/</guid>
+      <description>NATS is a high performance, open source messaging system designed for microservices, cloud native and IoT applications. The NATS Server is written in Golang, and there are also dozens of client libraries available.
+Just like Go, NATS is all about simplicity and performance, making it an ideal choice for building high availability distributed systems. The protocol is plain-text, lightweight (the Docker image is a mere 7MB) and capable of sending over 10 Million messages per second while maintaining near zero latency.</description>
+    </item>
+    
+    <item>
+      <title>Convox</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/convox/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/convox/</guid>
+      <description>Convox is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. We help you increase developer productivity, reduce your spend, and ensure that your infrastructure is resilient, consistent, and compliant.</description>
+    </item>
+    
+    <item>
+      <title>Crowdstrike</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/crowdstrike/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/crowdstrike/</guid>
+      <description>CrowdStrike is the leader in next-generation endpoint protection, threat intelligence and response services. CrowdStrike’s core technology, the Falcon platform, stops breaches by preventing and responding to all types of attacks – both malware and malware-free. CrowdStrike has revolutionized endpoint protection by combining three crucial elements: next-generation AV, endpoint detection and response (EDR), and a 24&amp;frasl;7 managed hunting service — all powered by intelligence and uniquely delivered via the cloud in a single integrated solution.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/docker/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/docker/</guid>
+      <description>Docker, Inc. is the company behind the Docker open source platform and the chief sponsor of the Docker ecosystem. Docker is an open platform for developers and system administrators to build, ship and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers and the cloud and achieve up to 20X greater efficiency in their use of computing resources. Docker containers have been downloaded more than 2.</description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/intel/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netflix</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/netflix/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/netflix/</guid>
+      <description>Netflix has been leading the way for digital content since 1997
+Netflix is the world’s leading Internet television network with over 81 million members in over 190 countries enjoying more than 125 million hours of TV shows and movies per day, including original series, documentaries and feature films. Members can watch as much as they want, anytime, anywhere, on nearly any Internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments.</description>
+    </item>
+    
+    <item>
+      <title>Red|Ventures</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/redventures/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/redventures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

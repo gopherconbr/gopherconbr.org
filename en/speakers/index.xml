@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speakers on GopherConBR 2019</title>
+    <link>http://gopherconbr.org/en/speakers/</link>
+    <description>Recent content in Speakers on GopherConBR 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2015 16:03:09 -0400</lastBuildDate>
+    
+	<atom:link href="http://gopherconbr.org/en/speakers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Francesc Campoy Flores</title>
+      <link>http://gopherconbr.org/en/speakers/fcampoyflores/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/speakers/fcampoyflores/</guid>
+      <description>Francesc Campoy Flores is a Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers.
+He joined Google in 2011 as a backend software engineer working mostly in C++ and Python, but it was with Go that he rediscovered how fun programming can be.</description>
+    </item>
+    
+    <item>
+      <title>Katrina Owen</title>
+      <link>http://gopherconbr.org/en/speakers/kowen/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/speakers/kowen/</guid>
+      <description>Katrina accidentally became a developer while pursuing a degree in molecular biology.
+When programming, her focus is on automation, workflow optimization, and refactoring.
+She works primarily in Go and Ruby, contributes to several open source projects, and is the creator of exercism.io.</description>
+    </item>
+    
+    <item>
+      <title>Renee French</title>
+      <link>http://gopherconbr.org/en/speakers/rfrench/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/speakers/rfrench/</guid>
+      <description>Creator and designer of the Go Gopher.
+http://instagram.com/reneefrench</description>
+    </item>
+    
+    <item>
+      <title>Rob Pike</title>
+      <link>http://gopherconbr.org/en/speakers/rpike/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/speakers/rpike/</guid>
+      <description>Rob Pike works at Google and is a co-creator of Go.</description>
+    </item>
+    
+  </channel>
+</rss>

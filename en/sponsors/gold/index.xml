@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gold on GopherConBR 2019</title>
+    <link>http://gopherconbr.org/en/sponsors/gold/</link>
+    <description>Recent content in Gold on GopherConBR 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2016 18:54:34 -0400</lastBuildDate>
+    
+	<atom:link href="http://gopherconbr.org/en/sponsors/gold/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoreOS</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/coreos/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/coreos/</guid>
+      <description>CoreOS runs the world&amp;rsquo;s containers securely on CoreOS, Tectonic and Quay. CoreOS is the creator of Tectonic, the universal Kubernetes solution, that combines Google&amp;rsquo;s Kubernetes and the CoreOS stack to deploy, manage and secure containers anywhere. CoreOS&amp;rsquo; Quay technology allows companies to securely store Linux containers in private hosted repositories or behind customer&amp;rsquo;s firewalls. In addition, CoreOS is the creator and maintainer of open source projects CoreOS Linux, etcd, fleet, flannel and rkt.</description>
+    </item>
+    
+    <item>
+      <title>New Relic</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/newrelic/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/newrelic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pivotal</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/pivotal/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/pivotal/</guid>
+      <description>We build Cloud Foundry using Go. We test drive, pair program and iterate. We tackle challenging and complex distributed systems problems, at scale, and build robust solutions that operate - unattended - across the majority of public clouds and behind our Fortune 500 customers&amp;rsquo; firewalls. We are transforming how the world builds software by bringing the elegant simplicity of Cloud Foundry to our Enterprise customers. By running their applications on Cloud Foundry, developers can cut iteration cycle times from months to minutes and focus on the important stuff: building great digital applications that deliver value.</description>
+    </item>
+    
+    <item>
+      <title>The Voleon Group</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/voleon/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/voleon/</guid>
+      <description>Founded in 2007 by two leading machine learning scientists, The Voleon Group designs, develops, and implements cutting-edge technologies for investment management. We are a family of companies committed to solving large-scale scientific problems with statistical machine learning.
+As a key part of our growing success, Voleon has developed and continues to innovate on a variety of cutting edge technologies and supporting infrastructure. Including our trading infrastructure, efficient, distributed computing and data processing, and a flexible pipeline for model development.</description>
+    </item>
+    
+    <item>
+      <title>Datadog</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/datadog/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/datadog/</guid>
+      <description>Datadog is Monitoring-as-a-Service for Dev &amp;amp; Ops teams who want to turn the massive amounts of data produced by their apps, tools, and services into actionable insight, with native support for Go apps.
+At Datadog we use Go extensively to power our backend services. We prize the language for its pragmatism, the runtime for its quality and the community for its vibrancy.
+Much like the previous years we are very happy to be present at GopherCon as a sponsor.</description>
+    </item>
+    
+    <item>
+      <title>Minio</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/minio/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/minio/</guid>
+      <description>Minio is an object storage server, designed to be minimal and scalable. It stores objects such as photos, videos, container/VM images, log files and archives. Minio liberates applications written in the cloud to freely move to any private or public cloud environment, by enabling them to easily build their own scalable cloud storage infrastructure. Minio is hardware agnostic and works on a variety of physical and virtual/container environments. Minio is light enough to be bundled along with the application stack, similar to NodeJS and Redis.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,169 @@
+/*
+
+Style : Black Theme CSS
+Version : 1.0
+Author  : Surjith S M
+URI   : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+*/
+/* 
+   COLOR PALLETTES : Black
+   ------------------------------------------------
+  
+   Black 1        : #444349;
+   Dark Grey      : #3b3b3b;
+   Medium Grey    : #5c5c5c;
+   Light Grey     : #818181;
+   Lightest Grey  : #C2C2C2;
+   White          : #ffffff;
+
+   
+   */
+/* ================================================
+   THEME SPECIFIC STYLES : VISUAL STYLES ONLY
+   ================================================ */
+/*White bg*/
+
+body,
+.pace .pace-progress {
+    background: #FFF;
+}
+/*Grey*/
+
+body,
+.timeline-content h2 {
+    color: #5c5c5c;
+}
+
+.nav-pills>li>a {
+    color: #C2C2C2;
+}
+
+.form-control:focus {
+    border-color: #C2C2C2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #818181;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #C2C2C2;
+}
+/* Black
+ * ----- */
+
+::-moz-selection {
+    background: #444349;
+    color: #FFF;
+}
+
+::selection {
+    background: #444349;
+    color: #FFF;
+}
+
+.header,
+.sub-header {
+    color: #FFF;
+    background-color: #444349;
+}
+/*color*/
+
+a,
+a:hover,
+a:focus,
+.speaker-info p,
+.highlighted-plan .price,
+.highlighted-plan .plan-name {
+    color: #444349;
+}
+
+.benefit-item .benefit-icon i {
+    color: #444349;
+}
+/*background*/
+
+.timeline::before {
+    background: #444349;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #444349;
+}
+/*border*/
+
+.timeline-bullet,
+.highlighted-plan {
+    border-color: #444349;
+}
+/*background color*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #444349;
+}
+/* 
+  BUTTONS
+  ------- */
+
+.btn-default {
+    color: #444349;
+    border-color: #FFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-color: #5c5c5c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #3b3b3b;
+}
+
+.btn-success {
+    background-color: #444349;
+    border-color: #444349;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    background-color: #FFF;
+    border-color: #444349;
+    color: #444349;
+}
+
+.btn-outline {
+    color: #8C8C8C;
+    border-color: #CACACA;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    background-color: transparent;
+    border-color: #818181;
+    color: #8C8C8C;
+}

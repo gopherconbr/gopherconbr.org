@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platinum on GopherConBR 2019</title>
+    <link>http://gopherconbr.org/en/sponsors/platinum/</link>
+    <description>Recent content in Platinum on GopherConBR 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Mar 2015 18:54:34 -0400</lastBuildDate>
+    
+	<atom:link href="http://gopherconbr.org/en/sponsors/platinum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ardan Labs</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/ardanlabs/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/ardanlabs/</guid>
+      <description>Ardan Labs helps individuals and corporations develop a passion for programming through innovative training courses. Currently focusing on the Go programming language, Ardan Labs is active in the local and international Go Communities. Please visit our current schedule for upcoming Ultimate Go courses.</description>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/digitalocean/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/digitalocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitch</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/twitch/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/twitch/</guid>
+      <description>Founded in 2011, Twitch is the world’s leading social video platform and community for gamers. Each month, more than 100 million community members gather to watch and talk about video games with more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire video game industry spanning publishers, developers, media outlets, and conferences, as well as both professional and casual gamers.</description>
+    </item>
+    
+    <item>
+      <title>Verizon</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/verizon/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/verizon/</guid>
+      <description>Verizon Labs is home to some of the most brilliant minds in the world and a place where humans and machines not only coexist, they thrive.
+Established in 2013, Verizon Labs is one of Verizon’s centers of excellence for a growing base of technical employees—many with PhDs and advanced degrees in disciplines such as engineering, computer science and optical physics.
+As part of Verizon’s Product &amp;amp; New Business Innovation organization, experts in locations from Massachusetts to California and India develop product software and solutions driven by needs identified from Verizon’s business units.</description>
+    </item>
+    
+    <item>
+      <title>compose.io</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/composeio/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/composeio/</guid>
+      <description>Compose is a complete solution for storage, providing you with your fully-managed, production-ready MongoDB, Redis, Elasticsearch, PostgreSQL, RethinkDB, etcd and RabbitMQ to build your awesome apps.</description>
+    </item>
+    
+  </channel>
+</rss>
