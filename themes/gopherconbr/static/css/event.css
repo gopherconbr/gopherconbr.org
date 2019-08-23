@@ -2091,14 +2091,22 @@ footer {
     color: #888;
 }
 
+.sponsor-title {
+    padding: 20px;
+    background-color: rgba(223, 223, 223, 0.438);
+}
+.diamond-sponsors {
+    margin-bottom: 5px;
+}
+
 .diamond-sponsors .sponsor {
-  height: 100px;
+  max-height: 150px;
   line-height: 100px;
 }
 
 .diamond-sponsors .sponsor img {
   max-width: 240px;
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .gold-sponsors .sponsor {
@@ -2106,10 +2114,19 @@ footer {
   line-height: 80px;
 }
 
+.gold-sponsors {
+    margin-top: 15px;
+}
+
 .gold-sponsors .sponsor img {
   max-width: 170px;
   max-height: 80px;
 }
+
+.silver-sponsors {
+    margin-top: 15px;
+}
+
 
 .silver-sponsors .sponsor {
   height: 70px;

@@ -10,12 +10,12 @@
     </div>
     <div class="row">
       <div class="col-sm-12 diamond-sponsors">
-        <h5 class="text-center">Diamond</h5>
+        <h4 class="text-center sponsor-title">Diamond</h4>
 
         <div class="col-md-4 col-sm-4 text-center">
           <div class="sponsor">
             <a href="https://talentos.globo.com">
-              <img alt="Globo.com" class="img-responsive center-block" src="images/sponsors/globocom.png">
+              <img alt="Globo.com" class="img-responsive center-block" style="max-height: 110px;" src="images/sponsors/globocom.png">
             </a>
           </div>
         </div>
@@ -38,30 +38,31 @@
       </div>
     </div>
 
-    <div class="col-sm-12 diamond-sponsors">
-      <div class="col-md-6 col-sm-6 text-center">
-        <div class="sponsor">
-          <a href="https://cloud.google.com/">
-            <img alt="Google Cloud" class="img-responsive center-block" src="images/sponsors/google.png">
-          </a>
+    <div class="row">
+      <div class="col-sm-12 diamond-sponsors">
+        <div class="col-md-6 col-sm-6 text-center">
+          <div class="sponsor">
+            <a href="https://cloud.google.com/">
+              <img alt="Google Cloud" class="img-responsive center-block" src="images/sponsors/google.png">
+            </a>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-6 col-sm-6 text-center">
-        <div class="sponsor">
-          <a href="https://www.mercadolivre.com.br">
-            <img alt="Mercado Livre" class="img-responsive center-block" src="images/sponsors/meli.png">
-          </a>
+        <div class="col-md-6 col-sm-6 text-center">
+          <div class="sponsor">
+            <a href="https://www.mercadolivre.com.br">
+              <img alt="Mercado Livre" class="img-responsive center-block" src="images/sponsors/meli.png">
+            </a>
+          </div>
         </div>
+        <!--end diamond sponsors -->
       </div>
-      <!--end diamond sponsors -->
     </div>
-  </div>
 
     <!--end diamond section-->
     <div class="row">
       <div class="col-sm-12 gold-sponsors">
-        <h5 class="text-center">Gold</h5>
+        <h4 class="text-center sponsor-title">Gold</h4>
 
         <div class="col-md-4 col-sm-4 text-center">
           <div class="sponsor">
@@ -92,7 +93,7 @@
     <!--end gold section-->
     <div class="row">
       <div class="col-sm-12 silver-sponsors">
-        <h5 class="text-center">Silver</h5>
+        <h4 class="text-center sponsor-title">Silver</h4>
 
         <div class="col-md-4 col-sm-4 text-center">
           <div class="sponsor">
@@ -129,7 +130,8 @@
 
         <div class="col-md-4 col-sm-4 text-center">
           <div class="sponsor">
-            <a href="https://www.infoq.com/br/?utm_source=gophercon&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
+            <a
+              href="https://www.infoq.com/br/?utm_source=gophercon&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
               <img alt="InfoQ" class="img-responsive center-block" src="images/sponsors/infoq.png">
             </a>
           </div>
@@ -142,12 +144,16 @@
         <!--end supporters -->
       </div>
     </div>
-    <!--end supporters section-->
-    <div class="section-title">
-      <p>
-        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
-      </p>
-    </div>
+  </div>
+
+  <!--end supporters section-->
+  <div class="section-title">
+    <p>
+      {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a
+        href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}"
+        target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
+    </p>
+  </div>
   </div>
   <!-- end .container -->
 </section>
