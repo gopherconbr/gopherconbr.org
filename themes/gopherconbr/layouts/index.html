@@ -11,28 +11,28 @@
   <header id="top" class="header-video-module">
     <div class="video-container">
       <div class="header">
-        <div class="container">
+        <div class="container" style="padding-bottom: 5px;">
 
           <div class="header_top-bg">
             <div class="logo">
-              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="350" height="322"></a>
+              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="30%"></a>
             </div>
           </div>
 
-          <div class="when_where">
-            <p class="event_when">
+          <div class="when_where" style="padding-bottom: 10%;">
+            <h4 class="event_when">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).date }}
-            </p>
+            </h4>
             <p class="event_where">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
             </p>
 
-            <h3 class="text-white">
+            <h3 class="text-white" style="padding-top: 5%;">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
             </h3>
           </div>
 	        <div>
-            <a class="btn btn-success btn-xl" style="margin-bottom: 15px;" href="https://www.sympla.com.br/gophercon-brasil-2019__535575">
+            <a class="btn btn-success btn-xl" style="margin-bottom: 15px;" href="https://www.sympla.com.br/gophercon-brasil-2020__664075">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
             </a>
           </div>
@@ -72,7 +72,7 @@
         <!-- Countdown JS for the Event Date Starts here.
         TIP: You can change your event time below in the Same Format.  -->
 
-        <ul id="countdown" data-event-date="27 september 2019 09:00:00">
+        <ul id="countdown" data-event-date="02 october 2020 09:00:00">
           <li> <span class="days">00</span>
             <p class="timeRefDays">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
@@ -108,8 +108,8 @@
             {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
           </a>
           <var class="atc_event">
-            <var class="atc_date_start">2019-09-26 09:00:00</var>
-            <var class="atc_date_end">2019-09-28 18:00:00</var>
+            <var class="atc_date_start">2020-10-02 09:00:00</var>
+            <var class="atc_date_end">2020-10-03 18:00:00</var>
             <var class="atc_timezone">America/Sao_Paulo</var>
             <var class="atc_title">GopherCon Brasil</var>
             <var class="atc_description">
@@ -129,15 +129,14 @@
   </section>
   <!-- end section.highlight -->
 
-  {{ partial "schedule.html" . }}
+  <!--  {{ partial "schedule.html" . }} -->
 
   <!--{{ partial "faq.html" . }}-->
 
-  {{ partial "speakers.html" . }}
 
-  {{ partial "venue.html" . }}
+  <!--  {{ partial "venue.html" . }} -->
 
-  {{ partial "accommodation.html" . }}
+  <!-- {{ partial "accommodation.html" . }} -->
 
   {{ partial "sponsors_new.html" . }}
 

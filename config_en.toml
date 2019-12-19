@@ -1,6 +1,6 @@
 baseurl = "http://gopherconbr.org/en"
 languageCode = "en-us"
-title = "GopherConBR 2019"
+title = "GopherConBR 2020"
 contentdir = "content/en"
 publishdir = "public/en"
 

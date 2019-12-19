@@ -6,9 +6,9 @@ venue: Local
 conference: Conferência
 gallery: Galeria
 local: Florianópolis, SC, Brasil
-date: "27 a 28 de setembro de 2019"
-text_desc: "O maior evento na América Latina dedicado à linguagem de programação Go."
-text_center: "A GopherCon Brasil 2019 ocorrerá nos dias 27 a 28 de setembro (no Hotel Canasvieiras Internacional),
+date: "02 e 03 de Outubro de 2020"
+text_desc: "O Maior Evento na América Latina Dedicado à Linguagem de Programação Go."
+text_center: "A GopherCon Brasil 2020 ocorrerá nos dias 02 e 03 de Outubro (EM NOVO LOCAL),
   na cidade de Florianópolis-SC."
 countdown_date: "Evento acontecerá em"
 days: dias
@@ -30,12 +30,12 @@ license: sob licença
 aerial_images: Imagens Aéreas feitas por
 coc: Código de Conduta
 coclink: "/conduta"
-cfp_link: "https://www.papercall.io/gopherconbrasil2019"
+cfp_link: "https://www.papercall.io/gopherconbrasil2020"
 cfp_send: Envie sua palestra
 prospec_sponsors: Interessado em ser um patrocinador?
 get_in_touch: Entre em contato
 all_speakers: Confira a lista completa de palestrantes!
-prospec_link: "/GopherconBrasil2019-PlanodePatrocinio.pdf"
+prospec_link: "/GopherconBrasil2020-PlanodePatrocinio.pdf"
 location: Localização
 accommodation: Acomodação
 accommodation_button: Faça sua Reserva
