@@ -13,14 +13,14 @@
 
           <div class="header_top-bg">
             <div class="logo">
-              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="30%"></a>
+              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="10%"></a>
             </div>
           </div>
           <div class="container">
-            <h2>
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
-            </h2>
-            </div>
+            <h4>
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
+            </h4>
+         </div>
   </header>
 
   {{ partial "footer.html" . }}
