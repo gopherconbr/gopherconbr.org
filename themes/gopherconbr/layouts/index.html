@@ -16,11 +16,12 @@
               <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="10%"></a>
             </div>
           </div>
+            <h4>
+              {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
+            </h4>
+        </div>
+      </div>
+    </div>
   </header>
-  <div class="container">
-    <h4>
-      {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
-    </h4>
- </div>
 
   {{ partial "footer.html" . }}
