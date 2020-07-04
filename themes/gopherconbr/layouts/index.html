@@ -16,33 +16,11 @@
               <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="30%"></a>
             </div>
           </div>
+          <div class="container">
+            <h2>
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
+            </h2>
+            </div>
   </header>
-
-  <!--
-  Highlight Section
-  ====================================== -->
-
-  <section class="highlight">
-
-    <div class="container">
-      <h2>
-          {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
-      </h2>
-      </div>
-      <!-- end .countdown_wrap -->
-
-    <!-- end .container -->
-
-  </section>
-  <!-- end section.highlight -->
-
-  <!--  {{ partial "schedule.html" . }} -->
-
-  <!--{{ partial "faq.html" . }}-->
-
-
-  <!--  {{ partial "venue.html" . }} -->
-
-  <!-- {{ partial "accommodation.html" . }} -->
 
   {{ partial "footer.html" . }}
