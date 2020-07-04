@@ -13,12 +13,12 @@ gopherconbr.org:80 {
 		branch master
 		hook /webhook
 		path gopherconbr
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2021/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2021/public/en --config=config_en.toml
 
 	}
 
-	root /site-source/gopherconbr/public
+	root /site-source/gopherconbr2021/public
 
 	gzip
 	ext .html
@@ -34,12 +34,12 @@ gopherconbr.org:80 {
 		branch 2020
 		hook /webhook
 		path gopherconbr2020
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2020/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2020/public/en --config=config_en.toml
 
 	}
 
-	root /site-source/gopherconbr/public
+	root /site-source/gopherconbr2020/public
 
 	gzip
 	ext .html
@@ -55,8 +55,8 @@ gopherconbr.org:80 {
 		branch 2019
 		hook /webhook
 		path gopherconbr2019
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2019/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2019/public/en --config=config_en.toml
 
 	}
 
@@ -76,8 +76,8 @@ gopherconbr.org:80 {
 		branch 2018
 		hook /webhook
 		path gopherconbr2018
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public
-		then hugo -t gopherconbr --destination=/site-source/gopherconbr/public/en --config=config_en.toml
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2018/public
+		then hugo -t gopherconbr --destination=/site-source/gopherconbr2018/public/en --config=config_en.toml
 
 	}
 
