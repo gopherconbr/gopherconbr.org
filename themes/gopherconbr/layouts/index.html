@@ -10,18 +10,21 @@
     <div class="video-container">
       <div class="header">
         <div class="container">
-
           <div class="header_top-bg">
             <div class="logo">
-              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="10%"></a>
+              <a href="#"><img src="images/floripa/gophercon-floripa-v4.png" alt="GopherConBR" width="30%"></a>
             </div>
           </div>
-            <h4>
-              {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice }}
-            </h4>
         </div>
       </div>
     </div>
   </header>
+  <section>
+    <div class="container">
+      <h5>
+      {{ ( index $.Site.Data.translations $.Site.Params.locale ).notice | safeHTML }}
+    </h5>
+    </div>
+  </section>
 
   {{ partial "footer.html" . }}

@@ -780,11 +780,9 @@ p,
 
 .header-video-module {
     position: relative;
-    height: 100vh;
 }
 
 .header-video-module .header {
-    height: 100vh;
     background: rgba(69, 109, 99, 0.78);
     z-index: 10;
 }
