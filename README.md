@@ -25,3 +25,8 @@ $ docker run -d -p 80:80 -p 443:443 gopherconbr:latest
 [2017](https://github.com/gopherconbr/gopherconbr.org/tree/2017)
 [2018](https://github.com/gopherconbr/gopherconbr.org/tree/2018)
 [2019](https://github.com/gopherconbr/gopherconbr.org/tree/2019)
+
+
+### Deploying Site
+
+./deploy.sh
