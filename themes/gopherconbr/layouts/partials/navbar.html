@@ -1,24 +1,30 @@
-  <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand logo-dark" href="#">
-                  <img src="/images/floripa/gophercon-floripa-v4.png" alt="GopherCon Brasil">
-                </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right center-navbar">
-                    <li class="active">
-                      <a href="#top">
-                        Home
-                      </a>
-                    </li>
-                    <!--
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+        aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo-dark" href="#">
+        <img src="/images/floripa/gophercon-floripa-v4.png" alt="GopherCon Brasil">
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right center-navbar">
+        <li class="active">
+          <a href="#top">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_link }}" class="hidden-sm">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
+          </a>
+        </li>
+        <!--
                     <li>
                       <a href="/speakers" class="hidden-sm">
                         {{ ( index $.Site.Data.translations $.Site.Params.locale ).speakers }}
@@ -35,19 +41,19 @@
                       </a>
                     </li>
                     -->
-                    <li>
-                      <a href="#sponsors" class="hidden-sm">
-                        {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
-                        {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
-                        {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
-                      </a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </nav>
+        <li>
+          <a href="#sponsors" class="hidden-sm">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).sponsors }}
+          </a>
+        </li>
+        <li>
+          <a href="/{{ if eq .Site.Params.locale " pt-BR" }}en{{end}}" class="hidden-sm">
+            {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
+            {{ if eq .Site.Params.locale "en-US" }}PORTUGUES{{end}}
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
