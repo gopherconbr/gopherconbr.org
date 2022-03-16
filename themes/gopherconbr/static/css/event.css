@@ -2095,8 +2095,9 @@ footer {
 .sponsor-title {
     padding: 10px;
     margin-bottom: 30px;
-    background-color: rgba(223, 223, 223, 0.438);
+    background-color: rgba(227, 227, 227, 0.13);
 }
+
 .diamond-sponsors {
     margin-bottom: 5px;
 }
