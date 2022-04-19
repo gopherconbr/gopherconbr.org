@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+
 <body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
   <!--Preloader div-->
   <div class="preloader"></div>
@@ -31,7 +32,7 @@
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_desc }}
             </h3>
           </div>
-	        <div style="padding: 25px 0 15px;" >
+          <div style="padding: 25px 0 15px;">
             <a class="btn btn-success btn-xl" href="https://www.sympla.com.br/gophercon-brasil-2020__664075">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
             </a>
@@ -127,16 +128,16 @@
     <!-- end .container -->
 
   </section>
-<!--   end section.highlight-->
+  <!--   end section.highlight-->
 
-<!--    {{ partial "schedule.html" . }}-->
+  {{ partial "schedule.html" . }}
 
-<!--  {{ partial "faq.html" . }}-->
+  <!--  {{ partial "faq.html" . }}-->
 
 
-<!--    {{ partial "venue.html" . }}-->
+  <!--    {{ partial "venue.html" . }}-->
 
-<!--   {{ partial "accommodation.html" . }}-->
+  <!--   {{ partial "accommodation.html" . }}-->
 
   {{ partial "sponsors_new.html" . }}
 

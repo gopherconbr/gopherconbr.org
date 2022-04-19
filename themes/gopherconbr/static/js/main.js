@@ -10,7 +10,7 @@ Surjith S M / @surjithctly
 
 */
 
-$(function() {
+$(function () {
 
     "use strict";
 
@@ -18,7 +18,7 @@ $(function() {
        On Scroll Menu
        ================================================ */
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 600) {
             $('.js-reveal-menu').removeClass('reveal-menu-hidden').addClass('reveal-menu-visible');
         } else {
@@ -67,7 +67,7 @@ $(function() {
        Initialize Tabs
        ================================================ */
 
-    $('#schedule-tabs a').on("click",function(e) {
+    $('#schedule-tabs a').on("click", function (e) {
         e.preventDefault()
         $(this).tab('show')
     });
@@ -76,7 +76,7 @@ $(function() {
        Stat Counter
        ================================================ */
 
-    $('#stats-counter').appear(function() {
+    $('#stats-counter').appear(function () {
         $('.count').countTo({
             refreshInterval: 50
         });
@@ -185,7 +185,7 @@ $(function() {
        Scroll Functions
        ================================================ */
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 1000) {
             $('.back_to_top').fadeIn('slow');
         } else {
@@ -193,7 +193,7 @@ $(function() {
         }
     });
 
-    $('nav a[href^=#]:not([href=#]), .back_to_top').on('click', function(event) {
+    $('nav a[href^=#]:not([href=#]), .back_to_top').on('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 50
@@ -207,12 +207,12 @@ $(function() {
   Video Gallery
   ================================================ */
 
-$(".play-video").on("click",function(e) {
+$(".play-video").on("click", function (e) {
     e.preventDefault();
     var videourl = $(this).data("video-url");
     $(this).append('<i class="video-loader fa fa-spinner fa-spin"></i>')
     $('.media-video iframe').attr('src', videourl);
-    setTimeout(function() {
+    setTimeout(function () {
         $('.video-loader').remove();
     }, 1000);
 });
@@ -237,7 +237,7 @@ if ($('.popup-gallery').length) {
         zoom: {
             enabled: true,
             duration: 300, // don't foget to change the duration also in CSS
-            opener: function(element) {
+            opener: function (element) {
                 return element.find('img');
             }
         }
@@ -249,15 +249,15 @@ if ($('.popup-gallery').length) {
    ================================================ */
 
 $.validator.setDefaults({
-    highlight: function(element) {
+    highlight: function (element) {
         $(element).closest('.form-group').addClass('has-error');
     },
-    unhighlight: function(element) {
+    unhighlight: function (element) {
         $(element).closest('.form-group').removeClass('has-error');
     },
     errorElement: 'small',
     errorClass: 'help-block',
-    errorPlacement: function(error, element) {
+    errorPlacement: function (error, element) {
         if (element.parent('.input-group').length) {
             error.insertAfter(element.parent());
         }
@@ -273,7 +273,7 @@ $.validator.setDefaults({
    Add to Calendar
    ================================================ */
 
-(function() {
+(function () {
     if (window.addtocalendar)
         if (typeof window.addtocalendar.start == "function") return;
     if (window.ifaddtocalendar == undefined) {
@@ -294,7 +294,7 @@ $.validator.setDefaults({
    Twitter Widget
    ================================================ */
 
-window.twttr = (function(d, s, id) {
+window.twttr = (function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
     if (d.getElementById(id)) return t;
@@ -304,7 +304,7 @@ window.twttr = (function(d, s, id) {
     fjs.parentNode.insertBefore(js, fjs);
 
     t._e = [];
-    t.ready = function(f) {
+    t.ready = function (f) {
         t._e.push(f);
     };
 
@@ -336,7 +336,7 @@ $("#paypal-regn").validate({
         quantity: "How many seats",
         agree: "Please accept our terms and privacy policy"
     },
-    submitHandler: function(form) {
+    submitHandler: function (form) {
         $("#reserve-btn").attr("disabled", true);
         form.submit();
     }
@@ -346,7 +346,7 @@ $("#paypal-regn").validate({
  * // End $ Strict Function
  * ------------------------ */
 
-$(function() {
+$(function () {
 
     /* ================================================
        Initialize WOW JS
