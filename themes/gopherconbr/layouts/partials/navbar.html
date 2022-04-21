@@ -20,8 +20,8 @@
           </a>
         </li>
         <li>
-          <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).cfp_link }}" class="hidden-sm">
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).want_talk }}
+          <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule_link }}" class="hidden-sm">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).schedule }}
           </a>
         </li>
         <!--
@@ -47,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="/{{ if eq .Site.Params.locale "pt-BR" }}en{{end}}" class="hidden-sm">
+          <a href="/{{ if eq .Site.Params.locale " pt-BR" }}en{{end}}" class="hidden-sm">
             {{ if eq .Site.Params.locale "pt-BR" }}ENGLISH{{end}}
             {{ if eq .Site.Params.locale "en-US" }}PORTUGUÊS{{end}}
           </a>
