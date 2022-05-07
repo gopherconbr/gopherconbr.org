@@ -1,35 +1,51 @@
-    <section class="accommodation" id="accommodation">
+<section class="accommodation" id="accommodation">
+    <div class="container">
+        <div class="section-title">
+            <h4>
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).where_say }}
+            </h4>
+            <p>
+                {{ ( index $.Site.Data.translations $.Site.Params.locale ).desc_hotels }}
+            </p>
+        </div>
 
-        <div class="container">
-            <div class="section-title">
-                <h4>
-                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).where_say }}
-                </h4>
-                <p>
-                  {{ ( index $.Site.Data.translations $.Site.Params.locale ).desc_hotels }}
-                </p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="thumbnail">
-                        <img src="images/floripa/canasvieiras-international.jpg" alt="Hotel Canasvieiras Internacional">
-                        <div class="caption">
-                            <h6 class="caption-title">Hotel Canasvieiras Internacional</h6>
-                            <p class="caption-text">
-                              {{ ( index $.Site.Data.translations $.Site.Params.locale ).value_hotel_canasvieiras }}
-                            </p>
-                            <p class="text-center">
-                              <a href="https://myreservations.omnibees.com/default.aspx?q=1818&lang=pt-BR&sid=9fbba343-778b-4bf4-8e95-63ae06780225#/&Code=gophercon" class="btn btn-outline" role="button">{{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation_button }}</a>
-                            </p>
-                        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h6 class="caption-title">Kennedy Hotel</h6>
+                        <img src="images/hotel/kennedy_hotel_fachada.jpeg" alt="Kennedy Hotel" style="height: 50vh">
+                        <p class="caption-text" style="margin-top: 20px">
+                            Quarto Luxo Duplo por R$ 243,00 a diária
+                        </p>
+                        <p class="text-center">
+                            <a href="https://www.sympla.com.br/gophercon-brasil-2020__664075" target="_blank" class="btn btn-outline" role="button">{{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation_button }}</a>
+                        </p>
+                        <p class="text-center">
+                            <a href="https://hotelkennedy.com.br/galeria_kennedy/" target="_blank" class="btn btn-outline" role="button">Mais fotos</a>
+                        </p>
                     </div>
                 </div>
-
             </div>
 
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h6 class="caption-title">Kennedy Executive Hotel</h6>
+                        <img src="images/hotel/kennedy_executive_fachada.jpeg" alt="Hotel Kennedy" style="height: 50vh">
+                        <p class="caption-text" style="margin-top: 20px">
+                            Quarto Luxo Duplo por R$ 280,00 a diária
+                        </p>
+                        <p class="text-center">
+                            <a href="https://www.sympla.com.br/gophercon-brasil-2020__664075" target="_blank" class="btn btn-outline" role="button">{{ ( index $.Site.Data.translations $.Site.Params.locale ).accommodation_button }}</a>
+                        </p>
+                        <p class="text-center">
+                            <a href="https://hotelkennedy.com.br/galeria_executive/" target="_blank" class="btn btn-outline" role="button">Mais fotos</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <!-- end .container -->
-    </section>
+    </div>
+    <!-- end .container -->
+</section>
