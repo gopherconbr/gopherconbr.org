@@ -164,10 +164,18 @@
         <div class="col-sm-12 silver-sponsors">
           <h4 class="text-center sponsor-title">Silver</h4>
 
-          <div class="col-md-12 col-sm-12 text-center">
+          <div class="col-md-6 col-sm-6 text-center">
             <div class="sponsor">
-              <a href="https://klever.io">
+              <a href="https://klever.io" target="_blank">
                 <img alt="Klever" class="img-responsive center-block" src="images/sponsors/klever.png">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 text-center">
+            <div class="sponsor">
+              <a href="https://voa.delivery" target="_blank">
+                <img alt="Voa Delivery" class="img-responsive center-block" src="images/sponsors/voa_delivery_2.png">
               </a>
             </div>
           </div>
@@ -206,9 +214,7 @@
     <!--end supporters section-->
     <div class="section-title">
       <p>
-        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a
-          href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index
-          $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
       </p>
     </div>
   </div>
