@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-sm-12 gold-sponsors">
         <h4 class="text-center sponsor-title">Gold</h4>
-        <div class="col-md-4 col-sm-4 text-center">
+        <div class="col-md-3 col-sm-3 text-center">
           <div class="sponsor">
             <a href="https://www.stone.com.br" target="_blank">
               <img alt="Stone" class="img-responsive center-block" src="images/sponsors/stone.png">
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-4 text-center">
+        <div class="col-md-3 col-sm-3 text-center">
           <div class="sponsor">
             <a href="https://www.fullcycle.com.br" target="_blank">
               <img alt="FullCycle" class="img-responsive center-block" src="images/sponsors/fullcycle.jpeg">
@@ -68,10 +68,18 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-4 text-center">
+        <div class="col-md-3 col-sm-3 text-center">
           <div class="sponsor">
             <a href="https://www.cloudwalk.io/" target="_blank">
               <img alt="Cloudwalk" class="img-responsive center-block" src="images/sponsors/cloudwalk.png">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 text-center">
+          <div class="sponsor">
+            <a href="https://isaac.com.br/" target="_blank">
+              <img alt="Isaac" class="img-responsive center-block" src="images/sponsors/isaac.png">
             </a>
           </div>
         </div>
@@ -114,15 +122,9 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-12 gold-sponsors">
-          <div class="col-md-3 col-sm-3 text-center">
-            <div class="sponsor">
-              <a href="https://isaac.com.br/" target="_blank">
-                <img alt="Isaac" class="img-responsive center-block" src="images/sponsors/isaac.png">
-              </a>
-            </div>
-          </div>
+<!--      <div class="row">-->
+<!--        <div class="col-sm-12 gold-sponsors">-->
+
 
           <!--          <div class="col-md-3 col-sm-3 text-center">-->
           <!--            <div class="sponsor">-->
@@ -147,8 +149,8 @@
           <!--              </a>-->
           <!--            </div>-->
           <!--          </div>-->
-        </div>
-      </div>
+<!--        </div>-->
+<!--      </div>-->
       <!--end gold section-->
 
       <div class="row">
@@ -205,9 +207,7 @@
     <!--end supporters section-->
     <div class="section-title">
       <p>
-        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a
-          href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index
-          $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
       </p>
     </div>
   </div>
