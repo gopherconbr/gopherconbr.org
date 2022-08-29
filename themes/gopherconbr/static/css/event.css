@@ -805,7 +805,7 @@ p,
 }
 
 .video-container .poster img {
-    width: 100%;
+    width: 120%;
     height: 100vh;
     top: 0;
     bottom: 0;
