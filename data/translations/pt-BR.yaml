@@ -6,9 +6,9 @@ venue: Local
 conference: Conferência
 gallery: Galeria
 local: Florianópolis, SC, Brasil
-date: "30 de Setembro e 01 de Outubro de 2022"
+date: "23 e 24 de Setembro de 2023"
 text_desc: "O maior evento de Go do Brasil agora de casa nova: acontecerá no Hard Rock Live."
-text_center: "A GopherCon Brasil 2022 ocorrerá nos dias 30 de Setembro e 01 de Outubro na Arena Petry,
+text_center: "A GopherCon Brasil 2023 ocorrerá nos dias 23 e 24 de Setembro no Hard Rock Live,
   na cidade de Florianópolis-SC."
 countdown_date: "Evento acontecerá em"
 days: dias
@@ -31,26 +31,20 @@ aerial_images: Imagens Aéreas feitas por
 adapted_logo: Logo Criada por
 coc: Código de Conduta
 coclink: "/conduta"
-cfp_link: "https://bit.ly/gopherconbrasil2022"
+cfp_link: "https://bit.ly/gopherconbrasil2023"
 schedule_link: "#schedule"
 cfp_send: Envie sua palestra
 prospec_sponsors: Interessado em ser um patrocinador?
 get_in_touch: Entre em contato
 all_speakers: Confira a lista completa de palestrantes!
-prospec_link: "/GopherConBrasil2022-PlanodePatrocinio.pdf"
+prospec_link: "/GopherConBrasil2023-PlanodePatrocinio.pdf"
 location: Localização
 accommodation: Acomodação
 accommodation_button: Faça sua Reserva
 support: Apoio
-notice: "Para 2020 estávamos preparando uma edição muito especial da GopherCon Brasil, por ser nossa quinta edição, algo que nos dá muito orgulho.
-
-Mas 2020 foi e 2021 está sendo também um ano completamente atípico, então após pesarmos todos os prós e contras decidimos nos guiar pelo nosso desejo de manter a comunidade Go na maior segurança possível. Por isso chegamos a decisão de adiar a quinta edição do evento para 30 de Setembro e 01 de Outubro de 2022, no mesmo local, a Arena Petry.
-
-Quanto a quem já comprou o ingresso para a edição que aconteceria em 2020 e 2021, não se preocupe que ele continua válido para a edição 2022. Caso queira o reembolso entre em contato pelo e-mail info@gopherconbr.org. Se você ainda não comprou o ingresso, as vendas permanecem abertas pelo Sympla.
-
-Se você já submeteu palestra para o evento, não se preocupe que ela continua válida. E o período de submissões permanece aberto no PaperCall.io.
+notice: "Para 2020 estávamos preparando uma edição muito especial da GopherCon Brasil, por ser nossa sexta edição, algo que nos dá muito orgulho.
 
 Fique de olho nas nossas redes sociais para saber das novidades. E quaisquer dúvidas podem ser enviadas para o e-mail info@gopherconbr.org.
 
 Organização GopherCon Brasil
-27/04/2021"
+"

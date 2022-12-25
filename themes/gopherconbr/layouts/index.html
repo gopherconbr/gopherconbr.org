@@ -33,7 +33,8 @@
             </h3>
           </div>
           <div style="padding: 25px 0 15px;">
-            <a class="btn btn-success btn-xl" href="https://www.sympla.com.br/gophercon-brasil-2020__664075" target="_blank">
+            <a class="btn btn-success btn-xl"
+              href="https://www.sympla.com.br/evento/gophercon-brasil-2023/1733229?lang=PT" target="_blank">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
             </a>
           </div>
@@ -41,13 +42,13 @@
         <!-- end .container -->
       </div>
 
-<!--      <div class="filter"></div>-->
+      <!--      <div class="filter"></div>-->
       <div class="poster">
         <img src="images/hard_rock.jpeg" alt="Hard Rock Live">
       </div>
-<!--      <video autoplay="" muted="" loop="" class="fullWidth video-header">-->
-<!--        <source src="/video/floripa.webm" type="video/webm" />-->
-<!--      </video>-->
+      <!--      <video autoplay="" muted="" loop="" class="fullWidth video-header">-->
+      <!--        <source src="/video/floripa.webm" type="video/webm" />-->
+      <!--      </video>-->
 
     </div>
 
@@ -73,7 +74,7 @@
         <!-- Countdown JS for the Event Date Starts here.
         TIP: You can change your event time below in the Same Format.  -->
 
-        <ul id="countdown" data-event-date="30 september 2022 08:00:00">
+        <ul id="countdown" data-event-date="23 september 2023 08:00:00">
           <li> <span class="days">00</span>
             <p class="timeRefDays">
               {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
@@ -109,8 +110,8 @@
             {{ ( index $.Site.Data.translations $.Site.Params.locale ).add_calendar }}
           </a>
           <var class="atc_event">
-            <var class="atc_date_start">2022-09-30 08:00:00</var>
-            <var class="atc_date_end">2022-10-01 19:00:00</var>
+            <var class="atc_date_start">2023-09-23 08:00:00</var>
+            <var class="atc_date_end">2023-09-24 19:00:00</var>
             <var class="atc_timezone">America/Sao_Paulo</var>
             <var class="atc_title">GopherCon Brasil</var>
             <var class="atc_description">
@@ -130,13 +131,13 @@
   </section>
   <!--   end section.highlight-->
 
-  {{ partial "schedule.html" . }}
+  <!-- {{ partial "schedule.html" . }} -->
 
   <!--  {{ partial "faq.html" . }}-->
 
   {{ partial "venue.html" . }}
 
-   {{ partial "accommodation.html" . }}
+  <!-- {{ partial "accommodation.html" . }} -->
 
   {{ partial "sponsors_new.html" . }}
 
