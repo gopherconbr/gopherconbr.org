@@ -1,6 +1,6 @@
 baseurl = "http://gopherconbr.org/en"
 languageCode = "en-us"
-title = "GopherCon Brazil 2022"
+title = "GopherCon Brazil 2023"
 contentdir = "content/en"
 publishdir = "public/en"
 
