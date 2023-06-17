@@ -212,13 +212,9 @@
 
     <!--end supporters section-->
     <div class="section-title">
-        <p>
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a
-                href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{
-                (
-                index
-                $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
-        </p>
+      <p>
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_sponsors }} <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).prospec_link }}" target="blank">{{ ( index $.Site.Data.translations $.Site.Params.locale ).get_in_touch }}</a>.
+      </p>
     </div>
     </div>
     <!-- end .container -->
