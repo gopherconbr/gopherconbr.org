@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/</loc>
+    <lastmod>2016-08-30T13:23:09-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/conduct/</loc>
+    <lastmod>2016-07-23T14:33:09-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/backplane/</loc>
+    <lastmod>2016-05-16T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/</loc>
+    <lastmod>2016-05-16T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/</loc>
+    <lastmod>2016-05-16T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/</loc>
+    <lastmod>2016-05-16T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/</loc>
+    <lastmod>2016-05-16T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/coreos/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/linkedin/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/nats/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/newrelic/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/pivotal/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/voleon/</loc>
+    <lastmod>2016-05-13T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/socialfeed/</loc>
+    <lastmod>2016-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/location/</loc>
+    <lastmod>2015-05-15T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/ardanlabs/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/comcast/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/composeio/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/convox/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/crowdstrike/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/datadog/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/diamond/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/digitalocean/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/docker/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/exhibitor/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/diamond/google/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/hashicorp/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/heroku/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/influxdb/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/intel/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/ironio/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/gold/minio/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/netflix/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/bronze/redventures/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/exhibitor/rollbar/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/twitch/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/platinum/verizon/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sponsors/silver/yikyak/</loc>
+    <lastmod>2015-03-23T18:54:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/about/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/code-of-conduct/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sessions/fcampoyflores/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/fcampoyflores/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sessions/kowen/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/kowen/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sessions/rfrench/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/rfrench/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sessions/rpike/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/rpike/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/sessions/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/</loc>
+    <lastmod>2015-03-21T16:03:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/readme/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/days/</loc>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/events/</loc>
+  </url>
+  
+  <url>
+    <loc>http://gopherconbr.org/en/speakers/</loc>
+  </url>
+  
+</urlset>

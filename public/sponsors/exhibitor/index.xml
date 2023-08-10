@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>exhibitor on GopherCon Brasil 2023</title>
+    <link>http://gopherconbr.org/sponsors/exhibitor/</link>
+    <description>Recent content in exhibitor on GopherCon Brasil 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Mon, 23 Mar 2015 18:54:34 -0400</lastBuildDate><atom:link href="http://gopherconbr.org/sponsors/exhibitor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rollbar</title>
+      <link>http://gopherconbr.org/en/sponsors/exhibitor/rollbar/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/exhibitor/rollbar/</guid>
+      <description>Rollbar’s error monitoring helps developers detect, diagnose and defeat application errors. Quickly pinpoint what’s broken and why. View exceptions from all of your languages, frameworks, platforms and environments in one place. It&amp;rsquo;s easy to install. You can start tracking production errors and deployments in 8 minutes or less. With Rollbar you get an intimate understanding of app exceptions. To get started for free, visit rollbar.com.</description>
+    </item>
+    
+    <item>
+      <title>Rollbar</title>
+      <link>http://gopherconbr.org/sponsors/exhibitor/rollbar/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/sponsors/exhibitor/rollbar/</guid>
+      <description>Rollbar’s error monitoring helps developers detect, diagnose and defeat application errors. Quickly pinpoint what’s broken and why. View exceptions from all of your languages, frameworks, platforms and environments in one place. It&amp;rsquo;s easy to install. You can start tracking production errors and deployments in 8 minutes or less. With Rollbar you get an intimate understanding of app exceptions. To get started for free, visit rollbar.com.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on GopherCon Brasil 2023</title>
+    <link>http://gopherconbr.org/sessions/</link>
+    <description>Recent content in Sessions on GopherCon Brasil 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sat, 21 Mar 2015 16:03:09 -0400</lastBuildDate><atom:link href="http://gopherconbr.org/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Francesc Campoy Flores</title>
+      <link>http://gopherconbr.org/sessions/fcampoyflores/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/sessions/fcampoyflores/</guid>
+      <description>Is it a constant? A variable? Where is it defined? What is its type? It has no type? It has all the types? Those are usual questions that people learning Go ask and this talk answers all of them and more.
+The talk covers the different contexts where nil is used, what it means, the gotchas to be aware of, and some patterns where nil becomes essential.
+In parallel to the exploration of how nil can be used I will also discuss the origin and history of nil in those contexts.</description>
+    </item>
+    
+    <item>
+      <title>Katrina Owen</title>
+      <link>http://gopherconbr.org/sessions/kowen/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/sessions/kowen/</guid>
+      <description>How do you learn Go? First do the tour. Then read the language spec. Then write a lot of code.
+This works for a lot of people, but for some the gap between the tour and the spec is a vast chasm.
+In his GopherCon 2015 keynote, Russ Cox said: Go needs everyone&amp;rsquo;s help, and everyone isn&amp;rsquo;t here.
+This talk draws on two years of iterative exploration. It examines one way to bridge this gap, aiming to make Go accessible to a broader audience.</description>
+    </item>
+    
+    <item>
+      <title>Renee French</title>
+      <link>http://gopherconbr.org/sessions/rfrench/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/sessions/rfrench/</guid>
+      <description>Everyone is familiar with the Go Gopher but who is he really? What is he thinking about? What gets him motivated in the morning? And how does he hold that Champagne glass?
+Come to this talk and find out.</description>
+    </item>
+    
+    <item>
+      <title>Rob Pike</title>
+      <link>http://gopherconbr.org/sessions/rpike/</link>
+      <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/sessions/rpike/</guid>
+      <description>The Go assembler was rewritten for the 1.5 release, replacing a suite of C programs, one per architecture, with a single binary, written in Go, that supports all architectures.
+The usual variables, GOOS and GOARCH, are sufficient to configure it for any environment.
+This talk will explain how this extreme portability is achieved for such a non-portable problem.
+The answer lies in the structure and origin of the Go compilation tool chain, a mostly machine-independent input language, and a lot of automation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sponsors on GopherCon Brazil 2023</title>
+    <link>http://gopherconbr.org/en/sponsors/</link>
+    <description>Recent content in Sponsors on GopherCon Brazil 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 May 2016 18:54:34 -0400</lastBuildDate><atom:link href="http://gopherconbr.org/en/sponsors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backplane</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/backplane/</link>
+      <pubDate>Mon, 16 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/backplane/</guid>
+      <description>backplane is the intelligent routing service for modern web applications and APIs. Backplane unifies service discovery, routing, and load balancing for apps written in any language, running on servers in any cloud or datacenter.</description>
+    </item>
+    
+    <item>
+      <title>CoreOS</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/coreos/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/coreos/</guid>
+      <description>CoreOS runs the world&amp;rsquo;s containers securely on CoreOS, Tectonic and Quay. CoreOS is the creator of Tectonic, the universal Kubernetes solution, that combines Google&amp;rsquo;s Kubernetes and the CoreOS stack to deploy, manage and secure containers anywhere. CoreOS&#39; Quay technology allows companies to securely store Linux containers in private hosted repositories or behind customer&amp;rsquo;s firewalls. In addition, CoreOS is the creator and maintainer of open source projects CoreOS Linux, etcd, fleet, flannel and rkt.</description>
+    </item>
+    
+    <item>
+      <title>LinkedIn</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/linkedin/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NATS</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/nats/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/nats/</guid>
+      <description>NATS is a high performance, open source messaging system designed for microservices, cloud native and IoT applications. The NATS Server is written in Golang, and there are also dozens of client libraries available.
+Just like Go, NATS is all about simplicity and performance, making it an ideal choice for building high availability distributed systems. The protocol is plain-text, lightweight (the Docker image is a mere 7MB) and capable of sending over 10 Million messages per second while maintaining near zero latency.</description>
+    </item>
+    
+    <item>
+      <title>New Relic</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/newrelic/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/newrelic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pivotal</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/pivotal/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/pivotal/</guid>
+      <description>We build Cloud Foundry using Go. We test drive, pair program and iterate. We tackle challenging and complex distributed systems problems, at scale, and build robust solutions that operate - unattended - across the majority of public clouds and behind our Fortune 500 customers&#39; firewalls. We are transforming how the world builds software by bringing the elegant simplicity of Cloud Foundry to our Enterprise customers. By running their applications on Cloud Foundry, developers can cut iteration cycle times from months to minutes and focus on the important stuff: building great digital applications that deliver value.</description>
+    </item>
+    
+    <item>
+      <title>The Voleon Group</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/voleon/</link>
+      <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/voleon/</guid>
+      <description>Founded in 2007 by two leading machine learning scientists, The Voleon Group designs, develops, and implements cutting-edge technologies for investment management. We are a family of companies committed to solving large-scale scientific problems with statistical machine learning.
+As a key part of our growing success, Voleon has developed and continues to innovate on a variety of cutting edge technologies and supporting infrastructure. Including our trading infrastructure, efficient, distributed computing and data processing, and a flexible pipeline for model development.</description>
+    </item>
+    
+    <item>
+      <title>Ardan Labs</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/ardanlabs/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/ardanlabs/</guid>
+      <description>Ardan Labs helps individuals and corporations develop a passion for programming through innovative training courses. Currently focusing on the Go programming language, Ardan Labs is active in the local and international Go Communities. Please visit our current schedule for upcoming Ultimate Go courses.</description>
+    </item>
+    
+    <item>
+      <title>Comcast</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/comcast/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/comcast/</guid>
+      <description>Comcast&amp;rsquo;s Technology &amp;amp; Product (t+p) organization works at the intersection of media and technology. Our innovative teams are continually developing and delivering products that transform the customer experience. From creating apps like TVGo to new features such as the Talking Guide on the X1 platform, we work every day to make a positive impact through innovation in the pursuit of building amazing products that are enjoyable, easy to use and accessible across all platforms.</description>
+    </item>
+    
+    <item>
+      <title>compose.io</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/composeio/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/composeio/</guid>
+      <description>Compose is a complete solution for storage, providing you with your fully-managed, production-ready MongoDB, Redis, Elasticsearch, PostgreSQL, RethinkDB, etcd and RabbitMQ to build your awesome apps.</description>
+    </item>
+    
+    <item>
+      <title>Convox</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/convox/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/convox/</guid>
+      <description>Convox is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. We help you increase developer productivity, reduce your spend, and ensure that your infrastructure is resilient, consistent, and compliant.</description>
+    </item>
+    
+    <item>
+      <title>Crowdstrike</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/crowdstrike/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/crowdstrike/</guid>
+      <description>CrowdStrike is the leader in next-generation endpoint protection, threat intelligence and response services. CrowdStrike’s core technology, the Falcon platform, stops breaches by preventing and responding to all types of attacks – both malware and malware-free. CrowdStrike has revolutionized endpoint protection by combining three crucial elements: next-generation AV, endpoint detection and response (EDR), and a 24/7 managed hunting service — all powered by intelligence and uniquely delivered via the cloud in a single integrated solution.</description>
+    </item>
+    
+    <item>
+      <title>Datadog</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/datadog/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/datadog/</guid>
+      <description>Datadog is Monitoring-as-a-Service for Dev &amp;amp; Ops teams who want to turn the massive amounts of data produced by their apps, tools, and services into actionable insight, with native support for Go apps.
+At Datadog we use Go extensively to power our backend services. We prize the language for its pragmatism, the runtime for its quality and the community for its vibrancy.
+Much like the previous years we are very happy to be present at GopherCon as a sponsor.</description>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/digitalocean/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/digitalocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/docker/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/docker/</guid>
+      <description>Docker, Inc. is the company behind the Docker open source platform and the chief sponsor of the Docker ecosystem. Docker is an open platform for developers and system administrators to build, ship and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers and the cloud and achieve up to 20X greater efficiency in their use of computing resources. Docker containers have been downloaded more than 2.</description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>http://gopherconbr.org/en/sponsors/diamond/google/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/diamond/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hashicorp</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/hashicorp/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/hashicorp/</guid>
+      <description>HashiCorp technology simplifies the operations of global applications, infrastructure, and security so organizations can focus on building the world of tomorrow. HashiCorp manages eight open source tools (Vagrant, Packer, Terraform, Consul, Nomad, Vault, Otto, and Serf) that span the full application and infrastructure lifecycle from development to production. Enterprise versions of Terraform, Vault, Consul, and Nomad enhance the respective open source tools with enterprise features that promote collaboration and policy-enforcement. The HashiCorp suite allows organizations to use one workflow to secure (Vault), provision (Terraform), monitor (Consul), and adapt (Nomad) applications (VM-based and container-based) on any provider (public cloud, private cloud, bare metal).</description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/heroku/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/heroku/</guid>
+      <description>Heroku, a salesforce.com company and industry pioneer in platform as a service, has enabled developers to build and run more than four million applications - all entirely in the cloud, without the need to purchase or maintain any servers or software. With support for the most popular languages, an enterprise-class database service, and an add-ons ecosystem featuring over 150 cloud application services, Heroku provides companies from startups to Fortune 500 enterprises with a faster and more effective way to create, deploy and manage apps.</description>
+    </item>
+    
+    <item>
+      <title>InfluxDB</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/influxdb/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/influxdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/intel/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iron.io</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/ironio/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/ironio/</guid>
+      <description>Iron.io&amp;rsquo;s job processing platform delivers and processes 100s of millions of messages and tasks every day. Its microservices architecture, delivered via Docker containers, enables the world’s most innovative companies to bring products and services to market faster and increase revenue through the world’s first Enterprise-grade job processing solutions. Its asynchronous workloads operate in public and private clouds, on-premises, or hybrid environments, meeting Enterprise requirements for flexibility, control and security-friendly solutions.</description>
+    </item>
+    
+    <item>
+      <title>Minio</title>
+      <link>http://gopherconbr.org/en/sponsors/gold/minio/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/gold/minio/</guid>
+      <description>Minio is an object storage server, designed to be minimal and scalable. It stores objects such as photos, videos, container/VM images, log files and archives. Minio liberates applications written in the cloud to freely move to any private or public cloud environment, by enabling them to easily build their own scalable cloud storage infrastructure. Minio is hardware agnostic and works on a variety of physical and virtual/container environments. Minio is light enough to be bundled along with the application stack, similar to NodeJS and Redis.</description>
+    </item>
+    
+    <item>
+      <title>Netflix</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/netflix/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/netflix/</guid>
+      <description>Netflix has been leading the way for digital content since 1997
+Netflix is the world’s leading Internet television network with over 81 million members in over 190 countries enjoying more than 125 million hours of TV shows and movies per day, including original series, documentaries and feature films. Members can watch as much as they want, anytime, anywhere, on nearly any Internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments.</description>
+    </item>
+    
+    <item>
+      <title>Red|Ventures</title>
+      <link>http://gopherconbr.org/en/sponsors/bronze/redventures/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/bronze/redventures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rollbar</title>
+      <link>http://gopherconbr.org/en/sponsors/exhibitor/rollbar/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/exhibitor/rollbar/</guid>
+      <description>Rollbar’s error monitoring helps developers detect, diagnose and defeat application errors. Quickly pinpoint what’s broken and why. View exceptions from all of your languages, frameworks, platforms and environments in one place. It&amp;rsquo;s easy to install. You can start tracking production errors and deployments in 8 minutes or less. With Rollbar you get an intimate understanding of app exceptions. To get started for free, visit rollbar.com.</description>
+    </item>
+    
+    <item>
+      <title>Twitch</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/twitch/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/twitch/</guid>
+      <description>Founded in 2011, Twitch is the world’s leading social video platform and community for gamers. Each month, more than 100 million community members gather to watch and talk about video games with more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire video game industry spanning publishers, developers, media outlets, and conferences, as well as both professional and casual gamers.</description>
+    </item>
+    
+    <item>
+      <title>Verizon</title>
+      <link>http://gopherconbr.org/en/sponsors/platinum/verizon/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/platinum/verizon/</guid>
+      <description>Verizon Labs is home to some of the most brilliant minds in the world and a place where humans and machines not only coexist, they thrive.
+Established in 2013, Verizon Labs is one of Verizon’s centers of excellence for a growing base of technical employees—many with PhDs and advanced degrees in disciplines such as engineering, computer science and optical physics.
+As part of Verizon’s Product &amp;amp; New Business Innovation organization, experts in locations from Massachusetts to California and India develop product software and solutions driven by needs identified from Verizon’s business units.</description>
+    </item>
+    
+    <item>
+      <title>YikYak</title>
+      <link>http://gopherconbr.org/en/sponsors/silver/yikyak/</link>
+      <pubDate>Mon, 23 Mar 2015 18:54:34 -0400</pubDate>
+      
+      <guid>http://gopherconbr.org/en/sponsors/silver/yikyak/</guid>
+      <description>Yik Yak is a social app that lets people discover their local community. The app instantly connects people to everyone around them so they can share news, crack jokes, offer support, ask questions, and interact freely. Yik Yak is home to the casual, relatable, heartfelt, and silly things that connect people with their community.
+The company was founded in 2013 and is headquartered in Atlanta, GA with an office in San Francisco, CA.</description>
+    </item>
+    
+  </channel>
+</rss>
