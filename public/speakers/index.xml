@@ -5,10 +5,8 @@
     <link>http://gopherconbr.org/speakers/</link>
     <description>Recent content in Speakers on GopherCon Brasil 2023</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-BR</language><atom:link href="http://gopherconbr.org/speakers/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
-.xml" rel="self" type="application/rss+xml" />
+    <language>pt-BR</language>
+    <lastBuildDate>Sat, 21 Mar 2015 16:03:09 -0400</lastBuildDate><atom:link href="http://gopherconbr.org/speakers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Francesc Campoy Flores</title>
       <link>http://gopherconbr.org/speakers/fcampoyflores/</link>
