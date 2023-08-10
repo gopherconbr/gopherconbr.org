@@ -43,7 +43,7 @@ Harassment includes, but is not limited to: offensive verbal comments related to
       <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
       
       <guid>http://gopherconbr.org/en/sponsors/gold/coreos/</guid>
-      <description>CoreOS runs the world&amp;rsquo;s containers securely on CoreOS, Tectonic and Quay. CoreOS is the creator of Tectonic, the universal Kubernetes solution, that combines Google&amp;rsquo;s Kubernetes and the CoreOS stack to deploy, manage and secure containers anywhere. CoreOS&#39; Quay technology allows companies to securely store Linux containers in private hosted repositories or behind customer&amp;rsquo;s firewalls. In addition, CoreOS is the creator and maintainer of open source projects CoreOS Linux, etcd, fleet, flannel and rkt.</description>
+      <description>CoreOS runs the world&amp;rsquo;s containers securely on CoreOS, Tectonic and Quay. CoreOS is the creator of Tectonic, the universal Kubernetes solution, that combines Google&amp;rsquo;s Kubernetes and the CoreOS stack to deploy, manage and secure containers anywhere. CoreOS&amp;rsquo; Quay technology allows companies to securely store Linux containers in private hosted repositories or behind customer&amp;rsquo;s firewalls. In addition, CoreOS is the creator and maintainer of open source projects CoreOS Linux, etcd, fleet, flannel and rkt.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ Just like Go, NATS is all about simplicity and performance, making it an ideal c
       <pubDate>Fri, 13 May 2016 18:54:34 -0400</pubDate>
       
       <guid>http://gopherconbr.org/en/sponsors/gold/pivotal/</guid>
-      <description>We build Cloud Foundry using Go. We test drive, pair program and iterate. We tackle challenging and complex distributed systems problems, at scale, and build robust solutions that operate - unattended - across the majority of public clouds and behind our Fortune 500 customers&#39; firewalls. We are transforming how the world builds software by bringing the elegant simplicity of Cloud Foundry to our Enterprise customers. By running their applications on Cloud Foundry, developers can cut iteration cycle times from months to minutes and focus on the important stuff: building great digital applications that deliver value.</description>
+      <description>We build Cloud Foundry using Go. We test drive, pair program and iterate. We tackle challenging and complex distributed systems problems, at scale, and build robust solutions that operate - unattended - across the majority of public clouds and behind our Fortune 500 customers&amp;rsquo; firewalls. We are transforming how the world builds software by bringing the elegant simplicity of Cloud Foundry to our Enterprise customers. By running their applications on Cloud Foundry, developers can cut iteration cycle times from months to minutes and focus on the important stuff: building great digital applications that deliver value.</description>
     </item>
     
     <item>
@@ -322,7 +322,7 @@ GopherCon 2015 will build on that successful platform by more than doubling the 
       <pubDate>Sat, 21 Mar 2015 16:03:09 -0400</pubDate>
       
       <guid>http://gopherconbr.org/en/code-of-conduct/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
