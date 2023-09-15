@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ens on GopherCon Brasil 2023</title>
+    <title>GopherCon Brazil 2023</title>
     <link>http://gopherconbr.org/en/</link>
-    <description>Recent content in Ens on GopherCon Brasil 2023</description>
+    <description>Recent content on GopherCon Brazil 2023</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-BR</language>
-    <lastBuildDate>Tue, 30 Aug 2016 13:23:09 -0300</lastBuildDate><atom:link href="http://gopherconbr.org/en/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 May 2016 18:54:34 -0400</lastBuildDate><atom:link href="http://gopherconbr.org/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Palestrantes</title>
       <link>http://gopherconbr.org/en/speakers/</link>
