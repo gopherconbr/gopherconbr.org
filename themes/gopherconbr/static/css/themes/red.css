@@ -13,7 +13,7 @@ Surjith S M / @surjithctly
    COLOR PALLETTES : GREEN
    ------------------------------------------------
   
-   Green 1        : #e44948;
+   Green 1        : #c04157;
    Dark Grey      : #3b3b3b;
    Medium Grey    : #5c5c5c;
    Light Grey     : #818181;
@@ -31,6 +31,7 @@ body,
 .pace .pace-progress {
     background: #FFF;
 }
+
 /*Grey*/
 
 body,
@@ -54,24 +55,26 @@ body,
 .slick-next:before {
     color: #C2C2C2;
 }
+
 /* green
  * ----- */
 
 ::-moz-selection {
-    background: #e44948;
+    background: #c04157;
     color: #FFF;
 }
 
 ::selection {
-    background: #e44948;
+    background: #c04157;
     color: #FFF;
 }
 
 .header,
 .sub-header {
     color: #FFF;
-    background-color: #e44948;
+    background-color: #c04157;
 }
+
 /*color*/
 
 a,
@@ -80,43 +83,47 @@ a:focus,
 .speaker-info p,
 .highlighted-plan .price,
 .highlighted-plan .plan-name {
-    color: #e44948;
+    color: #c04157;
 }
 
 .benefit-item .benefit-icon i {
-    color: #e44948;
+    color: #c04157;
 }
+
 /*background*/
 
 .timeline::before {
-    background: #e44948;
+    background: #c04157;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #FFF;
-    background-color: #e44948;
+    background-color: #c04157;
 }
+
 /*border*/
 
 .timeline-bullet,
 .highlighted-plan {
-    border-color: #e44948;
+    border-color: #c04157;
 }
+
 /*background color*/
 
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
-    background-color: #e44948;
+    background-color: #c04157;
 }
+
 /* 
   BUTTONS
   ------- */
 
 .btn-default {
-    color: #e44948;
+    color: #c04157;
     border-color: #FFF;
 }
 
@@ -141,8 +148,8 @@ a:focus,
 }
 
 .btn-success {
-    background-color: #e44948;
-    border-color: #e44948;
+    background-color: #c04157;
+    border-color: #c04157;
 }
 
 .btn-success:hover,
@@ -150,8 +157,8 @@ a:focus,
 .btn-success:active,
 .btn-success.active {
     background-color: #FFF;
-    border-color: #e44948;
-    color: #e44948;
+    border-color: #c04157;
+    color: #c04157;
 }
 
 .btn-outline {
