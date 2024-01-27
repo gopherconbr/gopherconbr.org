@@ -20,7 +20,7 @@ add_calendar: Adicionar ao meu calendário
 want_talk: Quer palestrar na GopherCon Brasil?
 soon_date: Em breve divulgaremos a chamada para palestrantes!
 where_say: Onde ficar
-desc_hotels: Sugerimos o Kennedy Executive Hotel em São José, pela proximidade do local do evento.
+desc_hotels: Sugerimos o Hotel INTERCITY Centro, pela proximidade do local do evento e condições especiais para participantes.
 value_hotel_canasvieiras: A partir de R$ 143,10 por noite
 soon_hotels: Em breve mais hotéis...
 sponsors: Patrocinadores
@@ -41,7 +41,7 @@ all_speakers: Confira a lista completa de palestrantes!
 prospec_link: "/GopherConBrasil2024-PlanodePatrocinio.pdf"
 location: Localização
 accommodation: Acomodação
-accommodation_button: Faça sua Reserva
+accommodation_button: Faça sua Reserva com valor especial
 support: Apoio
 notice: "Para 2020 estávamos preparando uma edição muito especial da GopherCon Brasil, por ser nossa sexta edição, algo que nos dá muito orgulho.
 
