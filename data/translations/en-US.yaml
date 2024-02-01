@@ -15,6 +15,8 @@ days: days
 hours: hours
 minutes: minutes
 seconds: seconds
+day_one: "Day one"
+day_two: "Day two"
 add_calendar: Add to my Calendar
 want_talk: Want to speak at GopherCon Brasil?
 soon_date: Soon we disclose the call for speakers!

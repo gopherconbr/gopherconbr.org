@@ -13,6 +13,8 @@ text_center: "A GopherCon Brasil 2024 ocorrerá nos dias 09 e 10 de Maio no Cent
   na cidade de Florianópolis/SC."
 countdown_date: "Evento acontecerá em"
 days: dias
+day_one: "Dia um"
+day_two: "Dia dois"
 hours: horas
 minutes: minutos
 seconds: segundos

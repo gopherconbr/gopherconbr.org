@@ -9,9 +9,11 @@
             <!-- Nav tabs -->
             <ul class="nav nav-pills" role="tablist" id="schedule-tabs">
                 <li role="presentation" class="active"><a href="#day1" aria-controls="day1" role="tab"
-                        data-toggle="tab">Dia um (22/09)</a></li>
-                <li role="presentation"><a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">Dia dois
-                        (23/09)</a></li>
+                        data-toggle="tab">{{ ( index $.Site.Data.translations $.Site.Params.locale ).day_one }}
+                        (09/05)</a></li>
+                <li role="presentation"><a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">{{ ( index
+                        $.Site.Data.translations $.Site.Params.locale ).day_two }}
+                        (10/05)</a></li>
             </ul>
 
         </div>
@@ -32,7 +34,7 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">Abertura</h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">09:30</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">09:00</span>
                         </div>
                     </div>
 
@@ -40,14 +42,13 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Comunicação entre Sistemas Críticos:
-                                    Desafios e Abordagens para Alta Performance</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Wesley Willians (FullCycle)</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                        href="/talks/2023/Wesley-Keynote-GopherCon-2023.pdf">Slides</a></p>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Profile-Guided Optimization</h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">Alex Rios</p>
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                        href="/talks/2023/Wesley-Keynote-GopherCon-2023.pdf">Slides</a></p> -->
                             </h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">10:20</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">09:45</span>
                         </div>
                     </div>
 
@@ -55,14 +56,13 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Programação Funcional com Go.
-                                    Possibilidade ou Forçação de barra?</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Marco Paulo Ollivier (Flash Benefícios)</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                        href="/talks/2023/GoComFuncional_GCBRpdf.pdf">Slides</a></p>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Go CLIs além do óbvio</h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">Matheus Mina</p>
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                        href="/talks/2023/GoComFuncional_GCBRpdf.pdf">Slides</a></p> -->
                             </h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">11:05</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">10:30</span>
                         </div>
                     </div>
 
@@ -70,16 +70,15 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Instrumentalizando microsserviços em Go
-                                    com OpenTelemetry</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Carlos Lima Junior e Geovane Feitosa
-                                    Cavalcante (PicPay)</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                                <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Comparando Threads: Threads convencionais
+                                    vs a inovação de Go</h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">Ana Gabriela Franco</p>
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                                <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
                                         href="https://drive.google.com/file/d/1vQfz_Y-GW6Xwhv4sNuQ5T1uxzmDmKmgZ/view">Slides</a>
-                                </p>
+                                </p> -->
                             </h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">11:50</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">11:15</span>
                         </div>
                     </div>
 
@@ -87,63 +86,50 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">Almoço</h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">12:30</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">11:55</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Monorepo ou Multi-repo, eis a questão!</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Tiago Temporin (Unico)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Conhecendo a "log/slog": A biblioteca de log
+                                da Standard Library do Go </h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">André Leoni</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
                                     href="https://docs.google.com/presentation/d/1B8cgt7Evcu276uzoEl-XtzTYq83JvFgcWtDrpuY6X2I/edit#slide=id.g11fadab7d40_0_21">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">14:10</span>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">13:35</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Por que criar bibliotecas internas? Um pouco
-                                sobre como bibliotecas internas fazem a diferença no dia-a-dia do iFood
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Uma Experiência de Desenvolvimento de Software
+                                Embarcado com GoLang
                             </h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Gustavo Okuyama (iFood)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                            <p class="wow flipInX" data-wow-delay="0.3s">Matheus Deodato</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
                                     href="https://github.com/gubtos/gophercon23/blob/main/assets/slides.pdf">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">14:55</span>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">14:20</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Netmux - integrando seu ambiente local ao
-                                cluster k8s de forma transparente</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Paulo Simão (Digital Circle)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Serviços que Fofocam: Desvendando a Magia do
+                                Serf em Go</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Geovani de Souza</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a
                                     href="https://github.com/duxthemux/netmux/blob/main/zarf/docs/gophercon-br-2023-presentation/Apresenta%C3%A7%C3%A3o%20GopherCon%20BR%20_%202023%20-%20Netmux.pdf"
-                                    target="_blank">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">15:40</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Go Além do Básico: O Futuro do Processamento
-                                de Dados
-                            </h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Leonardo Reis e Rilder Almeida (Arquivei)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="/talks/2023/go_alem_basico.pdf">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">16:25</span>
+                                    target="_blank">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">15:05</span>
                         </div>
                     </div>
 
@@ -151,54 +137,72 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">Coffee break</h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">17:05</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">15:45</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Infra as a Code + Go = <3 </h2>
-                                    <p class="wow flipInX" data-wow-delay="0.3s">Pery Lemke</p>
-                                    <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                                    <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                            href="/talks/2023/infra_as_code.pdf">Slides</a></p>
-                                    <span class="date wow flipInX" data-wow-delay="0.3s">17:35</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Vale a pena usar Arenas?
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Resolvendo Desafios de Live Streaming em Go
                             </h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Alex Rios (Stone)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="/talks/2023/alexrios-arenas-gc2023.pdf">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">18:20</span>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Laís Lima e Isabella Mariz</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="/talks/2023/go_alem_basico.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">16:15</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Mitigando CVEs de aplicações Golang em
+                                produção</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Amim Knabben e Juliana Gaioso</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                            href="/talks/2023/infra_as_code.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">17:00</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Lightning Talks
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Utilizando Linguagens Embarcadas com GO
                             </h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">19:05</span>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Paulo Simão</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="/talks/2023/alexrios-arenas-gc2023.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">17:45</span>
                         </div>
                     </div>
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Keynote
+                            </h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">A definir</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="/talks/2023/alexrios-arenas-gc2023.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">18:30</span>
+                        </div>
+                    </div>
+
 
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Happy Hour</h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">20:15</span>
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Encerramento</h2>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">19:10</span>
                         </div>
                     </div>
-
 
                 </section>
             </div>
@@ -210,6 +214,68 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">Abertura</h2>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">09:00</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Construindo Sistemas de Busca Eficientes em
+                                Go: Da Simplicidade à Escala Global</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Rodrigo Brito</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="https://www.slideshare.net/rogaha/gophercon-2023-nextron-energiapptx">Slides</a>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">09:45</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Padrões de Concorrência em Go</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Cássio Botaro</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="/talks/2023/saga_pattern.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">10:30</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Escolhendo (ou não) o melhor ORM para o seu
+                                projeto</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Andreia Camila da Silva
+                            </p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="https://speakerdeck.com/andreiacsilva/testcontainers-elevando-o-nivel-dos-seus-testes-de-integracao">Slides</a>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">11:15</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Almoço</h2>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">11:55</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Como estruturar um projeto Go</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Tiago Temporin</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="https://drive.google.com/file/d/14zc-xwDvRWxIy9AQtNMn4D_vBVsB4EWJ/view">Slides</a>
+                            </p> -->
                             <span class="date wow flipInX" data-wow-delay="0.3s">13:35</span>
                         </div>
                     </div>
@@ -217,57 +283,27 @@
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Desbravando o Futuro com Go e Contêineres:
-                                Inspiração e Inovação no Vale do Silício</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Roberto Gandolfo Hashioka (Nextron Energia)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="https://www.slideshare.net/rogaha/gophercon-2023-nextron-energiapptx">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">14:25</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">SAGA Pattern além do carrinho de compras</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Rafael Reimberg (Mercado Bitcoin)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="/talks/2023/saga_pattern.pdf">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">15:10</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Test Containers: Elevando o nível dos seus
-                                testes de integração</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Andreia Camila da Silva (Toggl) e Vinitius
-                                Salomão (ZeroHash)
-                            </p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="https://speakerdeck.com/andreiacsilva/testcontainers-elevando-o-nivel-dos-seus-testes-de-integracao">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">15:55</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Arquitetura de um Ledger event-driven em Go
-                                para movimentar bilhões</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Rudinei Goi Roecker
-                                (Transfeera)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Criando um gerador de código para qualquer
+                                projeto com GO + Embed</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Vinícius Boscardin</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
                                     href="https://drive.google.com/file/d/14zc-xwDvRWxIy9AQtNMn4D_vBVsB4EWJ/view">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">16:40</span>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">14:20</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Encrypt, Decrypt and Sign data using Go</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Rafael Escrich</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="https://drive.google.com/file/d/14zc-xwDvRWxIy9AQtNMn4D_vBVsB4EWJ/view">Slides</a>
+                            </p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">15:05</span>
                         </div>
                     </div>
 
@@ -275,55 +311,67 @@
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
                             <h2 class="wow flipInX" data-wow-delay="0.3s">Coffee break</h2>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">17:20</span>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">15:45</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Usando copilot para aumentar a produtividade
-                                no desenvolvimento</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Niccolas Vieira Gomes Costa (Mercado Livre)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="/talks/2023/github_copilot.pdf">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">17:50</span>
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Go no browser: WebAssembly em ação</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Alexandre Cabral</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: todos</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
+                                    href="/talks/2023/github_copilot.pdf">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">16:15</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">O que há por trás de um orquestrador? Go,
-                                sistemas distribuídos e lágrimas</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Luiz Gustavo Ferraz Aoqui (HashiCorp)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">GoIoT: Inovando na Conectividade com Go e
+                                Dispositivos Inteligentes</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Rafael Mateus</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a
                                     href="https://docs.google.com/presentation/d/1ZDqEs5F8cPJvpNQDvDzpVC_G8IvcQMHKVZjNNAyGjWY/edit#slide=id.g173ad93fd86_0_25"
-                                    target="_blank">Slides</a></p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">18:35</span>
+                                    target="_blank">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">17:00</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Utilizando comunicação gRPC em ambientes de
-                                Service Mesh</h2>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Amim Knabben (VMware)</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p>
-                            <p class="wow flipInX" data-wow-delay="0.3s"><a target="_blank"
-                                    href="https://docs.google.com/presentation/d/1EGOwlUKFjio0O5uC207s_q0PEzcnbbrnn0YUHnWnvzM/edit#slide=id.g13bb5320d8b_0_0">Slides</a>
-                            </p>
-                            <span class="date wow flipInX" data-wow-delay="0.3s">19:20</span>
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Lighting Talks</h2>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">17:45</span>
+                        </div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Keynote</h2>
+                            <p class="wow flipInX" data-wow-delay="0.3s">Rodrigo Branas</p>
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s">Nivel: intermediário</p> -->
+                            <!-- <p class="wow flipInX" data-wow-delay="0.3s"><a
+                                    href="https://docs.google.com/presentation/d/1ZDqEs5F8cPJvpNQDvDzpVC_G8IvcQMHKVZjNNAyGjWY/edit#slide=id.g173ad93fd86_0_25"
+                                    target="_blank">Slides</a></p> -->
+                            <span class="date wow flipInX" data-wow-delay="0.3s">18:30</span>
                         </div>
                     </div>
 
                     <div class="timeline-block">
                         <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
                         <div class="timeline-content">
-                            <h2 class="wow flipInX" data-wow-delay="0.3s">Encerramento</h2>
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Encerramento + Sorteios</h2>
+                            <span class="date wow flipInX" data-wow-delay="0.3s">19:10</span>
+                        </div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
+                        <div class="timeline-content">
+                            <h2 class="wow flipInX" data-wow-delay="0.3s">Happy Hour</h2>
                             <span class="date wow flipInX" data-wow-delay="0.3s">20:00</span>
                         </div>
                     </div>
