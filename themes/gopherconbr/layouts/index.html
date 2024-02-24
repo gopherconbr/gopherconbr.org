@@ -13,25 +13,29 @@
         <div class="video-container">
             <div class="header">
                 <div class="container">
-
                     <div class="header_top-bg">
                         <div class="logo">
-                            <a href="#"><img src="images/logo-horizontal.png" alt="GopherCon Brasil" width="70%"></a>
+                            <a href="#"><img src="images/logo-horizontal.png" alt="GopherCon Brasil" width="70%" /></a>
                         </div>
                     </div>
 
                     <div class="when_where">
-                        <h4 class="event_when"
-                            style="font-family: ClashDisplay; color: #FFFFFF; font-weight: 600; margin-top: 45px">
+                        <h4
+                            class="event_when"
+                            style="font-family: ClashDisplay; color: #ffffff; font-weight: 600; margin-top: 45px"
+                        >
                             {{ ( index $.Site.Data.translations $.Site.Params.locale ).date }}
                         </h4>
-                        <h5 class="event_where" style="font-family: ClashDisplay; color: #FFFFFF; margin-bottom: 30px">
+                        <h5 class="event_where" style="font-family: ClashDisplay; color: #ffffff; margin-bottom: 30px">
                             {{ ( index $.Site.Data.translations $.Site.Params.locale ).local }}
                         </h5>
                     </div>
-                    <div style="padding: 25px 0 15px;">
-                        <a class="btn btn-success btn-xl"
-                            href="https://www.blueticket.com.br/evento/33445/gophercon-brasil-2024" target="_blank">
+                    <div style="padding: 25px 0 15px">
+                        <a
+                            class="btn btn-success btn-xl"
+                            href="https://www.blueticket.com.br/evento/33445/gophercon-brasil-2024"
+                            target="_blank"
+                        >
                             {{ ( index $.Site.Data.translations $.Site.Params.locale ).registration }}
                         </a>
                     </div>
@@ -48,14 +52,12 @@
 
             <!--      <div class="filter"></div>-->
             <div class="poster">
-                <img src="images/banner-site.jpg" alt="Florianópolis">
+                <img src="images/banner-site.jpg" alt="Florianópolis" />
             </div>
             <!--      <video autoplay="" muted="" loop="" class="fullWidth video-header">-->
             <!--        <source src="/video/floripa.webm" type="video/webm" />-->
             <!--      </video>-->
-
         </div>
-
     </header>
 
     <!--
@@ -63,14 +65,10 @@ Highlight Section
 ====================================== -->
 
     <section class="highlight">
-
         <div class="container">
-            <p class="lead text-center">
-                {{ ( index $.Site.Data.translations $.Site.Params.locale ).text_center }}
-            </p>
+            <p class="lead text-center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).text_center }}</p>
 
             <div class="countdown_wrap">
-
                 <h6 class="countdown_title text-center">
                     {{ ( index $.Site.Data.translations $.Site.Params.locale ).countdown_date }}
                 </h6>
@@ -79,22 +77,22 @@ Highlight Section
             TIP: You can change your event time below in the Same Format.  -->
 
                 <ul id="countdown" data-event-date="09 may 2024 08:00:00">
-                    <li><span class="days">00</span>
-                        <p class="timeRefDays">
-                            {{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}
-                        </p>
+                    <li>
+                        <span class="days">00</span>
+                        <p class="timeRefDays">{{ ( index $.Site.Data.translations $.Site.Params.locale ).days }}</p>
                     </li>
-                    <li><span class="hours">00</span>
-                        <p class="timeRefHours">
-                            {{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}
-                        </p>
+                    <li>
+                        <span class="hours">00</span>
+                        <p class="timeRefHours">{{ ( index $.Site.Data.translations $.Site.Params.locale ).hours }}</p>
                     </li>
-                    <li><span class="minutes">00</span>
+                    <li>
+                        <span class="minutes">00</span>
                         <p class="timeRefMinutes">
                             {{ ( index $.Site.Data.translations $.Site.Params.locale ).minutes }}
                         </p>
                     </li>
-                    <li><span class="seconds">00</span>
+                    <li>
+                        <span class="seconds">00</span>
                         <p class="timeRefSeconds">
                             {{ ( index $.Site.Data.translations $.Site.Params.locale ).seconds }}
                         </p>
@@ -130,16 +128,10 @@ Highlight Section
     </section>
     <!--   end section.highlight-->
 
-    <!-- {{ partial "speakers.html" . }} -->
-
-    {{ partial "schedule.html" . }}
+    {{ partial "speakers.html" . }} {{ partial "schedule.html" . }}
 
     <!--  {{ partial "faq.html" . }}-->
 
-    {{ partial "venue.html" . }}
-
-    {{ partial "accommodation.html" . }}
-
-    {{ partial "sponsors_new.html" . }}
-
-    {{ partial "footer.html" . }}
+    {{ partial "venue.html" . }} {{ partial "accommodation.html" . }} {{ partial "sponsors_new.html" . }} {{ partial
+    "footer.html" . }}
+</body>
